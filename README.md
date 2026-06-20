@@ -4,11 +4,28 @@ TripCraft is an AI-assisted travel planning application that builds a traveler p
 
 The project combines a React Native mobile client with a FastAPI backend, PostgreSQL data modeling, recommendation logic, CLIP-based image understanding, and evaluation scripts for measuring recommendation and image-recognition quality.
 
-## Preview
+## Product Preview
 
-| Photo onboarding | Photo profile review |
-|---|---|
-| ![TripCraft photo onboarding](docs/screenshots/photo-onboarding.png) | ![TripCraft photo profile review](docs/screenshots/photo-review.png) |
+TripCraft covers the full planning loop: preference discovery, AI-assisted destination ranking, itinerary generation, map-based exploration, attraction selection, profile insights, and group planning.
+
+<p align="center">
+  <img src="docs/screenshots/welcome.jpg" width="170" alt="TripCraft welcome screen" />
+  <img src="docs/screenshots/dashboard-recommendations.jpg" width="170" alt="Personalized destination recommendations" />
+  <img src="docs/screenshots/europe-fit-map.jpg" width="170" alt="Europe destination fit map" />
+  <img src="docs/screenshots/story-mode.jpg" width="170" alt="Story mode itinerary planning" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/itinerary-map.jpg" width="170" alt="Interactive itinerary map" />
+  <img src="docs/screenshots/attractions-list.jpg" width="170" alt="Attraction selection screen" />
+  <img src="docs/screenshots/profile-insights.jpg" width="170" alt="Traveler profile insights" />
+  <img src="docs/screenshots/group-trip.jpg" width="170" alt="Group trip recommendations" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/photo-onboarding.png" width="170" alt="Photo onboarding flow" />
+  <img src="docs/screenshots/photo-review.png" width="170" alt="Photo-based travel profile review" />
+</p>
 
 ## Highlights
 
