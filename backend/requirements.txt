@@ -7,6 +7,7 @@ certifi==2026.4.22
 charset-normalizer==3.4.7
 click==8.3.3
 colorama==0.4.6
+croniter==6.2.2
 dnspython==2.8.0
 ecdsa==0.19.2
 email-validator==2.3.0
@@ -46,8 +47,10 @@ python-jose==3.5.0
 python-multipart==0.0.26
 PyYAML==6.0.3
 regex==2026.4.4
+redis==8.0.0
 requests==2.33.1
 rich==15.0.0
+rq==2.10.0
 rsa==4.9.1
 safetensors==0.7.0
 scikit-learn==1.8.0

@@ -3,16 +3,21 @@ ml.py
 Router pentru endpoint-urile de ML — CLIP tagging, TF-IDF, embeddings.
 """
 
+import base64 as b64mod
+import io
+from binascii import Error as BinasciiError
+
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
 from sqlalchemy.orm import Session
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Optional
-import requests
 import logging
 import time
 import numpy as np
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
+from PIL import Image, UnidentifiedImageError
+from redis.exceptions import RedisError
+from rq.exceptions import NoSuchJobError
 
 from app.database import get_db, SessionLocal
 from app.models.tag import Tag
@@ -20,6 +25,11 @@ from app.models.quiz_v4_session import QuizV4Session
 from app.services.clip_service import clip_service
 from app.services.image_db_tagging_service import image_db_tagging_service
 from app.services.clarify_generator import MANDATORY_IDS, get_clarify_questions
+from app.services.ml_queue import (
+    enqueue_photo_analysis,
+    fetch_photo_analysis_job,
+    normalize_job_status,
+)
 from app.services.quiz_engine import adjust_tag_score
 from app.dependencies import get_current_user
 from app.models.user import User
@@ -29,8 +39,15 @@ from sentence_transformers import SentenceTransformer, util as st_util
 logger = logging.getLogger(__name__)
 
 _st_model = None
-_clip_jobs: dict = {}
-_clip_executor = ThreadPoolExecutor(max_workers=2)
+MAX_PHOTO_FILES = 5
+MAX_PHOTO_BYTES = 8 * 1024 * 1024
+MAX_PHOTO_TOTAL_BYTES = 24 * 1024 * 1024
+ALLOWED_IMAGE_CONTENT_TYPES = {
+    "image/jpeg",
+    "image/jpg",
+    "image/png",
+    "image/webp",
+}
 
 
 def get_st_model():
@@ -47,16 +64,16 @@ router = APIRouter(prefix="/ml", tags=["Machine Learning"])
 
 class ImageUrlRequest(BaseModel):
     image_url: str
-    top_k: Optional[int] = 8
+    top_k: Optional[int] = Field(default=8, ge=1, le=20)
 
 
 
 class ImageB64Item(BaseModel):
-    data: str  # base64 JPEG
-    name: str = "photo.jpg"
+    data: str = Field(..., min_length=16)  # base64 image payload
+    name: str = Field(default="photo.jpg", max_length=120)
 
 class AnalyzePhotosB64Request(BaseModel):
-    files: list[ImageB64Item]
+    files: list[ImageB64Item] = Field(..., min_length=1, max_length=MAX_PHOTO_FILES)
 
 
 class PhotoClarifyAnswer(BaseModel):
@@ -462,6 +479,51 @@ def _clarify_weights_for_answer(
     return weights
 
 
+def _strip_data_uri_prefix(data: str) -> str:
+    value = data.strip()
+    if value.startswith("data:") and "," in value:
+        return value.split(",", 1)[1]
+    return value
+
+
+def _validate_photo_item(
+    filename: str,
+    contents: bytes,
+    content_type: Optional[str] = None,
+) -> dict:
+    if content_type and content_type.lower() not in ALLOWED_IMAGE_CONTENT_TYPES:
+        raise HTTPException(status_code=415, detail=f"Unsupported image type: {content_type}")
+    if not contents:
+        raise HTTPException(status_code=400, detail=f"{filename} is empty")
+    if len(contents) > MAX_PHOTO_BYTES:
+        raise HTTPException(status_code=413, detail=f"{filename} exceeds the 8 MB image limit")
+
+    try:
+        image = Image.open(io.BytesIO(contents))
+        image.verify()
+    except (UnidentifiedImageError, OSError):
+        raise HTTPException(status_code=415, detail=f"{filename} is not a valid image")
+
+    return {"filename": filename, "contents": contents}
+
+
+def _validate_total_photo_size(files_data: list[dict]) -> None:
+    total_size = sum(len(item["contents"]) for item in files_data)
+    if total_size > MAX_PHOTO_TOTAL_BYTES:
+        raise HTTPException(status_code=413, detail="Selected photos exceed the 24 MB total limit")
+
+
+def _enqueue_photo_analysis_job(files_data: list[dict], current_user: User) -> dict:
+    _validate_total_photo_size(files_data)
+    try:
+        job = enqueue_photo_analysis(files_data, user_id=current_user.id)
+    except RedisError as exc:
+        logger.error("Could not enqueue photo analysis job: %s", exc)
+        raise HTTPException(status_code=503, detail="Photo analysis queue is unavailable")
+
+    return {"job_id": job.id, "status": "processing"}
+
+
 @router.post("/tag-image-url")
 def tag_image_from_url(req: ImageUrlRequest):
     """
@@ -589,32 +651,19 @@ async def analyze_photos(
     """
     if not files:
         raise HTTPException(status_code=400, detail="At least 1 image is required")
-    if len(files) > 5:
+    if len(files) > MAX_PHOTO_FILES:
         raise HTTPException(status_code=400, detail="Maximum 5 images allowed")
 
     # Citește conținutul fișierelor în contextul async înainte de a le trimite în thread
     files_data = []
     for file in files:
-        if len(files_data) >= 5:
+        if len(files_data) >= MAX_PHOTO_FILES:
             break
         contents = await file.read()
-        files_data.append({"filename": file.filename or f"photo_{len(files_data)}.jpg", "contents": contents})
+        filename = file.filename or f"photo_{len(files_data)}.jpg"
+        files_data.append(_validate_photo_item(filename, contents, file.content_type))
 
-    job_id = str(uuid.uuid4())
-    _clip_jobs[job_id] = {"status": "processing", "result": None, "error": None}
-    user_id = current_user.id
-
-    def process_job():
-        try:
-            result = _run_clip_analysis(files_data, user_id=user_id)
-            _clip_jobs[job_id] = {"status": "done", "result": result, "error": None}
-        except Exception as e:
-            logger.error(f"CLIP job {job_id} failed: {e}", exc_info=True)
-            _clip_jobs[job_id] = {"status": "error", "result": None, "error": str(e)}
-
-    _clip_executor.submit(process_job)
-
-    return {"job_id": job_id, "status": "processing"}
+    return _enqueue_photo_analysis_job(files_data, current_user)
 
 
 @router.post("/analyze-photos-b64")
@@ -626,34 +675,22 @@ async def analyze_photos_b64(
     Varianta JSON a analyze-photos — acceptă imagini encodate base64.
     Folosit de React Native new arch unde multipart/FormData cu file URIs e broken.
     """
-    import base64 as b64mod
     if not req.files:
         raise HTTPException(status_code=400, detail="At least 1 image is required")
-    if len(req.files) > 5:
+    if len(req.files) > MAX_PHOTO_FILES:
         raise HTTPException(status_code=400, detail="Maximum 5 images allowed")
 
     files_data = []
-    for item in req.files:
+    for index, item in enumerate(req.files):
+        filename = item.name or f"photo_{index}.jpg"
         try:
-            contents = b64mod.b64decode(item.data)
-        except Exception:
-            raise HTTPException(status_code=422, detail=f"Invalid base64 data for {item.name}")
-        files_data.append({"filename": item.name, "contents": contents})
+            payload = "".join(_strip_data_uri_prefix(item.data).split())
+            contents = b64mod.b64decode(payload, validate=True)
+        except (BinasciiError, ValueError):
+            raise HTTPException(status_code=422, detail=f"Invalid base64 data for {filename}")
+        files_data.append(_validate_photo_item(filename, contents))
 
-    job_id = str(uuid.uuid4())
-    _clip_jobs[job_id] = {"status": "processing", "result": None, "error": None}
-    user_id = current_user.id
-
-    def process_job():
-        try:
-            result = _run_clip_analysis(files_data, user_id=user_id)
-            _clip_jobs[job_id] = {"status": "done", "result": result, "error": None}
-        except Exception as e:
-            logger.error(f"CLIP job {job_id} failed: {e}", exc_info=True)
-            _clip_jobs[job_id] = {"status": "error", "result": None, "error": str(e)}
-
-    _clip_executor.submit(process_job)
-    return {"job_id": job_id, "status": "processing"}
+    return _enqueue_photo_analysis_job(files_data, current_user)
 
 
 @router.get("/analyze-status/{job_id}")
@@ -665,20 +702,27 @@ async def analyze_status(
     Polling endpoint — returnează statusul unui job CLIP.
     Când statusul e 'done', returnează rezultatul și șterge job-ul din memorie.
     """
-    if job_id not in _clip_jobs:
+    try:
+        job = fetch_photo_analysis_job(job_id)
+    except NoSuchJobError:
+        raise HTTPException(status_code=404, detail="Job not found")
+    except RedisError as exc:
+        logger.error("Could not fetch photo analysis job %s: %s", job_id, exc)
+        raise HTTPException(status_code=503, detail="Photo analysis queue is unavailable")
+
+    if job.meta.get("user_id") != current_user.id:
         raise HTTPException(status_code=404, detail="Job not found")
 
-    job = _clip_jobs[job_id]
+    status = normalize_job_status(job.get_status(refresh=True))
 
-    if job["status"] == "done":
-        result = job["result"]
-        del _clip_jobs[job_id]
+    if status == "finished":
+        result = job.return_value(refresh=True)
+        if not result:
+            raise HTTPException(status_code=500, detail="Processing finished without a result")
         return {"status": "done", "result": result}
 
-    if job["status"] == "error":
-        error = job["error"]
-        del _clip_jobs[job_id]
-        raise HTTPException(status_code=500, detail=f"Processing failed: {error}")
+    if status in {"failed", "stopped", "canceled"}:
+        raise HTTPException(status_code=500, detail="Processing failed")
 
     return {"status": "processing"}
 

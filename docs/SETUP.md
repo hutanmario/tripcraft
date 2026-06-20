@@ -7,6 +7,7 @@ This guide describes a local development setup for TripCraft.
 - Python with virtual environment support
 - Node.js and npm
 - PostgreSQL
+- Redis, used by RQ for background ML photo-analysis jobs
 - Expo CLI through `npx expo`
 
 ## Backend
@@ -27,6 +28,7 @@ Edit `backend/.env`:
 DATABASE_URL=postgresql://postgres@localhost:5432/tripcraft
 SECRET_KEY=replace-with-a-random-secret
 ALLOWED_ORIGINS=http://localhost:3000
+REDIS_URL=redis://localhost:6379/0
 ```
 
 Run migrations:
@@ -39,6 +41,20 @@ Start the API:
 
 ```powershell
 python -m uvicorn app.main:app --reload
+```
+
+Start the ML worker in a second terminal:
+
+```powershell
+cd backend
+venv\Scripts\activate
+python scripts\run_ml_worker.py
+```
+
+If Redis is not already installed locally, a quick Docker option is:
+
+```powershell
+docker run --rm --name tripcraft-redis -p 6379:6379 redis:7-alpine
 ```
 
 Useful endpoints:

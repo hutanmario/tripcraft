@@ -44,9 +44,11 @@ Schema changes are managed through Alembic. See:
 ## Photo Analysis Flow
 
 1. The mobile app sends 1-5 selected photos.
-2. The backend runs CLIP-based image analysis and maps visual concepts to database tags.
-3. The user reviews the inferred tags before confirming them.
-4. Confirmed tags become a completed profile session and can drive recommendations.
+2. The FastAPI backend validates the payload and enqueues a Redis/RQ background job.
+3. A dedicated ML worker runs CLIP-based image analysis and maps visual concepts to database tags.
+4. The mobile app polls job status until the worker returns the generated photo profile.
+5. The user reviews the inferred tags before confirming them.
+6. Confirmed tags become a completed profile session and can drive recommendations.
 
 ## Evaluation
 
@@ -63,9 +65,8 @@ The generated CSV/JSON/PNG result files are intentionally ignored when regenerab
 
 The current architecture is suitable for local development, academic evaluation, and portfolio review. A production deployment should add:
 
-- Persistent background job queue for ML work.
+- Redis/RQ worker deployment with monitoring, retries, and autoscaling rules.
 - External object storage for image uploads.
 - Stronger rate limiting around expensive endpoints.
 - CI checks for tests, linting, dependency validation, and migrations.
 - EAS configuration and final mobile app identifiers.
-

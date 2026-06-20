@@ -78,6 +78,16 @@ python -m alembic upgrade head
 python -m uvicorn app.main:app --reload
 ```
 
+ML worker for photo onboarding:
+
+```powershell
+cd backend
+venv\Scripts\activate
+python scripts\run_ml_worker.py
+```
+
+The worker requires Redis. For local development, set `REDIS_URL=redis://localhost:6379/0`.
+
 Mobile:
 
 ```powershell
@@ -113,6 +123,7 @@ This repository is prepared as an academic and portfolio project. Before a publi
 
 - Move long-running ML jobs from in-memory state to a persistent queue.
 - Store uploaded images in object storage with explicit lifecycle rules.
-- Add stricter rate limiting and authentication to expensive ML endpoints.
+- Scale Redis/RQ ML workers separately from the API server.
+- Add stricter rate limiting to expensive ML endpoints.
 - Finalize Expo/EAS release configuration and app store identifiers.
 - Add CI for backend tests, dependency checks, and mobile validation.
