@@ -37,7 +37,6 @@ tripcraft/
   backend/              FastAPI API, SQLAlchemy models, Alembic migrations, ML services
   mobile/               Expo / React Native mobile app
   docs/                 Architecture notes and database schema artifacts
-  stress_test/          Research and stress-testing scripts for recommender behavior
 ```
 
 ## Documentation
