@@ -1,0 +1,550 @@
+{
+  "total_images": 30,
+  "n_clusters_level1": 6,
+  "n_clusters_level2": 3,
+  "level1": {
+    "0": {
+      "cluster_id": 0,
+      "dominant_category": "nature",
+      "size": 7,
+      "representative": {
+        "path": "/static/quiz-images/nature/nature_1.jpg",
+        "category": "nature",
+        "query": "dense forest trees sunlight"
+      },
+      "images": [
+        {
+          "path": "/static/quiz-images/mountain/mountain_2.jpg",
+          "category": "mountain",
+          "query": "mountain hiking trail scenic view"
+        },
+        {
+          "path": "/static/quiz-images/mountain/mountain_3.jpg",
+          "category": "mountain",
+          "query": "mountain valley green meadow"
+        },
+        {
+          "path": "/static/quiz-images/city/city_4.jpg",
+          "category": "city",
+          "query": "modern city architecture buildings"
+        },
+        {
+          "path": "/static/quiz-images/nature/nature_1.jpg",
+          "category": "nature",
+          "query": "dense forest trees sunlight"
+        },
+        {
+          "path": "/static/quiz-images/nature/nature_2.jpg",
+          "category": "nature",
+          "query": "waterfall jungle tropical nature"
+        },
+        {
+          "path": "/static/quiz-images/culture/culture_4.jpg",
+          "category": "culture",
+          "query": "traditional festival celebration"
+        },
+        {
+          "path": "/static/quiz-images/adventure/adventure_4.jpg",
+          "category": "adventure",
+          "query": "scuba diving coral reef underwater"
+        }
+      ],
+      "sub_clusters": {
+        "0": {
+          "sub_cluster_id": 0,
+          "size": 5,
+          "representative": {
+            "path": "/static/quiz-images/nature/nature_1.jpg",
+            "category": "nature",
+            "query": "dense forest trees sunlight"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/mountain/mountain_2.jpg",
+              "category": "mountain",
+              "query": "mountain hiking trail scenic view"
+            },
+            {
+              "path": "/static/quiz-images/mountain/mountain_3.jpg",
+              "category": "mountain",
+              "query": "mountain valley green meadow"
+            },
+            {
+              "path": "/static/quiz-images/nature/nature_1.jpg",
+              "category": "nature",
+              "query": "dense forest trees sunlight"
+            },
+            {
+              "path": "/static/quiz-images/nature/nature_2.jpg",
+              "category": "nature",
+              "query": "waterfall jungle tropical nature"
+            },
+            {
+              "path": "/static/quiz-images/adventure/adventure_4.jpg",
+              "category": "adventure",
+              "query": "scuba diving coral reef underwater"
+            }
+          ]
+        },
+        "1": {
+          "sub_cluster_id": 1,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/city/city_4.jpg",
+            "category": "city",
+            "query": "modern city architecture buildings"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/city/city_4.jpg",
+              "category": "city",
+              "query": "modern city architecture buildings"
+            }
+          ]
+        },
+        "2": {
+          "sub_cluster_id": 2,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/culture/culture_4.jpg",
+            "category": "culture",
+            "query": "traditional festival celebration"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/culture/culture_4.jpg",
+              "category": "culture",
+              "query": "traditional festival celebration"
+            }
+          ]
+        }
+      }
+    },
+    "1": {
+      "cluster_id": 1,
+      "dominant_category": "mountain",
+      "size": 6,
+      "representative": {
+        "path": "/static/quiz-images/mountain/mountain_1.jpg",
+        "category": "mountain",
+        "query": "alpine mountain peaks snow"
+      },
+      "images": [
+        {
+          "path": "/static/quiz-images/mountain/mountain_1.jpg",
+          "category": "mountain",
+          "query": "alpine mountain peaks snow"
+        },
+        {
+          "path": "/static/quiz-images/mountain/mountain_4.jpg",
+          "category": "mountain",
+          "query": "rocky mountain summit clouds"
+        },
+        {
+          "path": "/static/quiz-images/mountain/mountain_5.jpg",
+          "category": "mountain",
+          "query": "mountain lake reflection"
+        },
+        {
+          "path": "/static/quiz-images/nature/nature_3.jpg",
+          "category": "nature",
+          "query": "northern lights aurora borealis"
+        },
+        {
+          "path": "/static/quiz-images/nature/nature_4.jpg",
+          "category": "nature",
+          "query": "green countryside rolling hills"
+        },
+        {
+          "path": "/static/quiz-images/adventure/adventure_3.jpg",
+          "category": "adventure",
+          "query": "paragliding flying aerial view"
+        }
+      ],
+      "sub_clusters": {
+        "0": {
+          "sub_cluster_id": 0,
+          "size": 3,
+          "representative": {
+            "path": "/static/quiz-images/adventure/adventure_3.jpg",
+            "category": "adventure",
+            "query": "paragliding flying aerial view"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/mountain/mountain_4.jpg",
+              "category": "mountain",
+              "query": "rocky mountain summit clouds"
+            },
+            {
+              "path": "/static/quiz-images/nature/nature_4.jpg",
+              "category": "nature",
+              "query": "green countryside rolling hills"
+            },
+            {
+              "path": "/static/quiz-images/adventure/adventure_3.jpg",
+              "category": "adventure",
+              "query": "paragliding flying aerial view"
+            }
+          ]
+        },
+        "1": {
+          "sub_cluster_id": 1,
+          "size": 2,
+          "representative": {
+            "path": "/static/quiz-images/mountain/mountain_1.jpg",
+            "category": "mountain",
+            "query": "alpine mountain peaks snow"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/mountain/mountain_1.jpg",
+              "category": "mountain",
+              "query": "alpine mountain peaks snow"
+            },
+            {
+              "path": "/static/quiz-images/mountain/mountain_5.jpg",
+              "category": "mountain",
+              "query": "mountain lake reflection"
+            }
+          ]
+        },
+        "2": {
+          "sub_cluster_id": 2,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/nature/nature_3.jpg",
+            "category": "nature",
+            "query": "northern lights aurora borealis"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/nature/nature_3.jpg",
+              "category": "nature",
+              "query": "northern lights aurora borealis"
+            }
+          ]
+        }
+      }
+    },
+    "2": {
+      "cluster_id": 2,
+      "dominant_category": "adventure",
+      "size": 3,
+      "representative": {
+        "path": "/static/quiz-images/adventure/adventure_5.jpg",
+        "category": "adventure",
+        "query": "cycling mountain bike trail"
+      },
+      "images": [
+        {
+          "path": "/static/quiz-images/adventure/adventure_1.jpg",
+          "category": "adventure",
+          "query": "rock climbing mountain adventure"
+        },
+        {
+          "path": "/static/quiz-images/adventure/adventure_2.jpg",
+          "category": "adventure",
+          "query": "whitewater rafting river"
+        },
+        {
+          "path": "/static/quiz-images/adventure/adventure_5.jpg",
+          "category": "adventure",
+          "query": "cycling mountain bike trail"
+        }
+      ],
+      "sub_clusters": {
+        "0": {
+          "sub_cluster_id": 0,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/adventure/adventure_2.jpg",
+            "category": "adventure",
+            "query": "whitewater rafting river"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/adventure/adventure_2.jpg",
+              "category": "adventure",
+              "query": "whitewater rafting river"
+            }
+          ]
+        },
+        "1": {
+          "sub_cluster_id": 1,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/adventure/adventure_5.jpg",
+            "category": "adventure",
+            "query": "cycling mountain bike trail"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/adventure/adventure_5.jpg",
+              "category": "adventure",
+              "query": "cycling mountain bike trail"
+            }
+          ]
+        },
+        "2": {
+          "sub_cluster_id": 2,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/adventure/adventure_1.jpg",
+            "category": "adventure",
+            "query": "rock climbing mountain adventure"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/adventure/adventure_1.jpg",
+              "category": "adventure",
+              "query": "rock climbing mountain adventure"
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "cluster_id": 3,
+      "dominant_category": "beach",
+      "size": 6,
+      "representative": {
+        "path": "/static/quiz-images/beach/beach_3.jpg",
+        "category": "beach",
+        "query": "beach palm trees clear water"
+      },
+      "images": [
+        {
+          "path": "/static/quiz-images/beach/beach_1.jpg",
+          "category": "beach",
+          "query": "tropical beach with turquoise water"
+        },
+        {
+          "path": "/static/quiz-images/beach/beach_2.jpg",
+          "category": "beach",
+          "query": "sandy beach ocean waves sunset"
+        },
+        {
+          "path": "/static/quiz-images/beach/beach_3.jpg",
+          "category": "beach",
+          "query": "beach palm trees clear water"
+        },
+        {
+          "path": "/static/quiz-images/beach/beach_4.jpg",
+          "category": "beach",
+          "query": "mediterranean beach rocky coast"
+        },
+        {
+          "path": "/static/quiz-images/beach/beach_5.jpg",
+          "category": "beach",
+          "query": "beach umbrellas summer vacation"
+        },
+        {
+          "path": "/static/quiz-images/nature/nature_5.jpg",
+          "category": "nature",
+          "query": "desert sand dunes landscape"
+        }
+      ],
+      "sub_clusters": {
+        "0": {
+          "sub_cluster_id": 0,
+          "size": 4,
+          "representative": {
+            "path": "/static/quiz-images/beach/beach_3.jpg",
+            "category": "beach",
+            "query": "beach palm trees clear water"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/beach/beach_1.jpg",
+              "category": "beach",
+              "query": "tropical beach with turquoise water"
+            },
+            {
+              "path": "/static/quiz-images/beach/beach_2.jpg",
+              "category": "beach",
+              "query": "sandy beach ocean waves sunset"
+            },
+            {
+              "path": "/static/quiz-images/beach/beach_3.jpg",
+              "category": "beach",
+              "query": "beach palm trees clear water"
+            },
+            {
+              "path": "/static/quiz-images/beach/beach_5.jpg",
+              "category": "beach",
+              "query": "beach umbrellas summer vacation"
+            }
+          ]
+        },
+        "1": {
+          "sub_cluster_id": 1,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/nature/nature_5.jpg",
+            "category": "nature",
+            "query": "desert sand dunes landscape"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/nature/nature_5.jpg",
+              "category": "nature",
+              "query": "desert sand dunes landscape"
+            }
+          ]
+        },
+        "2": {
+          "sub_cluster_id": 2,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/beach/beach_4.jpg",
+            "category": "beach",
+            "query": "mediterranean beach rocky coast"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/beach/beach_4.jpg",
+              "category": "beach",
+              "query": "mediterranean beach rocky coast"
+            }
+          ]
+        }
+      }
+    },
+    "4": {
+      "cluster_id": 4,
+      "dominant_category": "city",
+      "size": 7,
+      "representative": {
+        "path": "/static/quiz-images/city/city_2.jpg",
+        "category": "city",
+        "query": "european old town cobblestone street"
+      },
+      "images": [
+        {
+          "path": "/static/quiz-images/city/city_1.jpg",
+          "category": "city",
+          "query": "vibrant city skyline urban"
+        },
+        {
+          "path": "/static/quiz-images/city/city_2.jpg",
+          "category": "city",
+          "query": "european old town cobblestone street"
+        },
+        {
+          "path": "/static/quiz-images/city/city_3.jpg",
+          "category": "city",
+          "query": "city market square people"
+        },
+        {
+          "path": "/static/quiz-images/city/city_5.jpg",
+          "category": "city",
+          "query": "city night lights bridge"
+        },
+        {
+          "path": "/static/quiz-images/culture/culture_1.jpg",
+          "category": "culture",
+          "query": "ancient temple ruins archaeology"
+        },
+        {
+          "path": "/static/quiz-images/culture/culture_2.jpg",
+          "category": "culture",
+          "query": "medieval castle fortress historic"
+        },
+        {
+          "path": "/static/quiz-images/culture/culture_3.jpg",
+          "category": "culture",
+          "query": "colorful local market bazaar"
+        }
+      ],
+      "sub_clusters": {
+        "0": {
+          "sub_cluster_id": 0,
+          "size": 2,
+          "representative": {
+            "path": "/static/quiz-images/culture/culture_1.jpg",
+            "category": "culture",
+            "query": "ancient temple ruins archaeology"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/culture/culture_1.jpg",
+              "category": "culture",
+              "query": "ancient temple ruins archaeology"
+            },
+            {
+              "path": "/static/quiz-images/culture/culture_2.jpg",
+              "category": "culture",
+              "query": "medieval castle fortress historic"
+            }
+          ]
+        },
+        "1": {
+          "sub_cluster_id": 1,
+          "size": 4,
+          "representative": {
+            "path": "/static/quiz-images/city/city_5.jpg",
+            "category": "city",
+            "query": "city night lights bridge"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/city/city_1.jpg",
+              "category": "city",
+              "query": "vibrant city skyline urban"
+            },
+            {
+              "path": "/static/quiz-images/city/city_2.jpg",
+              "category": "city",
+              "query": "european old town cobblestone street"
+            },
+            {
+              "path": "/static/quiz-images/city/city_3.jpg",
+              "category": "city",
+              "query": "city market square people"
+            },
+            {
+              "path": "/static/quiz-images/city/city_5.jpg",
+              "category": "city",
+              "query": "city night lights bridge"
+            }
+          ]
+        },
+        "2": {
+          "sub_cluster_id": 2,
+          "size": 1,
+          "representative": {
+            "path": "/static/quiz-images/culture/culture_3.jpg",
+            "category": "culture",
+            "query": "colorful local market bazaar"
+          },
+          "images": [
+            {
+              "path": "/static/quiz-images/culture/culture_3.jpg",
+              "category": "culture",
+              "query": "colorful local market bazaar"
+            }
+          ]
+        }
+      }
+    },
+    "5": {
+      "cluster_id": 5,
+      "dominant_category": "culture",
+      "size": 1,
+      "representative": {
+        "path": "/static/quiz-images/culture/culture_5.jpg",
+        "category": "culture",
+        "query": "art museum gallery interior"
+      },
+      "images": [
+        {
+          "path": "/static/quiz-images/culture/culture_5.jpg",
+          "category": "culture",
+          "query": "art museum gallery interior"
+        }
+      ],
+      "sub_clusters": null
+    }
+  }
+}

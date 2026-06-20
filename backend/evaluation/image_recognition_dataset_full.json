@@ -1,0 +1,2382 @@
+{
+  "version": 1,
+  "name": "TripCraft full static image recognition evaluation dataset",
+  "description": "Manifest auto-generat din static/quiz_images. Expected tags includ slugul principal din numele fisierului si, optional, parintele taxonomic concret.",
+  "generated_at": "2026-06-12T11:36:25.165201+00:00",
+  "source": "backend/static/quiz_images",
+  "generation": {
+    "include_parent": true,
+    "total_static_images": 201,
+    "matched_db_tags": 201
+  },
+  "images": [
+    {
+      "id": "accessible_attractions",
+      "file": "accessible-attractions.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "accessible-attractions",
+        "easy-sightseeing"
+      ],
+      "primary_tag": "accessible-attractions",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "acupuncture_tcm",
+      "file": "acupuncture-tcm.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "acupuncture-tcm",
+        "holistic-health"
+      ],
+      "primary_tag": "acupuncture-tcm",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "adventure_active",
+      "file": "adventure-active.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "adventure-active"
+      ],
+      "primary_tag": "adventure-active",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "air_extreme_sports",
+      "file": "air-extreme-sports.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "air-extreme-sports"
+      ],
+      "primary_tag": "air-extreme-sports",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "all_inclusive_resorts",
+      "file": "all-inclusive-resorts.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "all-inclusive-resorts",
+        "comfort-accommodation"
+      ],
+      "primary_tag": "all-inclusive-resorts",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "alpine_climbing",
+      "file": "alpine-climbing.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "alpine-climbing",
+        "hiking-trekking"
+      ],
+      "primary_tag": "alpine-climbing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "ancient_ruins",
+      "file": "ancient-ruins.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "ancient-ruins",
+        "historical-sites"
+      ],
+      "primary_tag": "ancient-ruins",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "architecture",
+      "file": "architecture.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "architecture"
+      ],
+      "primary_tag": "architecture",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "art_museums",
+      "file": "art-museums.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "art-museums",
+        "arts-museums"
+      ],
+      "primary_tag": "art-museums",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "arts_museums",
+      "file": "arts-museums.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "arts-museums"
+      ],
+      "primary_tag": "arts-museums",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "atv_offroad",
+      "file": "atv-offroad.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "atv-offroad",
+        "motor-sports"
+      ],
+      "primary_tag": "atv-offroad",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "ayurveda",
+      "file": "ayurveda.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "ayurveda",
+        "holistic-health"
+      ],
+      "primary_tag": "ayurveda",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "bakeries_pastries",
+      "file": "bakeries-pastries.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "bakeries-pastries",
+        "street-casual-food"
+      ],
+      "primary_tag": "bakeries-pastries",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "bar_scene",
+      "file": "bar-scene.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "bar-scene"
+      ],
+      "primary_tag": "bar-scene",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "base_jumping",
+      "file": "base-jumping.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "base-jumping",
+        "air-extreme-sports"
+      ],
+      "primary_tag": "base-jumping",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "beach_clubs",
+      "file": "beach-clubs.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "beach-clubs",
+        "clubbing"
+      ],
+      "primary_tag": "beach-clubs",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "beach_water",
+      "file": "beach-water.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "beach-water"
+      ],
+      "primary_tag": "beach-water",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "birdwatching",
+      "file": "birdwatching.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "birdwatching",
+        "wildlife-nature"
+      ],
+      "primary_tag": "birdwatching",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "botanic_gardens",
+      "file": "botanic-gardens.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "botanic-gardens",
+        "wildlife-nature"
+      ],
+      "primary_tag": "botanic-gardens",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "boutique_hotels",
+      "file": "boutique-hotels.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "boutique-hotels",
+        "comfort-accommodation"
+      ],
+      "primary_tag": "boutique-hotels",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "brutalist_architecture",
+      "file": "brutalist-architecture.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "brutalist-architecture",
+        "architecture"
+      ],
+      "primary_tag": "brutalist-architecture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "bungee_jumping",
+      "file": "bungee-jumping.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "bungee-jumping",
+        "air-extreme-sports"
+      ],
+      "primary_tag": "bungee-jumping",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "cabaret",
+      "file": "cabaret.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "cabaret",
+        "live-entertainment"
+      ],
+      "primary_tag": "cabaret",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "camping",
+      "file": "camping.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "camping",
+        "contemplative-nature"
+      ],
+      "primary_tag": "camping",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "canal_river_cruises",
+      "file": "canal-river-cruises.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "canal-river-cruises",
+        "slow-scenic"
+      ],
+      "primary_tag": "canal-river-cruises",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "casinos",
+      "file": "casinos.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "casinos",
+        "gaming-entertainment"
+      ],
+      "primary_tag": "casinos",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "castles_palaces",
+      "file": "castles-palaces.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "castles-palaces",
+        "historical-sites"
+      ],
+      "primary_tag": "castles-palaces",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "caving_spelunking",
+      "file": "caving-spelunking.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "caving-spelunking",
+        "land-sports"
+      ],
+      "primary_tag": "caving-spelunking",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "child_activities",
+      "file": "child-activities.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "child-activities"
+      ],
+      "primary_tag": "child-activities",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "child_beaches",
+      "file": "child-beaches.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "child-beaches",
+        "child-activities"
+      ],
+      "primary_tag": "child-beaches",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "chocolate_culture",
+      "file": "chocolate-culture.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "chocolate-culture",
+        "food-markets"
+      ],
+      "primary_tag": "chocolate-culture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "christmas_markets",
+      "file": "christmas-markets.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "christmas-markets",
+        "local-festivals"
+      ],
+      "primary_tag": "christmas-markets",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "clubbing",
+      "file": "clubbing.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "clubbing"
+      ],
+      "primary_tag": "clubbing",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "coastal_walks",
+      "file": "coastal-walks.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "coastal-walks",
+        "hiking-trekking"
+      ],
+      "primary_tag": "coastal-walks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "comfort_accommodation",
+      "file": "comfort-accommodation.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "comfort-accommodation"
+      ],
+      "primary_tag": "comfort-accommodation",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "comic_art",
+      "file": "comic-art.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "comic-art",
+        "contemporary-art"
+      ],
+      "primary_tag": "comic-art",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "community_experiences",
+      "file": "community-experiences.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "community-experiences",
+        "living-culture"
+      ],
+      "primary_tag": "community-experiences",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "contemplative_nature",
+      "file": "contemplative-nature.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "contemplative-nature"
+      ],
+      "primary_tag": "contemplative-nature",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "contemporary_architecture",
+      "file": "contemporary-architecture.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "contemporary-architecture",
+        "architecture"
+      ],
+      "primary_tag": "contemporary-architecture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "contemporary_art",
+      "file": "contemporary-art.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "contemporary-art",
+        "arts-museums"
+      ],
+      "primary_tag": "contemporary-art",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "cooking_classes",
+      "file": "cooking-classes.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "cooking-classes",
+        "culinary-learning"
+      ],
+      "primary_tag": "cooking-classes",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "countryside_walks",
+      "file": "countryside-walks.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "countryside-walks",
+        "slow-scenic"
+      ],
+      "primary_tag": "countryside-walks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "craft_cocktail_bars",
+      "file": "craft-cocktail-bars.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "craft-cocktail-bars",
+        "bar-scene"
+      ],
+      "primary_tag": "craft-cocktail-bars",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "cruises",
+      "file": "cruises.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "cruises",
+        "comfort-accommodation"
+      ],
+      "primary_tag": "cruises",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "culinary_learning",
+      "file": "culinary-learning.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "culinary-learning"
+      ],
+      "primary_tag": "culinary-learning",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "culture_history",
+      "file": "culture-history.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "culture-history"
+      ],
+      "primary_tag": "culture-history",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "cycling_biking",
+      "file": "cycling-biking.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "cycling-biking",
+        "land-sports"
+      ],
+      "primary_tag": "cycling-biking",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "day_hiking",
+      "file": "day-hiking.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "day-hiking",
+        "hiking-trekking"
+      ],
+      "primary_tag": "day-hiking",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "design_weeks",
+      "file": "design-weeks.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "design-weeks",
+        "urban-culture"
+      ],
+      "primary_tag": "design-weeks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "digital_detox",
+      "file": "digital-detox.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "digital-detox",
+        "mindfulness-retreats"
+      ],
+      "primary_tag": "digital-detox",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "distilleries",
+      "file": "distilleries.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "distilleries",
+        "drinks-tastings"
+      ],
+      "primary_tag": "distilleries",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "drinks_tastings",
+      "file": "drinks-tastings.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "drinks-tastings"
+      ],
+      "primary_tag": "drinks-tastings",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "easy_sightseeing",
+      "file": "easy-sightseeing.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "easy-sightseeing"
+      ],
+      "primary_tag": "easy-sightseeing",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "esports_arenas",
+      "file": "esports-arenas.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "esports-arenas",
+        "gaming-entertainment"
+      ],
+      "primary_tag": "esports-arenas",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "factory_tours",
+      "file": "factory-tours.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "factory-tours",
+        "tech-innovation"
+      ],
+      "primary_tag": "factory-tours",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "family_attractions",
+      "file": "family-attractions.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "family-attractions"
+      ],
+      "primary_tag": "family-attractions",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "family_comfort",
+      "file": "family-comfort.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "family-comfort"
+      ],
+      "primary_tag": "family-comfort",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "farm_to_table",
+      "file": "farm-to-table.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "farm-to-table",
+        "fine-dining-exp"
+      ],
+      "primary_tag": "farm-to-table",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "farmers_markets",
+      "file": "farmers-markets.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "farmers-markets",
+        "food-markets"
+      ],
+      "primary_tag": "farmers-markets",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "fashion_weeks",
+      "file": "fashion-weeks.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "fashion-weeks",
+        "design-weeks"
+      ],
+      "primary_tag": "fashion-weeks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "film_festivals",
+      "file": "film-festivals.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "film-festivals",
+        "urban-culture"
+      ],
+      "primary_tag": "film-festivals",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "fine_dining_exp",
+      "file": "fine-dining-exp.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "fine-dining-exp"
+      ],
+      "primary_tag": "fine-dining-exp",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "fish_markets",
+      "file": "fish-markets.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "fish-markets",
+        "food-markets"
+      ],
+      "primary_tag": "fish-markets",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "fishing",
+      "file": "fishing.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "fishing",
+        "wildlife-nature"
+      ],
+      "primary_tag": "fishing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "fjords",
+      "file": "fjords.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "fjords",
+        "contemplative-nature"
+      ],
+      "primary_tag": "fjords",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "flamenco",
+      "file": "flamenco.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "flamenco",
+        "folk-traditions"
+      ],
+      "primary_tag": "flamenco",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "flea_markets",
+      "file": "flea-markets.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "flea-markets",
+        "shopping-fashion"
+      ],
+      "primary_tag": "flea-markets",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "float_tanks",
+      "file": "float-tanks.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "float-tanks",
+        "spa-thermal"
+      ],
+      "primary_tag": "float-tanks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "folk_traditions",
+      "file": "folk-traditions.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "folk-traditions",
+        "living-culture"
+      ],
+      "primary_tag": "folk-traditions",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "food_drink",
+      "file": "food-drink.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "food-drink"
+      ],
+      "primary_tag": "food-drink",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "food_markets",
+      "file": "food-markets.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "food-markets"
+      ],
+      "primary_tag": "food-markets",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "food_tours_guided",
+      "file": "food-tours-guided.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "food-tours-guided",
+        "culinary-learning"
+      ],
+      "primary_tag": "food-tours-guided",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "food_trucks",
+      "file": "food-trucks.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "food-trucks",
+        "street-casual-food"
+      ],
+      "primary_tag": "food-trucks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "foraging",
+      "file": "foraging.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "foraging",
+        "wildlife-nature"
+      ],
+      "primary_tag": "foraging",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "forest_bathing",
+      "file": "forest-bathing.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "forest-bathing",
+        "contemplative-nature"
+      ],
+      "primary_tag": "forest-bathing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "gaming_entertainment",
+      "file": "gaming-entertainment.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "gaming-entertainment"
+      ],
+      "primary_tag": "gaming-entertainment",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "glaciers",
+      "file": "glaciers.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "glaciers",
+        "winter-nature"
+      ],
+      "primary_tag": "glaciers",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "glamping_family",
+      "file": "glamping-family.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "glamping-family",
+        "comfort-accommodation"
+      ],
+      "primary_tag": "glamping-family",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "glamping",
+      "file": "glamping.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "glamping",
+        "slow-scenic"
+      ],
+      "primary_tag": "glamping",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "go_karting",
+      "file": "go-karting.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "go-karting",
+        "motor-sports"
+      ],
+      "primary_tag": "go-karting",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "gothic_architecture",
+      "file": "gothic-architecture.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "gothic-architecture",
+        "architecture"
+      ],
+      "primary_tag": "gothic-architecture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "graffiti_tours",
+      "file": "graffiti-tours.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "graffiti-tours",
+        "urban-culture"
+      ],
+      "primary_tag": "graffiti-tours",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "guided_group_tours",
+      "file": "guided-group-tours.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "guided-group-tours",
+        "easy-sightseeing"
+      ],
+      "primary_tag": "guided-group-tours",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "guided_walking_tours",
+      "file": "guided-walking-tours.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "guided-walking-tours",
+        "living-culture"
+      ],
+      "primary_tag": "guided-walking-tours",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "hammam",
+      "file": "hammam.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "hammam",
+        "spa-thermal"
+      ],
+      "primary_tag": "hammam",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "hiking_trekking",
+      "file": "hiking-trekking.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "hiking-trekking"
+      ],
+      "primary_tag": "hiking-trekking",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "hiking",
+      "file": "hiking.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "hiking",
+        "hiking-trekking"
+      ],
+      "primary_tag": "hiking",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "historical_sites",
+      "file": "historical-sites.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "historical-sites"
+      ],
+      "primary_tag": "historical-sites",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "history_museums",
+      "file": "history-museums.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "history-museums",
+        "arts-museums"
+      ],
+      "primary_tag": "history-museums",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "holistic_health",
+      "file": "holistic-health.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "holistic-health"
+      ],
+      "primary_tag": "holistic-health",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "hop_on_hop_off",
+      "file": "hop-on-hop-off.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "hop-on-hop-off",
+        "easy-sightseeing"
+      ],
+      "primary_tag": "hop-on-hop-off",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "horseback_riding",
+      "file": "horseback-riding.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "horseback-riding",
+        "land-sports"
+      ],
+      "primary_tag": "horseback-riding",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "hot_air_balloon",
+      "file": "hot-air-balloon.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "hot-air-balloon",
+        "air-extreme-sports"
+      ],
+      "primary_tag": "hot-air-balloon",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "hot_springs_outdoor",
+      "file": "hot-springs-outdoor.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "hot-springs-outdoor",
+        "beach-water"
+      ],
+      "primary_tag": "hot-springs-outdoor",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "ice_skating",
+      "file": "ice-skating.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "ice-skating",
+        "winter-nature"
+      ],
+      "primary_tag": "ice-skating",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "instagram_spots",
+      "file": "instagram-spots.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "instagram-spots",
+        "photography-urban"
+      ],
+      "primary_tag": "instagram-spots",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "jazz_live_music",
+      "file": "jazz-live-music.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "jazz-live-music",
+        "live-entertainment"
+      ],
+      "primary_tag": "jazz-live-music",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "kayaking_canoeing",
+      "file": "kayaking-canoeing.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "kayaking-canoeing",
+        "water-sports"
+      ],
+      "primary_tag": "kayaking-canoeing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "kids_workshops",
+      "file": "kids-workshops.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "kids-workshops",
+        "child-activities"
+      ],
+      "primary_tag": "kids-workshops",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "lake_swimming",
+      "file": "lake-swimming.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "lake-swimming",
+        "beach-water"
+      ],
+      "primary_tag": "lake-swimming",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "land_sports",
+      "file": "land-sports.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "land-sports"
+      ],
+      "primary_tag": "land-sports",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "live_entertainment",
+      "file": "live-entertainment.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "live-entertainment"
+      ],
+      "primary_tag": "live-entertainment",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "living_culture",
+      "file": "living-culture.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "living-culture"
+      ],
+      "primary_tag": "living-culture",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "local_artisan_shops",
+      "file": "local-artisan-shops.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "local-artisan-shops",
+        "shopping-fashion"
+      ],
+      "primary_tag": "local-artisan-shops",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "local_festivals",
+      "file": "local-festivals.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "local-festivals",
+        "living-culture"
+      ],
+      "primary_tag": "local-festivals",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "local_tavernas",
+      "file": "local-tavernas.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "local-tavernas",
+        "street-casual-food"
+      ],
+      "primary_tag": "local-tavernas",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "luxury_shopping",
+      "file": "luxury-shopping.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "luxury-shopping",
+        "shopping-fashion"
+      ],
+      "primary_tag": "luxury-shopping",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "luxury_spa",
+      "file": "luxury-spa.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "luxury-spa",
+        "spa-thermal"
+      ],
+      "primary_tag": "luxury-spa",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "meditation_centers",
+      "file": "meditation-centers.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "meditation-centers",
+        "mindfulness-retreats"
+      ],
+      "primary_tag": "meditation-centers",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "meetup_events",
+      "file": "meetup-events.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "meetup-events",
+        "social-tours"
+      ],
+      "primary_tag": "meetup-events",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "michelin_restaurants",
+      "file": "michelin-restaurants.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "michelin-restaurants",
+        "fine-dining-exp"
+      ],
+      "primary_tag": "michelin-restaurants",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "mindfulness_retreats",
+      "file": "mindfulness-retreats.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "mindfulness-retreats"
+      ],
+      "primary_tag": "mindfulness-retreats",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "modernist_architecture",
+      "file": "modernist-architecture.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "modernist-architecture",
+        "architecture"
+      ],
+      "primary_tag": "modernist-architecture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "motor_sports",
+      "file": "motor-sports.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "motor-sports"
+      ],
+      "primary_tag": "motor-sports",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "motorbike_tours",
+      "file": "motorbike-tours.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "motorbike-tours",
+        "motor-sports"
+      ],
+      "primary_tag": "motorbike-tours",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "multi_day_trekking",
+      "file": "multi-day-trekking.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "multi-day-trekking",
+        "hiking-trekking"
+      ],
+      "primary_tag": "multi-day-trekking",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "music_festivals",
+      "file": "music-festivals.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "music-festivals",
+        "urban-culture"
+      ],
+      "primary_tag": "music-festivals",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "national_parks",
+      "file": "national-parks.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "national-parks",
+        "wildlife-nature"
+      ],
+      "primary_tag": "national-parks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "nature_outdoors",
+      "file": "nature-outdoors.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "nature-outdoors"
+      ],
+      "primary_tag": "nature-outdoors",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "nightlife_social",
+      "file": "nightlife-social.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "nightlife-social"
+      ],
+      "primary_tag": "nightlife-social",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "northern_lights",
+      "file": "northern-lights.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "northern-lights",
+        "winter-nature"
+      ],
+      "primary_tag": "northern-lights",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "opera_classical",
+      "file": "opera-classical.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "opera-classical",
+        "live-entertainment"
+      ],
+      "primary_tag": "opera-classical",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "orthodox_churches",
+      "file": "orthodox-churches.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "orthodox-churches",
+        "historical-sites"
+      ],
+      "primary_tag": "orthodox-churches",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "paddleboarding",
+      "file": "paddleboarding.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "paddleboarding",
+        "water-sports"
+      ],
+      "primary_tag": "paddleboarding",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "paragliding",
+      "file": "paragliding.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "paragliding",
+        "air-extreme-sports"
+      ],
+      "primary_tag": "paragliding",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "photography_landscapes",
+      "file": "photography-landscapes.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "photography-landscapes",
+        "contemplative-nature"
+      ],
+      "primary_tag": "photography-landscapes",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "photography_urban",
+      "file": "photography-urban.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "photography-urban"
+      ],
+      "primary_tag": "photography-urban",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "playgrounds_parks",
+      "file": "playgrounds-parks.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "playgrounds-parks",
+        "child-activities"
+      ],
+      "primary_tag": "playgrounds-parks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "pop_up_events",
+      "file": "pop-up-events.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "pop-up-events",
+        "urban-culture"
+      ],
+      "primary_tag": "pop-up-events",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "pub_crawls",
+      "file": "pub-crawls.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "pub-crawls",
+        "social-tours"
+      ],
+      "primary_tag": "pub-crawls",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "religious_sites",
+      "file": "religious-sites.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "religious-sites",
+        "historical-sites"
+      ],
+      "primary_tag": "religious-sites",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "rock_climbing",
+      "file": "rock-climbing.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "rock-climbing",
+        "land-sports"
+      ],
+      "primary_tag": "rock-climbing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "roman_history",
+      "file": "roman-history.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "roman-history",
+        "historical-sites"
+      ],
+      "primary_tag": "roman-history",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "rooftop_bars",
+      "file": "rooftop-bars.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "rooftop-bars",
+        "bar-scene"
+      ],
+      "primary_tag": "rooftop-bars",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "rooftop_parties",
+      "file": "rooftop-parties.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "rooftop-parties",
+        "clubbing"
+      ],
+      "primary_tag": "rooftop-parties",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "rooftop_views",
+      "file": "rooftop-views.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "rooftop-views",
+        "photography-urban"
+      ],
+      "primary_tag": "rooftop-views",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "rope_park_sports",
+      "file": "rope-park-sports.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "rope-park-sports"
+      ],
+      "primary_tag": "rope-park-sports",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "rope_parks",
+      "file": "rope-parks.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "rope-parks",
+        "rope-park-sports"
+      ],
+      "primary_tag": "rope-parks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "ruin_bars",
+      "file": "ruin-bars.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "ruin-bars",
+        "bar-scene"
+      ],
+      "primary_tag": "ruin-bars",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "running_marathons",
+      "file": "running-marathons.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "running-marathons",
+        "land-sports"
+      ],
+      "primary_tag": "running-marathons",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "sailing",
+      "file": "sailing.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "sailing",
+        "water-sports"
+      ],
+      "primary_tag": "sailing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "sandy_beaches",
+      "file": "sandy-beaches.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "sandy-beaches",
+        "beach-water"
+      ],
+      "primary_tag": "sandy-beaches",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "scenic_cable_cars",
+      "file": "scenic-cable-cars.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "scenic-cable-cars",
+        "easy-sightseeing"
+      ],
+      "primary_tag": "scenic-cable-cars",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "scenic_drives",
+      "file": "scenic-drives.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "scenic-drives",
+        "contemplative-nature"
+      ],
+      "primary_tag": "scenic-drives",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "scenic_train_rides",
+      "file": "scenic-train-rides.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "scenic-train-rides",
+        "slow-scenic"
+      ],
+      "primary_tag": "scenic-train-rides",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "science_centers",
+      "file": "science-centers.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "science-centers",
+        "tech-innovation"
+      ],
+      "primary_tag": "science-centers",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "science_interactive_museums",
+      "file": "science-interactive-museums.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "science-interactive-museums",
+        "family-attractions"
+      ],
+      "primary_tag": "science-interactive-museums",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "science_museums",
+      "file": "science-museums.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "science-museums",
+        "arts-museums"
+      ],
+      "primary_tag": "science-museums",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "scuba_diving",
+      "file": "scuba-diving.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "scuba-diving",
+        "water-sports"
+      ],
+      "primary_tag": "scuba-diving",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "shopping_fashion",
+      "file": "shopping-fashion.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "shopping-fashion"
+      ],
+      "primary_tag": "shopping-fashion",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "silence_retreats",
+      "file": "silence-retreats.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "silence-retreats",
+        "mindfulness-retreats"
+      ],
+      "primary_tag": "silence-retreats",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "silent_retreats",
+      "file": "silent-retreats.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "silent-retreats",
+        "mindfulness-retreats"
+      ],
+      "primary_tag": "silent-retreats",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "skiing",
+      "file": "skiing.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "skiing",
+        "winter-nature"
+      ],
+      "primary_tag": "skiing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "skydiving",
+      "file": "skydiving.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "skydiving",
+        "air-extreme-sports"
+      ],
+      "primary_tag": "skydiving",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "slow_scenic",
+      "file": "slow-scenic.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "slow-scenic"
+      ],
+      "primary_tag": "slow-scenic",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "snorkeling_diving",
+      "file": "snorkeling-diving.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "snorkeling-diving",
+        "beach-water"
+      ],
+      "primary_tag": "snorkeling-diving",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "snowmobile",
+      "file": "snowmobile.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "snowmobile",
+        "winter-nature"
+      ],
+      "primary_tag": "snowmobile",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "snowshoeing",
+      "file": "snowshoeing.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "snowshoeing",
+        "winter-nature"
+      ],
+      "primary_tag": "snowshoeing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "social_tours",
+      "file": "social-tours.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "social-tours"
+      ],
+      "primary_tag": "social-tours",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "sound_therapy",
+      "file": "sound-therapy.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "sound-therapy",
+        "holistic-health"
+      ],
+      "primary_tag": "sound-therapy",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "spa_thermal",
+      "file": "spa-thermal.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "spa-thermal"
+      ],
+      "primary_tag": "spa-thermal",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "speakeasy_bars",
+      "file": "speakeasy-bars.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "speakeasy-bars",
+        "bar-scene"
+      ],
+      "primary_tag": "speakeasy-bars",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "specialty_coffee",
+      "file": "specialty-coffee.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "specialty-coffee",
+        "drinks-tastings"
+      ],
+      "primary_tag": "specialty-coffee",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "sports_bars",
+      "file": "sports-bars.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "sports-bars",
+        "bar-scene"
+      ],
+      "primary_tag": "sports-bars",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "stand_up_comedy",
+      "file": "stand-up-comedy.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "stand-up-comedy",
+        "live-entertainment"
+      ],
+      "primary_tag": "stand-up-comedy",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "stargazing",
+      "file": "stargazing.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "stargazing",
+        "contemplative-nature"
+      ],
+      "primary_tag": "stargazing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "street_art",
+      "file": "street-art.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "street-art",
+        "arts-museums"
+      ],
+      "primary_tag": "street-art",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "street_casual_food",
+      "file": "street-casual-food.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "street-casual-food"
+      ],
+      "primary_tag": "street-casual-food",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "street_food",
+      "file": "street-food.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "street-food",
+        "street-casual-food"
+      ],
+      "primary_tag": "street-food",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "street_photography_spots",
+      "file": "street-photography-spots.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "street-photography-spots",
+        "photography-urban"
+      ],
+      "primary_tag": "street-photography-spots",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "surfing_kitesurfing",
+      "file": "surfing-kitesurfing.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "surfing-kitesurfing",
+        "water-sports"
+      ],
+      "primary_tag": "surfing-kitesurfing",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "tasting_menus",
+      "file": "tasting-menus.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "tasting-menus",
+        "fine-dining-exp"
+      ],
+      "primary_tag": "tasting-menus",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "tea_culture",
+      "file": "tea-culture.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "tea-culture",
+        "drinks-tastings"
+      ],
+      "primary_tag": "tea-culture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "tech_innovation",
+      "file": "tech-innovation.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "tech-innovation"
+      ],
+      "primary_tag": "tech-innovation",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "techno_clubs",
+      "file": "techno-clubs.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "techno-clubs",
+        "clubbing"
+      ],
+      "primary_tag": "techno-clubs",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "theater_musicals",
+      "file": "theater-musicals.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "theater-musicals",
+        "live-entertainment"
+      ],
+      "primary_tag": "theater-musicals",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "theme_parks",
+      "file": "theme-parks.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "theme-parks",
+        "family-attractions"
+      ],
+      "primary_tag": "theme-parks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "thermal_baths",
+      "file": "thermal-baths.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "thermal-baths",
+        "spa-thermal"
+      ],
+      "primary_tag": "thermal-baths",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "thrifting_vintage",
+      "file": "thrifting-vintage.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "thrifting-vintage",
+        "shopping-fashion"
+      ],
+      "primary_tag": "thrifting-vintage",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "traditional_crafts",
+      "file": "traditional-crafts.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "traditional-crafts",
+        "living-culture"
+      ],
+      "primary_tag": "traditional-crafts",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "tram_rides",
+      "file": "tram-rides.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "tram-rides",
+        "slow-scenic"
+      ],
+      "primary_tag": "tram-rides",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "underground_clubs",
+      "file": "underground-clubs.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "underground-clubs",
+        "clubbing"
+      ],
+      "primary_tag": "underground-clubs",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "urban_culture",
+      "file": "urban-culture.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "urban-culture"
+      ],
+      "primary_tag": "urban-culture",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "urban_modern",
+      "file": "urban-modern.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "urban-modern"
+      ],
+      "primary_tag": "urban-modern",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "vernacular_architecture",
+      "file": "vernacular-architecture.jpg",
+      "category": "culture_history",
+      "expected_tags": [
+        "vernacular-architecture",
+        "architecture"
+      ],
+      "primary_tag": "vernacular-architecture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "via_ferrata",
+      "file": "via-ferrata.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "via-ferrata",
+        "hiking-trekking"
+      ],
+      "primary_tag": "via-ferrata",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "waffles_culture",
+      "file": "waffles-culture.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "waffles-culture",
+        "street-casual-food"
+      ],
+      "primary_tag": "waffles-culture",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "watches_shopping",
+      "file": "watches-shopping.jpg",
+      "category": "urban_modern",
+      "expected_tags": [
+        "watches-shopping",
+        "luxury-shopping"
+      ],
+      "primary_tag": "watches-shopping",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "water_parks",
+      "file": "water-parks.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "water-parks",
+        "family-attractions"
+      ],
+      "primary_tag": "water-parks",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "water_sports",
+      "file": "water-sports.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "water-sports"
+      ],
+      "primary_tag": "water-sports",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "wellness_slow",
+      "file": "wellness-slow.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "wellness-slow"
+      ],
+      "primary_tag": "wellness-slow",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "whale_watching",
+      "file": "whale-watching.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "whale-watching",
+        "wildlife-nature"
+      ],
+      "primary_tag": "whale-watching",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "white_water_rafting",
+      "file": "white-water-rafting.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "white-water-rafting",
+        "water-sports"
+      ],
+      "primary_tag": "white-water-rafting",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "wildlife_nature",
+      "file": "wildlife-nature.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "wildlife-nature"
+      ],
+      "primary_tag": "wildlife-nature",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "wildlife_watching",
+      "file": "wildlife-watching.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "wildlife-watching",
+        "wildlife-nature"
+      ],
+      "primary_tag": "wildlife-watching",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "wine_bars",
+      "file": "wine-bars.jpg",
+      "category": "nightlife_social",
+      "expected_tags": [
+        "wine-bars",
+        "bar-scene"
+      ],
+      "primary_tag": "wine-bars",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "wine_vineyards",
+      "file": "wine-vineyards.jpg",
+      "category": "food_drink",
+      "expected_tags": [
+        "wine-vineyards",
+        "drinks-tastings"
+      ],
+      "primary_tag": "wine-vineyards",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "winter_nature",
+      "file": "winter-nature.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": [
+        "winter-nature"
+      ],
+      "primary_tag": "winter-nature",
+      "is_leaf": false,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "yoga_retreats",
+      "file": "yoga-retreats.jpg",
+      "category": "wellness_slow",
+      "expected_tags": [
+        "yoga-retreats",
+        "mindfulness-retreats"
+      ],
+      "primary_tag": "yoga-retreats",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "zip_lining",
+      "file": "zip-lining.jpg",
+      "category": "adventure_active",
+      "expected_tags": [
+        "zip-lining",
+        "rope-park-sports"
+      ],
+      "primary_tag": "zip-lining",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    },
+    {
+      "id": "zoos_aquariums",
+      "file": "zoos-aquariums.jpg",
+      "category": "family_comfort",
+      "expected_tags": [
+        "zoos-aquariums",
+        "family-attractions"
+      ],
+      "primary_tag": "zoos-aquariums",
+      "is_leaf": true,
+      "notes": "Auto-generat din numele fisierului si taxonomia DB; necesita revizie manuala pentru ground truth final."
+    }
+  ]
+}

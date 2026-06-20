@@ -1,0 +1,3147 @@
+[
+   {
+      "country":"RO",
+      "city":"București",
+      "lat":44.4268,
+      "lon":26.1025,
+      "cost_index":70,
+      "description":"Micul Paris, viață de noapte vibrantă și istorie comunistă.",
+      "tags":"nightlife, communism-history, architecture, museums, street-food"
+   },
+   {
+      "country":"RO",
+      "city":"Cluj-Napoca",
+      "lat":46.7712,
+      "lon":23.6236,
+      "cost_index":75,
+      "description":"Capitala tineretului, festivaluri de muzică și vibe tech.",
+      "tags":"music-festivals, tech-hubs, botanical-gardens, cafe-culture, youth-vibe"
+   },
+   {
+      "country":"RO",
+      "city":"Brașov",
+      "lat":45.6427,
+      "lon":25.5887,
+      "cost_index":65,
+      "description":"Oraș medieval la poalele Tâmpei, poarta spre castelele Transilvaniei.",
+      "tags":"hiking, medieval-architecture, castles, skiing, mountain-views"
+   },
+   {
+      "country":"RO",
+      "city":"Sibiu",
+      "lat":45.7983,
+      "lon":24.1256,
+      "cost_index":65,
+      "description":"Orașul cu ochi, capitală culturală cu piețe largi medievale.",
+      "tags":"culture, history, local-festivals, gastronomy, architecture"
+   },
+   {
+      "country":"RO",
+      "city":"Timișoara",
+      "lat":45.7489,
+      "lon":21.2087,
+      "cost_index":65,
+      "description":"Orașul florilor, locul de pornire al Revoluției.",
+      "tags":"history, art-galleries, parks, river-walks, architecture"
+   },
+   {
+      "country":"RO",
+      "city":"Sighișoara",
+      "lat":46.2197,
+      "lon":24.7911,
+      "cost_index":60,
+      "description":"Ultima cetate medievală locuită din Europa.",
+      "tags":"medieval-history, photography, unesco-site, artisan-shops"
+   },
+   {
+      "country":"RO",
+      "city":"Constanța",
+      "lat":44.1733,
+      "lon":28.6383,
+      "cost_index":70,
+      "description":"Istorie antică la malul Mării Negre.",
+      "tags":"beach, ancient-ruins, seafood, port-life, casinos"
+   },
+   {
+      "country":"RO",
+      "city":"Iași",
+      "lat":47.1585,
+      "lon":27.6014,
+      "cost_index":60,
+      "description":"Capitala culturală a Moldovei, palate impunătoare.",
+      "tags":"religious-sites, palaces, students-life, parks, history"
+   },
+   {
+      "country":"RO",
+      "city":"Oradea",
+      "lat":47.0465,
+      "lon":21.9189,
+      "cost_index":65,
+      "description":"Capitala Art Nouveau a României.",
+      "tags":"art-nouveau, thermal-baths, architecture, quiet-travel"
+   },
+   {
+      "country":"RO",
+      "city":"Sinaia",
+      "lat":45.35,
+      "lon":25.55,
+      "cost_index":80,
+      "description":"Perla Carpaților, reședința regală.",
+      "tags":"castles, mountain-sports, hiking, royalty, nature"
+   },
+   {
+      "country":"FR",
+      "city":"Paris",
+      "lat":48.8566,
+      "lon":2.3522,
+      "cost_index":130,
+      "description":"Orașul Luminilor, modă și artă.",
+      "tags":"museums, fashion, gastronomy, romantic, architecture"
+   },
+   {
+      "country":"FR",
+      "city":"Lyon",
+      "lat":45.764,
+      "lon":4.8357,
+      "cost_index":100,
+      "description":"Capitala gastronomică a Franței.",
+      "tags":"fine-dining, wine, history, river-cruises"
+   },
+   {
+      "country":"FR",
+      "city":"Nice",
+      "lat":43.71,
+      "lon":7.262,
+      "cost_index":115,
+      "description":"Lux pe Coasta de Azur.",
+      "tags":"beach, luxury, art, sunshine, shopping"
+   },
+   {
+      "country":"FR",
+      "city":"Marseille",
+      "lat":43.2965,
+      "lon":5.3698,
+      "cost_index":90,
+      "description":"Oraș portuar vibrant și multicultural.",
+      "tags":"seafood, boating, street-art, nature-trails"
+   },
+   {
+      "country":"FR",
+      "city":"Bordeaux",
+      "lat":44.8378,
+      "lon":-0.5792,
+      "cost_index":105,
+      "description":"Inima regiunii viticole.",
+      "tags":"wine-tasting, cycling, architecture, gastronomy"
+   },
+   {
+      "country":"FR",
+      "city":"Strasbourg",
+      "lat":48.5734,
+      "lon":7.7521,
+      "cost_index":95,
+      "description":"Mix de cultură franceză și germană.",
+      "tags":"christmas-markets, canals, gothic-architecture, eu-institutions"
+   },
+   {
+      "country":"FR",
+      "city":"Lille",
+      "lat":50.6292,
+      "lon":3.0573,
+      "cost_index":85,
+      "description":"Centru cultural în nord, influențe flamande.",
+      "tags":"art, shopping, student-life, beer-culture"
+   },
+   {
+      "country":"FR",
+      "city":"Toulouse",
+      "lat":43.6047,
+      "lon":1.4442,
+      "cost_index":90,
+      "description":"Orașul Roz, centrul aerospațial.",
+      "tags":"tech, history, gastronomy, river-walks"
+   },
+   {
+      "country":"FR",
+      "city":"Nantes",
+      "lat":47.2184,
+      "lon":-1.5536,
+      "cost_index":85,
+      "description":"Inovație și imaginație, orașul lui Jules Verne.",
+      "tags":"modern-art, steampunk, parks, history"
+   },
+   {
+      "country":"FR",
+      "city":"Annecy",
+      "lat":45.8992,
+      "lon":6.1294,
+      "cost_index":110,
+      "description":"Veneția Alpilor, lac turcoaz și munți.",
+      "tags":"lake, mountains, paragliding, romantic"
+   },
+   {
+      "country":"IT",
+      "city":"Rome",
+      "lat":41.9028,
+      "lon":12.4964,
+      "cost_index":120,
+      "description":"Istorie antică la fiecare colț.",
+      "tags":"ancient-ruins, history, street-food, religious-sites"
+   },
+   {
+      "country":"IT",
+      "city":"Milan",
+      "lat":45.4654,
+      "lon":9.1859,
+      "cost_index":130,
+      "description":"Capitala modei și a designului.",
+      "tags":"fashion, shopping, opera, michelin-restaurants"
+   },
+   {
+      "country":"IT",
+      "city":"Florence",
+      "lat":43.7696,
+      "lon":11.2558,
+      "cost_index":110,
+      "description":"Leagănul Renașterii.",
+      "tags":"art, history, museums, wine, leather-craft"
+   },
+   {
+      "country":"IT",
+      "city":"Venice",
+      "lat":45.4408,
+      "lon":12.3155,
+      "cost_index":140,
+      "description":"Orașul canalelor și al măștilor.",
+      "tags":"romantic, canals, history, art, seafood"
+   },
+   {
+      "country":"IT",
+      "city":"Naples",
+      "lat":40.8518,
+      "lon":14.2681,
+      "cost_index":80,
+      "description":"Patria pizzei și haos vibrant.",
+      "tags":"pizza, volcanoes, street-food, history"
+   },
+   {
+      "country":"IT",
+      "city":"Bologna",
+      "lat":44.4949,
+      "lon":11.3426,
+      "cost_index":90,
+      "description":"Capitala culinară a Italiei.",
+      "tags":"gastronomy, students, towers, pasta"
+   },
+   {
+      "country":"IT",
+      "city":"Turin",
+      "lat":45.0703,
+      "lon":7.6869,
+      "cost_index":95,
+      "description":"Eleganță regală și ciocolată.",
+      "tags":"architecture, cinema, chocolate, automotive"
+   },
+   {
+      "country":"IT",
+      "city":"Palermo",
+      "lat":38.1157,
+      "lon":13.3615,
+      "cost_index":75,
+      "description":"Mix cultural sicilian și piețe de stradă.",
+      "tags":"street-food, beaches, history, sunny"
+   },
+   {
+      "country":"IT",
+      "city":"Verona",
+      "lat":45.4384,
+      "lon":10.9916,
+      "cost_index":100,
+      "description":"Orașul lui Romeo și al Julietei.",
+      "tags":"opera, romance, history, wine"
+   },
+   {
+      "country":"IT",
+      "city":"Genoa",
+      "lat":44.4056,
+      "lon":8.9463,
+      "cost_index":85,
+      "description":"Oraș portuar istoric cu labirinturi de străzi.",
+      "tags":"aquarium, history, pesto, port"
+   },
+   {
+      "country":"ES",
+      "city":"Madrid",
+      "lat":40.4168,
+      "lon":-3.7038,
+      "cost_index":105,
+      "description":"Inima Spaniei, muzee de top și tapas.",
+      "tags":"art, nightlife, tapas, football, parks"
+   },
+   {
+      "country":"ES",
+      "city":"Barcelona",
+      "lat":41.3851,
+      "lon":2.1734,
+      "cost_index":115,
+      "description":"Arhitectura lui Gaudi și plajă.",
+      "tags":"architecture, beach, nightlife, art, football"
+   },
+   {
+      "country":"ES",
+      "city":"Seville",
+      "lat":37.3891,
+      "lon":-5.9845,
+      "cost_index":85,
+      "description":"Sufletul Andaluziei, flamenco și istorie.",
+      "tags":"flamenco, history, hot-weather, tapas"
+   },
+   {
+      "country":"ES",
+      "city":"Valencia",
+      "lat":39.4699,
+      "lon":-0.3763,
+      "cost_index":90,
+      "description":"Orașul artelor și al paellei.",
+      "tags":"paella, architecture, beach, festivals"
+   },
+   {
+      "country":"ES",
+      "city":"Bilbao",
+      "lat":43.263,
+      "lon":-2.935,
+      "cost_index":95,
+      "description":"Design modern și cultură bască.",
+      "tags":"museums, gastronomy, architecture, mountains"
+   },
+   {
+      "country":"ES",
+      "city":"Malaga",
+      "lat":36.7213,
+      "lon":-4.4214,
+      "cost_index":85,
+      "description":"Poarta spre Costa del Sol, soare tot anul.",
+      "tags":"beach, museums, sunshine, seafood"
+   },
+   {
+      "country":"ES",
+      "city":"Granada",
+      "lat":37.1773,
+      "lon":-3.5986,
+      "cost_index":80,
+      "description":"Palatul Alhambra și influențe maure.",
+      "tags":"history, hiking, free-tapas, culture"
+   },
+   {
+      "country":"ES",
+      "city":"Zaragoza",
+      "lat":41.6488,
+      "lon":-0.8891,
+      "cost_index":80,
+      "description":"Istorie romană și bazilici imense.",
+      "tags":"history, architecture, tapas, quiet"
+   },
+   {
+      "country":"ES",
+      "city":"San Sebastian",
+      "lat":43.3183,
+      "lon":-1.9812,
+      "cost_index":130,
+      "description":"Perla Atlanticului, paradis culinar.",
+      "tags":"surfing, michelin-restaurants, beach, luxury"
+   },
+   {
+      "country":"ES",
+      "city":"Cordoba",
+      "lat":37.8882,
+      "lon":-4.7794,
+      "cost_index":80,
+      "description":"Mix de culturi islamice și creștine.",
+      "tags":"history, architecture, patios, culture"
+   },
+   {
+      "country":"DE",
+      "city":"Berlin",
+      "lat":52.52,
+      "lon":13.405,
+      "cost_index":100,
+      "description":"Istorie modernă, techno și libertate.",
+      "tags":"history, nightlife, techno, street-art, multicultural"
+   },
+   {
+      "country":"DE",
+      "city":"Munich",
+      "lat":48.1351,
+      "lon":11.582,
+      "cost_index":120,
+      "description":"Tradiție bavareză și tehnologie.",
+      "tags":"beer, car-museums, gardens, history, alps"
+   },
+   {
+      "country":"DE",
+      "city":"Hamburg",
+      "lat":53.5511,
+      "lon":9.9937,
+      "cost_index":110,
+      "description":"Orașul podurilor și al portului.",
+      "tags":"port, concerts, nightlife, canals"
+   },
+   {
+      "country":"DE",
+      "city":"Cologne",
+      "lat":50.9375,
+      "lon":6.9603,
+      "cost_index":100,
+      "description":"Catedrală gotică și carnaval.",
+      "tags":"cathedrals, river-cruises, beer-culture, art"
+   },
+   {
+      "country":"DE",
+      "city":"Frankfurt",
+      "lat":50.1109,
+      "lon":8.6821,
+      "cost_index":115,
+      "description":"Zgârie-nori și finanțe.",
+      "tags":"business, museums, aviation, shopping"
+   },
+   {
+      "country":"DE",
+      "city":"Stuttgart",
+      "lat":48.7758,
+      "lon":9.1829,
+      "cost_index":105,
+      "description":"Inima industriei auto.",
+      "tags":"cars, vineyards, parks, engineering"
+   },
+   {
+      "country":"DE",
+      "city":"Düsseldorf",
+      "lat":51.2277,
+      "lon":6.7735,
+      "cost_index":110,
+      "description":"Modă, artă și baruri lungi.",
+      "tags":"fashion, nightlife, art, shopping"
+   },
+   {
+      "country":"DE",
+      "city":"Leipzig",
+      "lat":51.3397,
+      "lon":12.3731,
+      "cost_index":85,
+      "description":"Noul Berlin, energie creativă.",
+      "tags":"art, music, history, students"
+   },
+   {
+      "country":"DE",
+      "city":"Dresden",
+      "lat":51.0504,
+      "lon":13.7373,
+      "cost_index":90,
+      "description":"Florența de pe Elba, restaurată superb.",
+      "tags":"baroque, art, history, river-walks"
+   },
+   {
+      "country":"DE",
+      "city":"Nuremberg",
+      "lat":49.4521,
+      "lon":11.0767,
+      "cost_index":90,
+      "description":"Istorie medievală și modernă.",
+      "tags":"history, castle, toys, gastronomy"
+   }
+]{
+   "country":"PT",
+   "city":"Lisabona",
+   "lat":38.7223,
+   "lon":-9.1393,
+   "cost_index":95,
+   "description":"Orașul celor șapte coline, tramvaie galbene și fado.",
+   "tags":"fado, tram-rides, hills, seafood, history, nightlife"
+},
+{
+   "country":"PT",
+   "city":"Porto",
+   "lat":41.1579,
+   "lon":-8.6291,
+   "cost_index":85,
+   "description":"Patria vinului de Porto, poduri spectaculoase și râul Douro.",
+   "tags":"wine-tasting, river-views, architecture, bridges, gastronomy"
+},
+{
+   "country":"PT",
+   "city":"Sintra",
+   "lat":38.7983,
+   "lon":-9.3882,
+   "cost_index":100,
+   "description":"Palate de basm și grădini mistice într-un peisaj montan.",
+   "tags":"palaces, castles, romantic, nature, unesco-site"
+},
+{
+   "country":"PT",
+   "city":"Faro",
+   "lat":37.0179,
+   "lon":-7.9308,
+   "cost_index":80,
+   "description":"Poarta către regiunea Algarve, lagune și plaje sălbatice.",
+   "tags":"beach, lagoon, quiet-travel, seafood, sunshine"
+},
+{
+   "country":"PT",
+   "city":"Coimbra",
+   "lat":40.2033,
+   "lon":-8.4103,
+   "cost_index":75,
+   "description":"Oraș universitar istoric, una dintre cele mai vechi biblioteci.",
+   "tags":"university, history, students, library, culture"
+},
+{
+   "country":"PT",
+   "city":"Funchal",
+   "lat":32.6667,
+   "lon":-16.9167,
+   "cost_index":90,
+   "description":"Grădina plutitoare a Atlanticului, peisaje vulcanice în Madeira.",
+   "tags":"nature, hiking, island-life, flowers, wine"
+},
+{
+   "country":"PT",
+   "city":"Braga",
+   "lat":41.5458,
+   "lon":-8.4265,
+   "cost_index":70,
+   "description":"Roma Portugaliei, centru religios și arhitectură barocă.",
+   "tags":"religious-sites, history, architecture, gardens"
+},
+{
+   "country":"PT",
+   "city":"Evora",
+   "lat":38.5714,
+   "lon":-7.9135,
+   "cost_index":75,
+   "description":"Oraș muzeu în inima regiunii Alentejo.",
+   "tags":"roman-history, wine, gastronomy, unesco-site"
+},
+{
+   "country":"PT",
+   "city":"Cascais",
+   "lat":38.6979,
+   "lon":-9.4215,
+   "cost_index":120,
+   "description":"Stațiune regală la ocean, surf și lux.",
+   "tags":"beach, luxury, surfing, seafood, yachting"
+},
+{
+   "country":"PT",
+   "city":"Aveiro",
+   "lat":40.6405,
+   "lon":-8.6538,
+   "cost_index":80,
+   "description":"Veneția Portugaliei, canale și bărci moliceiros.",
+   "tags":"canals, beach, traditional-boats, sweets"
+},
+{
+   "country":"GR",
+   "city":"Atena",
+   "lat":37.9838,
+   "lon":23.7275,
+   "cost_index":85,
+   "description":"Leagănul democrației, Acropole și cartiere vibrante.",
+   "tags":"ancient-ruins, history, street-food, culture, museums"
+},
+{
+   "country":"GR",
+   "city":"Santorini",
+   "lat":36.3932,
+   "lon":25.4615,
+   "cost_index":160,
+   "description":"Apusuri legendare și biserici cu cupole albastre.",
+   "tags":"romance, volcano, photography, luxury, beach"
+},
+{
+   "country":"GR",
+   "city":"Mykonos",
+   "lat":37.4467,
+   "lon":25.3289,
+   "cost_index":180,
+   "description":"Insula petrecerilor, mori de vânt și viață de noapte.",
+   "tags":"nightlife, beach-clubs, luxury, shopping, wind-surfing"
+},
+{
+   "country":"GR",
+   "city":"Salonic",
+   "lat":40.6401,
+   "lon":22.9444,
+   "cost_index":75,
+   "description":"Capitala culturală a Greciei de Nord, gastronomie de top.",
+   "tags":"gastronomy, nightlife, history, waterfront, students"
+},
+{
+   "country":"GR",
+   "city":"Heraklion",
+   "lat":35.3387,
+   "lon":25.1442,
+   "cost_index":85,
+   "description":"Poarta spre Creta și palatul minoic din Knossos.",
+   "tags":"ancient-history, beach, museums, seafood"
+},
+{
+   "country":"GR",
+   "city":"Rhodos",
+   "lat":36.4341,
+   "lon":28.2176,
+   "cost_index":85,
+   "description":"Oraș medieval fortificat și plaje însorite.",
+   "tags":"medieval-history, beach, sunshine, unesco-site"
+},
+{
+   "country":"GR",
+   "city":"Corfu",
+   "lat":39.6243,
+   "lon":19.9217,
+   "cost_index":90,
+   "description":"Influențe venețiene și vegetație luxuriantă pe insulă.",
+   "tags":"nature, beach, architecture, history"
+},
+{
+   "country":"GR",
+   "city":"Chania",
+   "lat":35.5138,
+   "lon":24.018,
+   "cost_index":90,
+   "description":"Port venețian pitoresc și plaje exotice în apropiere.",
+   "tags":"harbor, romance, beach, gastronomy"
+},
+{
+   "country":"GR",
+   "city":"Delphi",
+   "lat":38.4781,
+   "lon":22.501,
+   "cost_index":80,
+   "description":"Centrul lumii antice, peisaje montane sacre.",
+   "tags":"ancient-history, hiking, mythology, mountain-views"
+},
+{
+   "country":"GR",
+   "city":"Meteora",
+   "lat":39.7217,
+   "lon":21.6306,
+   "cost_index":75,
+   "description":"Mănăstiri suspendate pe stânci gigantice.",
+   "tags":"spirituality, hiking, photography, nature"
+},
+{
+   "country":"NL",
+   "city":"Amsterdam",
+   "lat":52.3676,
+   "lon":4.9041,
+   "cost_index":145,
+   "description":"Orașul canalelor, bicicletelor și al muzeelor de artă.",
+   "tags":"canals, cycling, museums, nightlife, art, parks"
+},
+{
+   "country":"NL",
+   "city":"Rotterdam",
+   "lat":51.9225,
+   "lon":4.4792,
+   "cost_index":110,
+   "description":"Arhitectură futuristă și cel mai mare port al Europei.",
+   "tags":"modern-architecture, port, shopping, tech"
+},
+{
+   "country":"NL",
+   "city":"Utrecht",
+   "lat":52.0907,
+   "lon":5.1214,
+   "cost_index":105,
+   "description":"Inima Olandei, canale cu terase la nivelul apei.",
+   "tags":"canals, students, history, cozy-vibe"
+},
+{
+   "country":"NL",
+   "city":"Haga",
+   "lat":52.0705,
+   "lon":4.3007,
+   "cost_index":110,
+   "description":"Orașul regal de la malul mării, sediul justiției internaționale.",
+   "tags":"beach, government, palaces, museums"
+},
+{
+   "country":"NL",
+   "city":"Eindhoven",
+   "lat":51.4416,
+   "lon":5.4697,
+   "cost_index":95,
+   "description":"Orașul luminii și al designului tehnologic.",
+   "tags":"tech, design, nightlife, modern-art"
+},
+{
+   "country":"NL",
+   "city":"Maastricht",
+   "lat":50.8514,
+   "lon":5.691,
+   "cost_index":100,
+   "description":"Atmosferă europeană și istorie romană în sudul extrem.",
+   "tags":"gastronomy, history, shopping, caves"
+},
+{
+   "country":"NL",
+   "city":"Delft",
+   "lat":52.0116,
+   "lon":4.3571,
+   "cost_index":95,
+   "description":"Celebru pentru ceramica albastră și Vermeer.",
+   "tags":"pottery, canals, history, painting"
+},
+{
+   "country":"NL",
+   "city":"Groningen",
+   "lat":53.2194,
+   "lon":6.5665,
+   "cost_index":85,
+   "description":"Cel mai tânăr oraș din Olanda, plin de energie.",
+   "tags":"nightlife, students, cycling, modern-art"
+},
+{
+   "country":"NL",
+   "city":"Leiden",
+   "lat":52.1601,
+   "lon":4.497,
+   "cost_index":95,
+   "description":"Orașul universitar unde s-a născut Rembrandt.",
+   "tags":"history, canals, university, art"
+},
+{
+   "country":"NL",
+   "city":"Haarlem",
+   "lat":52.3874,
+   "lon":4.6462,
+   "cost_index":105,
+   "description":"Farmec medieval, flori și muzee clasice.",
+   "tags":"history, architecture, shopping, flowers"
+},
+{
+   "country":"BE",
+   "city":"Bruxelles",
+   "lat":50.8503,
+   "lon":4.3517,
+   "cost_index":110,
+   "description":"Capitala Europei, ciocolată, bere și benzi desenate.",
+   "tags":"politics, waffles, chocolate, beer, comics"
+},
+{
+   "country":"BE",
+   "city":"Bruges",
+   "lat":51.2093,
+   "lon":3.2247,
+   "cost_index":120,
+   "description":"Oraș medieval perfect conservat, Veneția Nordului.",
+   "tags":"romance, medieval-history, chocolate, canals"
+},
+{
+   "country":"BE",
+   "city":"Antwerpen",
+   "lat":51.2194,
+   "lon":4.4025,
+   "cost_index":100,
+   "description":"Capitala mondială a diamantelor și a modei belgiene.",
+   "tags":"diamonds, fashion, port, art"
+},
+{
+   "country":"BE",
+   "city":"Gent",
+   "lat":51.0543,
+   "lon":3.7174,
+   "cost_index":90,
+   "description":"Secretul cel mai bine păstrat al Belgiei, vibe studențesc.",
+   "tags":"history, canals, nightlife, vegetarian-food"
+},
+{
+   "country":"BE",
+   "city":"Liege",
+   "lat":50.6326,
+   "lon":5.5797,
+   "cost_index":80,
+   "description":"Oraș industrial transformat, celebrele vafle de Liege.",
+   "tags":"waffles, nightlife, history, river-walks"
+},
+{
+   "country":"BE",
+   "city":"Namur",
+   "lat":50.4674,
+   "lon":4.8719,
+   "cost_index":85,
+   "description":"Poarta spre Ardeni, cetate impunătoare.",
+   "tags":"citadel, nature, history, quiet-travel"
+},
+{
+   "country":"BE",
+   "city":"Leuven",
+   "lat":50.8798,
+   "lon":4.7005,
+   "cost_index":95,
+   "description":"Cea mai lungă masă de bar din lume, universitate veche.",
+   "tags":"beer, university, history, architecture"
+},
+{
+   "country":"BE",
+   "city":"Mechelen",
+   "lat":51.0259,
+   "lon":4.4776,
+   "cost_index":90,
+   "description":"Oraș de artă, celebru pentru școala de carillon.",
+   "tags":"history, carillon, cathedral, kids-friendly"
+},
+{
+   "country":"BE",
+   "city":"Ostend",
+   "lat":51.2154,
+   "lon":2.927,
+   "cost_index":100,
+   "description":"Regina stațiunilor de pe litoralul belgian.",
+   "tags":"beach, seafood, art, casino"
+},
+{
+   "country":"BE",
+   "city":"Dinant",
+   "lat":50.2581,
+   "lon":4.9116,
+   "cost_index":95,
+   "description":"Orașul saxofonului, stânci dramatice și râu.",
+   "tags":"saxophones, nature, citadel, photography"
+},
+{
+   "country":"AT",
+   "city":"Viena",
+   "lat":48.2082,
+   "lon":16.3738,
+   "cost_index":125,
+   "description":"Eleganță imperială, muzică clasică și palate.",
+   "tags":"classical-music, palaces, coffee-houses, art, history"
+},
+{
+   "country":"AT",
+   "city":"Salzburg",
+   "lat":47.8095,
+   "lon":13.055,
+   "cost_index":115,
+   "description":"Orașul lui Mozart, fortăreață și decor de film.",
+   "tags":"mozart, history, mountains, music-festivals"
+},
+{
+   "country":"AT",
+   "city":"Innsbruck",
+   "lat":47.2692,
+   "lon":11.4041,
+   "cost_index":110,
+   "description":"Capitala Alpilor, sporturi de iarnă și istorie.",
+   "tags":"skiing, hiking, mountains, winter-sports"
+},
+{
+   "country":"AT",
+   "city":"Graz",
+   "lat":47.0707,
+   "lon":15.4395,
+   "cost_index":90,
+   "description":"Orașul designului, mix de modern și medieval.",
+   "tags":"design, students, architecture, food"
+},
+{
+   "country":"AT",
+   "city":"Linz",
+   "lat":48.3069,
+   "lon":14.2858,
+   "cost_index":95,
+   "description":"Centru de artă digitală pe malul Dunării.",
+   "tags":"digital-art, tech, river-walks, modern"
+},
+{
+   "country":"AT",
+   "city":"Hallstatt",
+   "lat":47.5622,
+   "lon":13.6493,
+   "cost_index":150,
+   "description":"Cel mai fotografiat sat din lume, sare și lac.",
+   "tags":"lake, mountains, salt-mine, photography, unesco-site"
+},
+{
+   "country":"AT",
+   "city":"Klagenfurt",
+   "lat":46.6247,
+   "lon":14.3053,
+   "cost_index":90,
+   "description":"Bijuteria de pe lacul Wörthersee.",
+   "tags":"lake, park, cycling, summer"
+},
+{
+   "country":"AT",
+   "city":"Bregenz",
+   "lat":47.5031,
+   "lon":9.7471,
+   "cost_index":110,
+   "description":"Operă pe scenă plutitoare pe Lacul Constanța.",
+   "tags":"opera, lake, architecture, festival"
+},
+{
+   "country":"AT",
+   "city":"Eisenstadt",
+   "lat":47.845,
+   "lon":16.5233,
+   "cost_index":85,
+   "description":"Orașul lui Haydn, regiune viticolă superbă.",
+   "tags":"music, wine, history, quiet"
+},
+{
+   "country":"AT",
+   "city":"St. Polten",
+   "lat":48.2047,
+   "lon":15.6267,
+   "cost_index":80,
+   "description":"Cea mai veche primărie din Austria, baroc și modern.",
+   "tags":"baroque, history, architecture, small-town"
+}{
+   "country":"GB",
+   "city":"Londra",
+   "lat":51.5074,
+   "lon":-0.1278,
+   "cost_index":150,
+   "description":"Metropolă globală, istorie regală și muzee de talie mondială.",
+   "tags":"museums, shopping, theatre, history, nightlife, multicultural"
+},
+{
+   "country":"GB",
+   "city":"Manchester",
+   "lat":53.4808,
+   "lon":-2.2426,
+   "cost_index":110,
+   "description":"Inima muzicii britanice și a fotbalului.",
+   "tags":"football, music, industrial-history, nightlife, street-food"
+},
+{
+   "country":"GB",
+   "city":"Edinburgh",
+   "lat":55.9533,
+   "lon":-3.1883,
+   "cost_index":125,
+   "description":"Capitala Scoției, castele medievale și festivaluri celebre.",
+   "tags":"history, castles, festivals, hiking, whisky"
+},
+{
+   "country":"GB",
+   "city":"Glasgow",
+   "lat":55.8642,
+   "lon":-4.2518,
+   "cost_index":100,
+   "description":"Centru cultural vibrant, arhitectură art-nouveau și muzee.",
+   "tags":"art, architecture, nightlife, shopping, music"
+},
+{
+   "country":"GB",
+   "city":"Liverpool",
+   "lat":53.4084,
+   "lon":-2.9916,
+   "cost_index":95,
+   "description":"Orașul Beatles și al istoriei maritime.",
+   "tags":"music, history, football, port, museums"
+},
+{
+   "country":"GB",
+   "city":"Oxford",
+   "lat":51.752,
+   "lon":-1.2577,
+   "cost_index":130,
+   "description":"Orașul universitar legendar, arhitectură gotică.",
+   "tags":"university, history, architecture, libraries"
+},
+{
+   "country":"GB",
+   "city":"Cambridge",
+   "lat":52.2053,
+   "lon":0.1218,
+   "cost_index":130,
+   "description":"Educație de elită și plimbări cu barca pe râul Cam.",
+   "tags":"university, science, river-punting, architecture"
+},
+{
+   "country":"GB",
+   "city":"Bristol",
+   "lat":51.4545,
+   "lon":-2.5879,
+   "cost_index":115,
+   "description":"Oraș creativ, artă stradală (Banksy) și inginerie.",
+   "tags":"street-art, craft-beer, music, history, bridges"
+},
+{
+   "country":"GB",
+   "city":"Belfast",
+   "lat":54.5973,
+   "lon":-5.9301,
+   "cost_index":95,
+   "description":"Istoria Titanicului și porțiune din coasta Giant's Causeway.",
+   "tags":"history, titanic, pub-culture, coast"
+},
+{
+   "country":"GB",
+   "city":"Bath",
+   "lat":51.3758,
+   "lon":-2.3599,
+   "cost_index":135,
+   "description":"Oraș roman faimos pentru băile termale și arhitectura georgiană.",
+   "tags":"thermal-baths, roman-history, architecture, unesco-site"
+},
+{
+   "country":"IE",
+   "city":"Dublin",
+   "lat":53.3498,
+   "lon":-6.2603,
+   "cost_index":140,
+   "description":"Capitala berii Guinness, literatură și pub-uri tradiționale.",
+   "tags":"beer, history, literature, pub-culture, nightlife"
+},
+{
+   "country":"IE",
+   "city":"Cork",
+   "lat":51.8985,
+   "lon":-8.4756,
+   "cost_index":110,
+   "description":"Capitala gastronomică a Irlandei, spirit rebel.",
+   "tags":"gastronomy, history, waterfront, local-markets"
+},
+{
+   "country":"IE",
+   "city":"Galway",
+   "lat":53.2707,
+   "lon":-9.0568,
+   "cost_index":115,
+   "description":"Centru cultural de pe coasta atlantică, muzică live.",
+   "tags":"music, festivals, coast, traditional-culture"
+},
+{
+   "country":"IE",
+   "city":"Limerick",
+   "lat":52.6638,
+   "lon":-8.6267,
+   "cost_index":90,
+   "description":"Oraș istoric pe malul râului Shannon.",
+   "tags":"history, sports, architecture, river"
+},
+{
+   "country":"IE",
+   "city":"Kilkenny",
+   "lat":52.6541,
+   "lon":-7.2448,
+   "cost_index":100,
+   "description":"Oraș medieval, castele și tradiție în design.",
+   "tags":"medieval-history, castles, crafts, festivals"
+},
+{
+   "country":"IE",
+   "city":"Killarney",
+   "lat":52.0599,
+   "lon":-9.5044,
+   "cost_index":120,
+   "description":"Poarta către inelul Kerry, peisaje naturale uimitoare.",
+   "tags":"nature, hiking, lakes, national-parks"
+},
+{
+   "country":"IE",
+   "city":"Waterford",
+   "lat":52.2593,
+   "lon":-7.1101,
+   "cost_index":85,
+   "description":"Cel mai vechi oraș din Irlanda, faimos pentru cristal.",
+   "tags":"history, crystal, viking-heritage, port"
+},
+{
+   "country":"IE",
+   "city":"Sligo",
+   "lat":54.2711,
+   "lon":-8.4711,
+   "cost_index":80,
+   "description":"Peisaje dramatice și surfing pe coasta vestică.",
+   "tags":"surfing, nature, literature, mountains"
+},
+{
+   "country":"IE",
+   "city":"Dingle",
+   "lat":52.1409,
+   "lon":-10.2707,
+   "cost_index":110,
+   "description":"Port pescăresc pitoresc, spirit irlandez pur.",
+   "tags":"coast, pubs, dolphins, scenery"
+},
+{
+   "country":"IE",
+   "city":"Westport",
+   "lat":53.8009,
+   "lon":-9.521,
+   "cost_index":95,
+   "description":"Oraș șarmant la poalele muntelui Croagh Patrick.",
+   "tags":"hiking, traditional-music, adventure, coast"
+},
+{
+   "country":"SE",
+   "city":"Stockholm",
+   "lat":59.3293,
+   "lon":18.0686,
+   "cost_index":140,
+   "description":"Veneția Nordului, design scandinav și istorie maritimă.",
+   "tags":"design, archipelago, history, museums, cleanliness"
+},
+{
+   "country":"SE",
+   "city":"Goteborg",
+   "lat":57.7089,
+   "lon":11.9746,
+   "cost_index":120,
+   "description":"Oraș portuar relaxat, parcuri de distracție și seafood.",
+   "tags":"seafood, theme-parks, canals, gardens"
+},
+{
+   "country":"SE",
+   "city":"Malmo",
+   "lat":55.605,
+   "lon":13.0038,
+   "cost_index":110,
+   "description":"Oraș modern legat de Copenhaga, design sustenabil.",
+   "tags":"modern-architecture, multicultural, cycling, parks"
+},
+{
+   "country":"SE",
+   "city":"Uppsala",
+   "lat":59.8588,
+   "lon":17.6389,
+   "cost_index":105,
+   "description":"Inima academică a Suediei, catedrale și vikingi.",
+   "tags":"university, history, cathedrals, viking-sites"
+},
+{
+   "country":"SE",
+   "city":"Kiruna",
+   "lat":67.8558,
+   "lon":20.2253,
+   "cost_index":130,
+   "description":"Dincolo de cercul polar, Aurora Boreală și mine.",
+   "tags":"northern-lights, snow-sports, ice-hotel, nature"
+},
+{
+   "country":"SE",
+   "city":"Visby",
+   "lat":57.6348,
+   "lon":18.291,
+   "cost_index":120,
+   "description":"Oraș medieval fortificat pe insula Gotland.",
+   "tags":"medieval-history, unesco-site, beach, photography"
+},
+{
+   "country":"SE",
+   "city":"Orebro",
+   "lat":59.2741,
+   "lon":15.2066,
+   "cost_index":95,
+   "description":"Castel medieval impunător și viață urbană liniștită.",
+   "tags":"castles, history, parks, quiet-travel"
+},
+{
+   "country":"SE",
+   "city":"Linkoping",
+   "lat":58.4108,
+   "lon":15.6214,
+   "cost_index":100,
+   "description":"Orașul aviației și al tehnologiei.",
+   "tags":"tech, aviation, history, students"
+},
+{
+   "country":"SE",
+   "city":"Helsingborg",
+   "lat":56.0465,
+   "lon":12.6945,
+   "cost_index":105,
+   "description":"Poarta spre Danemarca, castele la mare.",
+   "tags":"coast, history, gardens, ferry-rides"
+},
+{
+   "country":"SE",
+   "city":"Lund",
+   "lat":55.7047,
+   "lon":13.191,
+   "cost_index":110,
+   "description":"Atmosferă medievală și universitate de top.",
+   "tags":"university, history, architecture, cozy"
+},
+{
+   "country":"NO",
+   "city":"Oslo",
+   "lat":59.9139,
+   "lon":10.7522,
+   "cost_index":160,
+   "description":"Fiorduri urbane, muzee vikinge și artă modernă.",
+   "tags":"museums, art, fjord, nature, modern-architecture"
+},
+{
+   "country":"NO",
+   "city":"Bergen",
+   "lat":60.3913,
+   "lon":5.3221,
+   "cost_index":145,
+   "description":"Poarta fiordurilor, case de lemn colorate (Bryggen).",
+   "tags":"fjord, mountains, history, hiking, rain"
+},
+{
+   "country":"NO",
+   "city":"Trondheim",
+   "lat":63.4305,
+   "lon":10.3951,
+   "cost_index":130,
+   "description":"Capitala tehnologică și istorică, catedrale regale.",
+   "tags":"history, university, architecture, tech"
+},
+{
+   "country":"NO",
+   "city":"Stavanger",
+   "lat":58.969,
+   "lon":5.7331,
+   "cost_index":150,
+   "description":"Capitala petrolului, bază pentru Preikestolen.",
+   "tags":"hiking, nature, oil-history, old-town"
+},
+{
+   "country":"NO",
+   "city":"Tromso",
+   "lat":69.6492,
+   "lon":18.9553,
+   "cost_index":140,
+   "description":"Parisul Nordului, Aurora Boreală și balene.",
+   "tags":"northern-lights, whales, snow-sports, nature"
+},
+{
+   "country":"NO",
+   "city":"Alesund",
+   "lat":62.4722,
+   "lon":6.1495,
+   "cost_index":135,
+   "description":"Arhitectură Art Nouveau pe insule de vis.",
+   "tags":"art-nouveau, fjord, photography, seafood"
+},
+{
+   "country":"NO",
+   "city":"Kristiansand",
+   "lat":58.1467,
+   "lon":7.9956,
+   "cost_index":115,
+   "description":"Orașul verii norvegiene, plaje și grădini zoologice.",
+   "tags":"beach, family-travel, zoo, sunshine"
+},
+{
+   "country":"NO",
+   "city":"Fredrikstad",
+   "lat":59.2205,
+   "lon":10.9347,
+   "cost_index":110,
+   "description":"Oraș fortificat cel mai bine conservat din regiune.",
+   "tags":"history, fort, river, old-town"
+},
+{
+   "country":"NO",
+   "city":"Lofoten (Svolvaer)",
+   "lat":68.2348,
+   "lon":14.5645,
+   "cost_index":160,
+   "description":"Peisaje arctice ireale, pescuit și munți abrupți.",
+   "tags":"nature, photography, fishing, hiking, mountains"
+},
+{
+   "country":"NO",
+   "city":"Flam",
+   "lat":60.8608,
+   "lon":7.1118,
+   "cost_index":170,
+   "description":"Călătoria epică cu trenul prin munți și fiorduri.",
+   "tags":"scenic-train, fjord, nature, adventure"
+},
+{
+   "country":"DK",
+   "city":"Copenhaga",
+   "lat":55.6761,
+   "lon":12.5683,
+   "cost_index":155,
+   "description":"Orașul fericirii, biciclete, gastronomie și design.",
+   "tags":"cycling, design, gastronomy, canals, hygge, nightlife"
+},
+{
+   "country":"DK",
+   "city":"Aarhus",
+   "lat":56.1567,
+   "lon":10.2108,
+   "cost_index":125,
+   "description":"Centru cultural, muzee de artă modernă și istorie vikingă.",
+   "tags":"art, history, student-life, architecture"
+},
+{
+   "country":"DK",
+   "city":"Odense",
+   "lat":55.4038,
+   "lon":10.4024,
+   "cost_index":115,
+   "description":"Locul de naștere al lui H.C. Andersen, basm și cultură.",
+   "tags":"literature, history, family-travel, parks"
+},
+{
+   "country":"DK",
+   "city":"Aalborg",
+   "lat":57.0488,
+   "lon":9.9217,
+   "cost_index":105,
+   "description":"Vibe industrial revitalizat, artă stradală și viață de noapte.",
+   "tags":"nightlife, architecture, history, river-views"
+},
+{
+   "country":"DK",
+   "city":"Billund",
+   "lat":55.7333,
+   "lon":9.1167,
+   "cost_index":140,
+   "description":"Capitala jucăriilor LEGO, parc tematic faimos.",
+   "tags":"theme-parks, family-travel, design, kids"
+},
+{
+   "country":"DK",
+   "city":"Roskilde",
+   "lat":55.6419,
+   "lon":12.0878,
+   "cost_index":110,
+   "description":"Vikingi, catedrale și unul dintre cele mai mari festivaluri de muzică.",
+   "tags":"history, music-festivals, viking-ships, unesco-site"
+},
+{
+   "country":"DK",
+   "city":"Helsingor",
+   "lat":56.0361,
+   "lon":12.6136,
+   "cost_index":120,
+   "description":"Castelul lui Hamlet, istorie maritimă strategică.",
+   "tags":"castles, history, literature, port"
+},
+{
+   "country":"DK",
+   "city":"Esbjerg",
+   "lat":55.4765,
+   "lon":8.4594,
+   "cost_index":100,
+   "description":"Poarta către Marea Nordului, sculpturi monumentale.",
+   "tags":"art, port, seafood, wind-energy"
+},
+{
+   "country":"DK",
+   "city":"Kolding",
+   "lat":55.4914,
+   "lon":9.4721,
+   "cost_index":95,
+   "description":"Castele regale și design contemporan.",
+   "tags":"design, history, museums, lake"
+},
+{
+   "country":"DK",
+   "city":"Skagen",
+   "lat":57.7209,
+   "lon":10.583,
+   "cost_index":130,
+   "description":"Unde se întâlnesc două mări, lumină specială pentru pictori.",
+   "tags":"nature, beach, art, lighthouse"
+}{
+   "country":"PL",
+   "city":"Varșovia",
+   "lat":52.2297,
+   "lon":21.0122,
+   "cost_index":80,
+   "description":"Orașul Phoenix, reconstruit superb după război, mix de vechi și modern.",
+   "tags":"history, wwii-history, nightlife, architecture, museums"
+},
+{
+   "country":"PL",
+   "city":"Cracovia",
+   "lat":50.0647,
+   "lon":19.945,
+   "cost_index":75,
+   "description":"Fosta capitală regală, atmosferă medievală și poarta spre Auschwitz.",
+   "tags":"history, castles, students, nightlife, unesco-site"
+},
+{
+   "country":"PL",
+   "city":"Gdansk",
+   "lat":54.352,
+   "lon":18.6466,
+   "cost_index":75,
+   "description":"Oraș portuar la Marea Baltică, arhitectură flamandă și chihlimbar.",
+   "tags":"maritime-history, architecture, beach, seafood"
+},
+{
+   "country":"PL",
+   "city":"Wroclaw",
+   "lat":51.1079,
+   "lon":17.0385,
+   "cost_index":70,
+   "description":"Orașul celor o sută de poduri și al piticilor de bronz.",
+   "tags":"architecture, students, canals, local-festivals"
+},
+{
+   "country":"PL",
+   "city":"Poznan",
+   "lat":52.4064,
+   "lon":16.9252,
+   "cost_index":70,
+   "description":"Centru comercial și universitar, piață centrală colorată.",
+   "tags":"history, business, gastronomy, architecture"
+},
+{
+   "country":"PL",
+   "city":"Zakopane",
+   "lat":49.2992,
+   "lon":19.9495,
+   "cost_index":85,
+   "description":"Capitala de iarnă a Poloniei, poarta spre Munții Tatra.",
+   "tags":"skiing, hiking, mountains, wooden-architecture"
+},
+{
+   "country":"PL",
+   "city":"Lodz",
+   "lat":51.7592,
+   "lon":19.456,
+   "cost_index":65,
+   "description":"Fost centru industrial, acum hub creativ și cinematografic.",
+   "tags":"street-art, cinema, industrial-history, shopping"
+},
+{
+   "country":"PL",
+   "city":"Torun",
+   "lat":53.0138,
+   "lon":18.5984,
+   "cost_index":65,
+   "description":"Orașul lui Copernic, arhitectură gotică din cărămidă și turtă dulce.",
+   "tags":"history, astronomy, architecture, unesco-site"
+},
+{
+   "country":"PL",
+   "city":"Lublin",
+   "lat":51.2465,
+   "lon":22.5684,
+   "cost_index":60,
+   "description":"Poarta către Est, istorie evreiască bogată și festivaluri stradale.",
+   "tags":"history, culture, students, festivals"
+},
+{
+   "country":"PL",
+   "city":"Stettin",
+   "lat":53.4285,
+   "lon":14.5528,
+   "cost_index":65,
+   "description":"Oraș portuar verde, influențe germane și lagune.",
+   "tags":"nature, sailing, architecture, history"
+},
+{
+   "country":"CZ",
+   "city":"Praga",
+   "lat":50.0755,
+   "lon":14.4378,
+   "cost_index":95,
+   "description":"Orașul celor o sută de turnuri, bere legendară și magie gotică.",
+   "tags":"history, beer-culture, architecture, nightlife, romance"
+},
+{
+   "country":"CZ",
+   "city":"Brno",
+   "lat":49.1951,
+   "lon":16.6068,
+   "cost_index":75,
+   "description":"Centru tech și studențesc, vibe alternativ și labirinturi subterane.",
+   "tags":"tech, students, coffee-culture, architecture"
+},
+{
+   "country":"CZ",
+   "city":"Cesky Krumlov",
+   "lat":48.8127,
+   "lon":14.3175,
+   "cost_index":110,
+   "description":"Oraș medieval de basm pe malul Vltavei.",
+   "tags":"medieval-history, castles, photography, romance"
+},
+{
+   "country":"CZ",
+   "city":"Karlovy Vary",
+   "lat":50.2319,
+   "lon":12.872,
+   "cost_index":105,
+   "description":"Stațiune balneară celebră, arhitectură imperială și festival de film.",
+   "tags":"thermal-baths, luxury, cinema, architecture"
+},
+{
+   "country":"CZ",
+   "city":"Plzen",
+   "lat":49.7384,
+   "lon":13.3736,
+   "cost_index":75,
+   "description":"Locul unde s-a născut berea Pilsner.",
+   "tags":"beer-culture, history, industry, gastronomy"
+},
+{
+   "country":"CZ",
+   "city":"Olomouc",
+   "lat":49.5938,
+   "lon":17.2509,
+   "cost_index":65,
+   "description":"Comoara ascunsă a Moraviei, fântâni baroce și brânză locală.",
+   "tags":"history, architecture, religious-sites, students"
+},
+{
+   "country":"CZ",
+   "city":"Ostrava",
+   "lat":49.8209,
+   "lon":18.2625,
+   "cost_index":65,
+   "description":"Patrimoniu industrial spectaculos transformat în centre culturale.",
+   "tags":"industrial-history, music-festivals, tech, hiking"
+},
+{
+   "country":"CZ",
+   "city":"Liberec",
+   "lat":50.7671,
+   "lon":15.0562,
+   "cost_index":70,
+   "description":"Oraș la poalele munților, turn futurist și sporturi de iarnă.",
+   "tags":"skiing, nature, architecture, hiking"
+},
+{
+   "country":"CZ",
+   "city":"Kutna Hora",
+   "lat":49.9484,
+   "lon":15.2681,
+   "cost_index":75,
+   "description":"Orașul argintului, celebra capelă decorată cu oase.",
+   "tags":"history, gothic-architecture, unesco-site, silver-mining"
+},
+{
+   "country":"CZ",
+   "city":"Telc",
+   "lat":49.1842,
+   "lon":15.4528,
+   "cost_index":70,
+   "description":"Piață centrală renascentistă impecabilă, înconjurată de iazuri.",
+   "tags":"architecture, photography, quiet-travel, history"
+},
+{
+   "country":"HU",
+   "city":"Budapesta",
+   "lat":47.4979,
+   "lon":19.0402,
+   "cost_index":85,
+   "description":"Perla Dunării, băi termale faimoase și ruin pubs.",
+   "tags":"thermal-baths, nightlife, architecture, river-cruises, history"
+},
+{
+   "country":"HU",
+   "city":"Debrecen",
+   "lat":47.5316,
+   "lon":21.6273,
+   "cost_index":65,
+   "description":"Centru religios și universitar, poarta spre stepa Hortobagy.",
+   "tags":"history, nature, students, spa"
+},
+{
+   "country":"HU",
+   "city":"Szeged",
+   "lat":46.253,
+   "lon":20.1414,
+   "cost_index":65,
+   "description":"Orașul soarelui, arhitectură art-nouveau și salam local.",
+   "tags":"sunshine, architecture, gastronomy, festivals"
+},
+{
+   "country":"HU",
+   "city":"Pecs",
+   "lat":46.0727,
+   "lon":18.2323,
+   "cost_index":65,
+   "description":"Moștenire otomană și creștină timpurie, ceramică Zsolnay.",
+   "tags":"history, culture, ceramics, architecture"
+},
+{
+   "country":"HU",
+   "city":"Gyor",
+   "lat":47.6875,
+   "lon":17.6504,
+   "cost_index":70,
+   "description":"Oraș baroc situat la confluența a trei râuri.",
+   "tags":"architecture, history, river-walks, industry"
+},
+{
+   "country":"HU",
+   "city":"Szentendre",
+   "lat":47.6667,
+   "lon":19.0667,
+   "cost_index":80,
+   "description":"Sat de artiști pitoresc, pe malul Dunării.",
+   "tags":"art, galleries, photography, romance"
+},
+{
+   "country":"HU",
+   "city":"Eger",
+   "lat":47.9025,
+   "lon":20.3772,
+   "cost_index":65,
+   "description":"Vin roșu 'Sânge de Taur', castel istoric și băi turcești.",
+   "tags":"wine-tasting, history, spa, architecture"
+},
+{
+   "country":"HU",
+   "city":"Siofok",
+   "lat":46.9059,
+   "lon":18.0481,
+   "cost_index":90,
+   "description":"Capitala distracției de pe Lacul Balaton.",
+   "tags":"beach, nightlife, lake, summer"
+},
+{
+   "country":"HU",
+   "city":"Visegrad",
+   "lat":47.7833,
+   "lon":18.9667,
+   "cost_index":75,
+   "description":"Cetate istorică pe un deal cu vedere panoramică asupra Dunării.",
+   "tags":"history, castles, hiking, nature"
+},
+{
+   "country":"HU",
+   "city":"Kecskemet",
+   "lat":46.9081,
+   "lon":19.6913,
+   "cost_index":60,
+   "description":"Orașul muzicii și al palincii de caise, arhitectură spectaculoasă.",
+   "tags":"architecture, music, spirits, culture"
+},
+{
+   "country":"SK",
+   "city":"Bratislava",
+   "lat":48.1486,
+   "lon":17.1077,
+   "cost_index":85,
+   "description":"Capitală compactă pe Dunăre, castel alb și statui amuzante.",
+   "tags":"history, nightlife, river-walks, architecture"
+},
+{
+   "country":"SK",
+   "city":"Kosice",
+   "lat":48.7164,
+   "lon":21.2611,
+   "cost_index":65,
+   "description":"Centru istoric superb, catedrală gotică imensă.",
+   "tags":"history, culture, students, architecture"
+},
+{
+   "country":"SK",
+   "city":"Poprad",
+   "lat":49.055,
+   "lon":20.2989,
+   "cost_index":75,
+   "description":"Poarta către munții Tatra Înaltă și parcuri acvatice termale.",
+   "tags":"mountains, skiing, spa, nature"
+},
+{
+   "country":"SK",
+   "city":"Banska Stiavnica",
+   "lat":48.4585,
+   "lon":18.8931,
+   "cost_index":70,
+   "description":"Oraș minier medieval romantic situat în craterul unui vulcan.",
+   "tags":"unesco-site, history, photography, nature"
+},
+{
+   "country":"SK",
+   "city":"Zilina",
+   "lat":49.2232,
+   "lon":18.7401,
+   "cost_index":65,
+   "description":"Centru economic și poartă către munții Mala Fatra.",
+   "tags":"hiking, business, nature, history"
+},
+{
+   "country":"SK",
+   "city":"Trencin",
+   "lat":48.8945,
+   "lon":18.0444,
+   "cost_index":65,
+   "description":"Castel impunător pe stâncă și festivaluri de vară.",
+   "tags":"castles, history, music-festivals, river"
+},
+{
+   "country":"SK",
+   "city":"Nitra",
+   "lat":48.3061,
+   "lon":18.0764,
+   "cost_index":60,
+   "description":"Cel mai vechi oraș din Slovacia, centru agricol și religios.",
+   "tags":"history, religious-sites, agriculture, nature"
+},
+{
+   "country":"SK",
+   "city":"Trnava",
+   "lat":48.3775,
+   "lon":17.5872,
+   "cost_index":65,
+   "description":"Mica Romă a Slovaciei, plină de biserici și fortificații.",
+   "tags":"history, architecture, religious-sites"
+},
+{
+   "country":"SK",
+   "city":"Piestany",
+   "lat":48.591,
+   "lon":17.828,
+   "cost_index":90,
+   "description":"Cea mai faimoasă stațiune balneară cu nămol din Slovacia.",
+   "tags":"spa, health, luxury, parks"
+},
+{
+   "country":"SK",
+   "city":"Bardejov",
+   "lat":49.2935,
+   "lon":21.2728,
+   "cost_index":60,
+   "description":"Oraș medieval fortificat incredibil de bine păstrat.",
+   "tags":"unesco-site, history, architecture, quiet"
+},
+{
+   "country":"BG",
+   "city":"Sofia",
+   "lat":42.6977,
+   "lon":23.3219,
+   "cost_index":65,
+   "description":"Capitală la poalele muntelui, amestec de ruine romane și brutalism.",
+   "tags":"history, mountains, nightlife, religious-sites, cheap-travel"
+},
+{
+   "country":"BG",
+   "city":"Plovdiv",
+   "lat":42.1354,
+   "lon":24.7453,
+   "cost_index":60,
+   "description":"Unul dintre cele mai vechi orașe din lume, amfiteatru roman.",
+   "tags":"ancient-ruins, art, old-town, culture"
+},
+{
+   "country":"BG",
+   "city":"Varna",
+   "lat":43.2141,
+   "lon":27.9147,
+   "cost_index":70,
+   "description":"Capitala de vară la Marea Neagră, istorie maritimă.",
+   "tags":"beach, nightlife, seafood, museums"
+},
+{
+   "country":"BG",
+   "city":"Veliko Tarnovo",
+   "lat":43.0757,
+   "lon":25.6172,
+   "cost_index":55,
+   "description":"Orașul țarilor, cetate medievală pe dealuri abrupte.",
+   "tags":"history, castles, photography, nature"
+},
+{
+   "country":"BG",
+   "city":"Burgas",
+   "lat":42.5048,
+   "lon":27.4626,
+   "cost_index":65,
+   "description":"Oraș portuar relaxat, lacuri și festivaluri de vară.",
+   "tags":"beach, nature, festivals, port"
+},
+{
+   "country":"BG",
+   "city":"Bansko",
+   "lat":41.8391,
+   "lon":23.4885,
+   "cost_index":75,
+   "description":"Cea mai populară stațiune de schi din Balcani.",
+   "tags":"skiing, hiking, mountains, winter-sports"
+},
+{
+   "country":"BG",
+   "city":"Nessebar",
+   "lat":42.6592,
+   "lon":27.736,
+   "cost_index":90,
+   "description":"Oraș muzeu pe o peninsulă, biserici bizantine și plajă.",
+   "tags":"unesco-site, history, beach, seafood"
+},
+{
+   "country":"BG",
+   "city":"Ruse",
+   "lat":43.8356,
+   "lon":25.9657,
+   "cost_index":60,
+   "description":"Mica Vienă, arhitectură aristocrată pe malul Dunării.",
+   "tags":"architecture, river-walks, history"
+},
+{
+   "country":"BG",
+   "city":"Sozopol",
+   "lat":42.4173,
+   "lon":27.695,
+   "cost_index":85,
+   "description":"Farmec antic și artistic la mare.",
+   "tags":"beach, history, art, seafood"
+},
+{
+   "country":"BG",
+   "city":"Kazanlak",
+   "lat":42.6194,
+   "lon":25.393,
+   "cost_index":55,
+   "description":"Inima văii trandafirilor și morminte trace.",
+   "tags":"nature, history, festivals, unesco-site"
+}{
+   "country":"HR",
+   "city":"Zagreb",
+   "lat":45.815,
+   "lon":15.9819,
+   "cost_index":90,
+   "description":"Capitală cu vibe austro-ungar, muzee neobișnuite și cafe-culture.",
+   "tags":"museums, street-food, architecture, local-festivals"
+},
+{
+   "country":"HR",
+   "city":"Dubrovnik",
+   "lat":42.6507,
+   "lon":18.0944,
+   "cost_index":170,
+   "description":"Perla Adriaticii, ziduri medievale celebre și locație Game of Thrones.",
+   "tags":"history, luxury, beach, filming-locations, unesco-site"
+},
+{
+   "country":"HR",
+   "city":"Split",
+   "lat":43.5081,
+   "lon":16.4402,
+   "cost_index":120,
+   "description":"Oraș construit în interiorul palatului împăratului Dioclețian.",
+   "tags":"ancient-ruins, ferry-rides, nightlife, beach, gastronomy"
+},
+{
+   "country":"HR",
+   "city":"Zadar",
+   "lat":44.1194,
+   "lon":15.2314,
+   "cost_index":95,
+   "description":"Orga mării, apusuri superbe și istorie romană.",
+   "tags":"sunshine, history, beach, music-installations"
+},
+{
+   "country":"HR",
+   "city":"Rovinj",
+   "lat":45.0811,
+   "lon":13.6387,
+   "cost_index":130,
+   "description":"Oraș pescăresc romantic cu influențe italiene în Istria.",
+   "tags":"romance, photography, seafood, art-galleries"
+},
+{
+   "country":"HR",
+   "city":"Pula",
+   "lat":44.8666,
+   "lon":13.8496,
+   "cost_index":90,
+   "description":"Amfiteatru roman impecabil și plaje stâncoase.",
+   "tags":"ancient-ruins, beach, festivals, history"
+},
+{
+   "country":"HR",
+   "city":"Hvar",
+   "lat":43.1729,
+   "lon":16.4411,
+   "cost_index":160,
+   "description":"Insulă exclusivistă, câmpuri de lavandă și iahturi.",
+   "tags":"nightlife, luxury, sailing, beach, nature"
+},
+{
+   "country":"HR",
+   "city":"Sibenik",
+   "lat":43.735,
+   "lon":15.895,
+   "cost_index":90,
+   "description":"Orașul fortărețelor, poarta către Parcul Național Krka.",
+   "tags":"history, nature, waterfalls, architecture"
+},
+{
+   "country":"HR",
+   "city":"Varazdin",
+   "lat":46.3057,
+   "lon":16.3366,
+   "cost_index":75,
+   "description":"Capitala barocă a Croației, orașul îngerilor și al florilor.",
+   "tags":"baroque, history, festivals, quiet-travel"
+},
+{
+   "country":"HR",
+   "city":"Osijek",
+   "lat":45.5511,
+   "lon":18.6939,
+   "cost_index":70,
+   "description":"Inima regiunii Slavonia, cetate barocă și malul râului Drava.",
+   "tags":"history, wine, river-walks, students"
+},
+{
+   "country":"SI",
+   "city":"Ljubljana",
+   "lat":46.0569,
+   "lon":14.5058,
+   "cost_index":100,
+   "description":"Capitală verde, poduri cu dragoni și vibe relaxat.",
+   "tags":"eco-friendly, river-walks, students, architecture, history"
+},
+{
+   "country":"SI",
+   "city":"Bled",
+   "lat":46.3683,
+   "lon":14.1141,
+   "cost_index":140,
+   "description":"Lac alpin cu insulă și castel, peisaj de carte poștală.",
+   "tags":"nature, lake, mountains, photography, hiking"
+},
+{
+   "country":"SI",
+   "city":"Piran",
+   "lat":45.5283,
+   "lon":13.5683,
+   "cost_index":120,
+   "description":"Bijuterie venețiană la Marea Adriatică.",
+   "tags":"romance, seafood, architecture, beach"
+},
+{
+   "country":"SI",
+   "city":"Maribor",
+   "lat":46.5547,
+   "lon":15.6459,
+   "cost_index":85,
+   "description":"Cea mai veche viță de vie din lume și regiune viticolă.",
+   "tags":"wine, nature, skiing, history"
+},
+{
+   "country":"SI",
+   "city":"Bovec",
+   "lat":46.3375,
+   "lon":13.5511,
+   "cost_index":110,
+   "description":"Adrenalină pe râul Soca, smaraldul Alpilor Julieni.",
+   "tags":"adventure, rafting, hiking, nature"
+},
+{
+   "country":"SI",
+   "city":"Postojna",
+   "lat":45.775,
+   "lon":14.2133,
+   "cost_index":115,
+   "description":"Peșteri gigantice și castelul construit în stâncă.",
+   "tags":"caving, castles, nature, history"
+},
+{
+   "country":"SI",
+   "city":"Koper",
+   "lat":45.5469,
+   "lon":13.7294,
+   "cost_index":95,
+   "description":"Port istoric cu farmec medieval și atmosferă maritimă.",
+   "tags":"history, port, architecture, beach"
+},
+{
+   "country":"SI",
+   "city":"Celje",
+   "lat":46.2361,
+   "lon":15.2675,
+   "cost_index":80,
+   "description":"Orașul conților, castel impunător și istorie romană.",
+   "tags":"history, castles, museums, nature"
+},
+{
+   "country":"SI",
+   "city":"Novo Mesto",
+   "lat":45.8039,
+   "lon":15.1706,
+   "cost_index":80,
+   "description":"Peisaje verzi, vin local Cvicek și arheologie.",
+   "tags":"nature, wine, history, river"
+},
+{
+   "country":"SI",
+   "city":"Kranjska Gora",
+   "lat":46.484,
+   "lon":13.784,
+   "cost_index":120,
+   "description":"Stațiune de schi de top și natură alpină pură.",
+   "tags":"skiing, winter-sports, mountains, hiking"
+},
+{
+   "country":"RS",
+   "city":"Belgrad",
+   "lat":44.7866,
+   "lon":20.4489,
+   "cost_index":70,
+   "description":"Orașul care nu doarme niciodată, la confluența Dunării cu Sava.",
+   "tags":"nightlife, history, street-food, river-clubs"
+},
+{
+   "country":"RS",
+   "city":"Novi Sad",
+   "lat":45.2609,
+   "lon":19.8317,
+   "cost_index":65,
+   "description":"Capitală culturală, festivalul EXIT și cetatea Petrovaradin.",
+   "tags":"music-festivals, history, river-walks, architecture"
+},
+{
+   "country":"RS",
+   "city":"Nis",
+   "lat":43.3209,
+   "lon":21.8958,
+   "cost_index":55,
+   "description":"Locul de naștere al împăratului Constantin cel Mare, gastronomie balcanică.",
+   "tags":"history, ancient-ruins, street-food, cheap-travel"
+},
+{
+   "country":"RS",
+   "city":"Subotica",
+   "lat":46.1,
+   "lon":19.6667,
+   "cost_index":60,
+   "description":"Arhitectură Art Nouveau spectaculoasă lângă granița cu Ungaria.",
+   "tags":"architecture, history, quiet-travel, gastronomy"
+},
+{
+   "country":"RS",
+   "city":"Kragujevac",
+   "lat":44.0128,
+   "lon":20.9114,
+   "cost_index":55,
+   "description":"Primul oraș modern al Serbiei, industrie și parcuri memoriale.",
+   "tags":"history, industry, students, parks"
+},
+{
+   "country":"RS",
+   "city":"Zlatibor",
+   "lat":43.7258,
+   "lon":19.6997,
+   "cost_index":80,
+   "description":"Munte, aer curat și cele mai bune produse tradiționale.",
+   "tags":"nature, skiing, health, gastronomy, hiking"
+},
+{
+   "country":"RS",
+   "city":"Vrnjacka Banja",
+   "lat":43.6267,
+   "lon":20.8956,
+   "cost_index":65,
+   "description":"Cea mai mare și celebră stațiune balneară din Serbia.",
+   "tags":"spa, health, parks, festivals"
+},
+{
+   "country":"RS",
+   "city":"Sombor",
+   "lat":45.7731,
+   "lon":19.115,
+   "cost_index":55,
+   "description":"Orașul verde, trăsuri și străzi pline de copaci bođo.",
+   "tags":"nature, quiet-travel, history, cycling"
+},
+{
+   "country":"RS",
+   "city":"Pancevo",
+   "lat":44.8708,
+   "lon":20.6403,
+   "cost_index":55,
+   "description":"Proximitate de Belgrad, cultură industrială și festivaluri de film.",
+   "tags":"industry, river, art, local-festivals"
+},
+{
+   "country":"RS",
+   "city":"Uzice",
+   "lat":43.8586,
+   "lon":19.8481,
+   "cost_index":60,
+   "description":"Oraș înconjurat de munți, poarta spre satul etno Mokra Gora.",
+   "tags":"history, mountains, architecture, hiking"
+},
+{
+   "country":"BA",
+   "city":"Sarajevo",
+   "lat":43.8563,
+   "lon":18.4131,
+   "cost_index":60,
+   "description":"Ierusalimul Europei, unde Estul întâlnește Vestul.",
+   "tags":"history, religious-sites, street-food, mountains, cheap-travel"
+},
+{
+   "country":"BA",
+   "city":"Mostar",
+   "lat":43.3438,
+   "lon":17.8078,
+   "cost_index":65,
+   "description":"Celebrul pod vechi otoman și ape de smarald.",
+   "tags":"history, photography, river-jumping, architecture"
+},
+{
+   "country":"BA",
+   "city":"Banja Luka",
+   "lat":44.7722,
+   "lon":17.1911,
+   "cost_index":55,
+   "description":"Orașul parcurilor, verdeață și viață de noapte surprinzătoare.",
+   "tags":"nightlife, nature, rafting, history"
+},
+{
+   "country":"BA",
+   "city":"Tuzla",
+   "lat":44.5375,
+   "lon":18.6733,
+   "cost_index":50,
+   "description":"Singurele lacuri sărate din Europa situate în centrul unui oraș.",
+   "tags":"thermal-baths, salt-lake, history, industrial"
+},
+{
+   "country":"BA",
+   "city":"Trebinje",
+   "lat":42.7119,
+   "lon":18.3436,
+   "cost_index":65,
+   "description":"Orașul platanilor și al vinului, atmosferă mediteraneană.",
+   "tags":"wine, sunshine, history, relaxation"
+},
+{
+   "country":"BA",
+   "city":"Jajce",
+   "lat":44.3411,
+   "lon":17.27,
+   "cost_index":55,
+   "description":"Cascadă spectaculoasă chiar în centrul orașului medieval.",
+   "tags":"waterfalls, history, nature, photography"
+},
+{
+   "country":"BA",
+   "city":"Visoko",
+   "lat":43.9889,
+   "lon":18.1781,
+   "cost_index":50,
+   "description":"Locul controversatelor piramide bosniace și istorie regală.",
+   "tags":"mystery, archaeology, history, nature"
+},
+{
+   "country":"BA",
+   "city":"Konjic",
+   "lat":43.6514,
+   "lon":17.9608,
+   "cost_index":60,
+   "description":"Buncărul anti-atomic al lui Tito și rafting pe Neretva.",
+   "tags":"history, adventure, rafting, nature"
+},
+{
+   "country":"BA",
+   "city":"Bihac",
+   "lat":44.8122,
+   "lon":15.868,
+   "cost_index":60,
+   "description":"Natură sălbatică pe malul râului Una.",
+   "tags":"nature, adventure, waterfalls, fishing"
+},
+{
+   "country":"BA",
+   "city":"Pocitelj",
+   "lat":43.1333,
+   "lon":17.7333,
+   "cost_index":55,
+   "description":"Oraș-muzeu otoman în trepte pe malul râului.",
+   "tags":"history, architecture, unesco-site, photography"
+},
+{
+   "country":"AL",
+   "city":"Tirana",
+   "lat":41.3275,
+   "lon":19.8189,
+   "cost_index":55,
+   "description":"Capitală colorată, buncăre transformate în artă și vibe balcanic.",
+   "tags":"history, nightlife, street-art, cheap-travel, cafe-culture"
+},
+{
+   "country":"AL",
+   "city":"Saranda",
+   "lat":39.875,
+   "lon":20.005,
+   "cost_index":80,
+   "description":"Poarta spre Riviera Albaneză, plaje cu apă cristalină.",
+   "tags":"beach, nightlife, ancient-ruins, sunshine"
+},
+{
+   "country":"AL",
+   "city":"Berat",
+   "lat":40.7086,
+   "lon":19.952,
+   "cost_index":50,
+   "description":"Orașul celor o mie de ferestre, arhitectură otomană.",
+   "tags":"unesco-site, history, architecture, photography"
+},
+{
+   "country":"AL",
+   "city":"Gjirokaster",
+   "lat":40.0758,
+   "lon":20.1389,
+   "cost_index":50,
+   "description":"Orașul de piatră, castel impunător și istorie dictatorială.",
+   "tags":"unesco-site, history, architecture, hiking"
+},
+{
+   "country":"AL",
+   "city":"Durres",
+   "lat":41.3247,
+   "lon":19.456,
+   "cost_index":60,
+   "description":"Cel mai vechi oraș, port principal și amfiteatru roman.",
+   "tags":"beach, history, ancient-ruins, seafood"
+},
+{
+   "country":"AL",
+   "city":"Shkoder",
+   "lat":42.0683,
+   "lon":19.5125,
+   "cost_index":50,
+   "description":"Centru cultural lângă cel mai mare lac din Balcani.",
+   "tags":"lake, history, cycling, mountains"
+},
+{
+   "country":"AL",
+   "city":"Vlore",
+   "lat":40.4661,
+   "lon":19.4914,
+   "cost_index":65,
+   "description":"Unde se întâlnesc Marea Adriatică și Marea Ionică.",
+   "tags":"beach, sunshine, history, seafood"
+},
+{
+   "country":"AL",
+   "city":"Kruje",
+   "lat":41.509,
+   "lon":19.791,
+   "cost_index":50,
+   "description":"Inima rezistenței albaneze, bazar tradițional și castel.",
+   "tags":"history, crafts, mountains, shopping"
+},
+{
+   "country":"AL",
+   "city":"Ksamil",
+   "lat":39.771,
+   "lon":20.003,
+   "cost_index":90,
+   "description":"Maldivele Europei, insule mici și apă turcoaz.",
+   "tags":"beach, nature, island-life, photography"
+},
+{
+   "country":"AL",
+   "city":"Korce",
+   "lat":40.615,
+   "lon":20.777,
+   "cost_index":50,
+   "description":"Micul Paris al Albaniei, cultură, cafea și bere locală.",
+   "tags":"culture, music, brewery, history"
+}{
+   "country":"CH",
+   "city":"Zurich",
+   "lat":47.3769,
+   "lon":8.5417,
+   "cost_index":200,
+   "description":"Centru financiar global, lac limpede și lux pe Bahnhofstrasse.",
+   "tags":"finance, luxury, lake, art, shopping"
+},
+{
+   "country":"CH",
+   "city":"Geneva",
+   "lat":46.2044,
+   "lon":6.1432,
+   "cost_index":190,
+   "description":"Orașul păcii, sediul ONU și faimosul Jet d'Eau pe lac.",
+   "tags":"diplomacy, lake, watches, chocolate, international-vibe"
+},
+{
+   "country":"CH",
+   "city":"Lucerna",
+   "lat":47.0502,
+   "lon":8.3093,
+   "cost_index":170,
+   "description":"Inima Elveției, poduri medievale de lemn și munți falnici.",
+   "tags":"lake, mountains, history, photography, romance"
+},
+{
+   "country":"CH",
+   "city":"Zermatt",
+   "lat":46.0207,
+   "lon":7.7491,
+   "cost_index":220,
+   "description":"Sat alpin fără mașini la poalele legendarului Matterhorn.",
+   "tags":"skiing, mountains, hiking, nature, luxury"
+},
+{
+   "country":"CH",
+   "city":"Bern",
+   "lat":46.948,
+   "lon":7.4474,
+   "cost_index":160,
+   "description":"Capitala medievală cu fântâni istorice și urși.",
+   "tags":"history, architecture, unesco-site, river-swimming"
+},
+{
+   "country":"CH",
+   "city":"Basel",
+   "lat":47.5596,
+   "lon":7.5886,
+   "cost_index":160,
+   "description":"Capitala culturii și a artei, la granița cu Franța și Germania.",
+   "tags":"art, museums, river-rhine, architecture"
+},
+{
+   "country":"CH",
+   "city":"Interlaken",
+   "lat":46.6863,
+   "lon":7.8632,
+   "cost_index":180,
+   "description":"Centrul mondial al sporturilor de aventură între două lacuri.",
+   "tags":"adventure, paragliding, lakes, hiking, scenery"
+},
+{
+   "country":"CH",
+   "city":"Lugano",
+   "lat":46.0037,
+   "lon":8.9511,
+   "cost_index":170,
+   "description":"Vibe italian în inima Elveției, palmieri și munți.",
+   "tags":"lake, sunshine, luxury, parks, cycling"
+},
+{
+   "country":"CH",
+   "city":"Lausanne",
+   "lat":46.5197,
+   "lon":6.6323,
+   "cost_index":165,
+   "description":"Capitala olimpică, oraș universitar pe pantele lacului Leman.",
+   "tags":"sports, university, lake, nightlife, museums"
+},
+{
+   "country":"CH",
+   "city":"St. Moritz",
+   "lat":46.4908,
+   "lon":9.8355,
+   "cost_index":250,
+   "description":"Cel mai exclusivist resort de iarnă din lume.",
+   "tags":"skiing, luxury, winter-sports, shopping, polo"
+},
+{
+   "country":"LU",
+   "city":"Luxembourg City",
+   "lat":49.6116,
+   "lon":6.1319,
+   "cost_index":160,
+   "description":"Capitală multiculturală situată pe văi adânci cu fortificații.",
+   "tags":"finance, castles, history, multicultural, unesco-site"
+},
+{
+   "country":"LU",
+   "city":"Echternach",
+   "lat":49.8133,
+   "lon":6.4217,
+   "cost_index":110,
+   "description":"Cel mai vechi oraș din Luxemburg, poarta spre 'Mica Elveție'.",
+   "tags":"history, hiking, nature, religious-sites"
+},
+{
+   "country":"LU",
+   "city":"Vianden",
+   "lat":49.935,
+   "lon":6.2089,
+   "cost_index":105,
+   "description":"Castel feudal spectaculos și peisaje de poveste.",
+   "tags":"castles, history, photography, chairlift"
+},
+{
+   "country":"LU",
+   "city":"Esch-sur-Alzette",
+   "lat":49.4972,
+   "lon":5.9814,
+   "cost_index":100,
+   "description":"Centru industrial transformat în pol cultural modern.",
+   "tags":"architecture, tech, culture, shopping"
+},
+{
+   "country":"LU",
+   "city":"Diekirch",
+   "lat":49.8678,
+   "lon":6.1558,
+   "cost_index":95,
+   "description":"Istorie militară și natură pe malul râului Sauer.",
+   "tags":"history, museums, brewery, nature"
+},
+{
+   "country":"LU",
+   "city":"Clervaux",
+   "lat":50.0544,
+   "lon":6.0297,
+   "cost_index":100,
+   "description":"Castel alb, expoziții de artă celebre și peisaje forestiere.",
+   "tags":"art, castles, history, quiet-travel"
+},
+{
+   "country":"LU",
+   "city":"Mondorf-les-Bains",
+   "lat":49.505,
+   "lon":6.2703,
+   "cost_index":130,
+   "description":"Stațiune balneară și singurul cazino din țară.",
+   "tags":"spa, casino, health, flowers"
+},
+{
+   "country":"LU",
+   "city":"Grevenmacher",
+   "lat":49.6794,
+   "lon":6.4414,
+   "cost_index":100,
+   "description":"Orașul vinului de pe malul râului Moselle.",
+   "tags":"wine, river-views, nature, butterfly-garden"
+},
+{
+   "country":"LU",
+   "city":"Larochette",
+   "lat":49.7844,
+   "lon":6.22,
+   "cost_index":90,
+   "description":"Ruine de castel impunătoare într-o vale stâncoasă.",
+   "tags":"castles, hiking, history, nature"
+},
+{
+   "country":"LU",
+   "city":"Remich",
+   "lat":49.5447,
+   "lon":6.3667,
+   "cost_index":105,
+   "description":"Perla regiunii Moselle, croaziere și gastronomie.",
+   "tags":"wine, river-cruises, gastronomy, relaxation"
+},
+{
+   "country":"FI",
+   "city":"Helsinki",
+   "lat":60.1699,
+   "lon":24.9384,
+   "cost_index":140,
+   "description":"Capitală modernă la mare, design nordic și saune.",
+   "tags":"design, architecture, sea, sauna, cleanliness"
+},
+{
+   "country":"FI",
+   "city":"Rovaniemi",
+   "lat":66.5039,
+   "lon":25.7282,
+   "cost_index":170,
+   "description":"Casa oficială a lui Moș Crăciun pe cercul polar.",
+   "tags":"santa-claus, northern-lights, snow-sports, family-travel"
+},
+{
+   "country":"FI",
+   "city":"Turku",
+   "lat":60.4518,
+   "lon":22.2666,
+   "cost_index":115,
+   "description":"Cel mai vechi oraș, castel medieval și arhipelag.",
+   "tags":"history, castles, archipelago, river-walks"
+},
+{
+   "country":"FI",
+   "city":"Tampere",
+   "lat":61.4978,
+   "lon":23.761,
+   "cost_index":110,
+   "description":"Capitala mondială a saunei, între două lacuri mari.",
+   "tags":"sauna, industry, lakes, museums"
+},
+{
+   "country":"FI",
+   "city":"Porvoo",
+   "lat":60.3931,
+   "lon":25.6639,
+   "cost_index":120,
+   "description":"Case de lemn roșii și străzi medievale pitorești.",
+   "tags":"history, photography, art, local-shops"
+},
+{
+   "country":"FI",
+   "city":"Oulu",
+   "lat":65.0121,
+   "lon":25.4651,
+   "cost_index":105,
+   "description":"Oraș tech nordic, faimos pentru campionatul de Air Guitar.",
+   "tags":"tech, students, nature, sea"
+},
+{
+   "country":"FI",
+   "city":"Savonlinna",
+   "lat":61.8699,
+   "lon":28.88,
+   "cost_index":115,
+   "description":"Castel pe apă și festival de operă celebru.",
+   "tags":"castles, opera, lake, nature"
+},
+{
+   "country":"FI",
+   "city":"Vaasa",
+   "lat":63.0951,
+   "lon":21.6165,
+   "cost_index":100,
+   "description":"Cel mai însorit oraș, influențe suedeze și arhipelag Unesco.",
+   "tags":"sea, unesco-site, nature, university"
+},
+{
+   "country":"FI",
+   "city":"Lappeenranta",
+   "lat":61.0587,
+   "lon":28.1887,
+   "cost_index":100,
+   "description":"Oraș de vară pe malul imensului lac Saimaima.",
+   "tags":"lake, history, forest, boat-trips"
+},
+{
+   "country":"FI",
+   "city":"Levi",
+   "lat":67.8048,
+   "lon":24.8082,
+   "cost_index":180,
+   "description":"Cea mai mare stațiune de schi din Laponia.",
+   "tags":"skiing, northern-lights, reindeer, snow-sports"
+},
+{
+   "country":"EE",
+   "city":"Tallinn",
+   "lat":59.437,
+   "lon":24.7535,
+   "cost_index":90,
+   "description":"Cel mai bine păstrat oraș medieval din nord, hub tech.",
+   "tags":"medieval-history, tech, nightlife, architecture, unesco-site"
+},
+{
+   "country":"EE",
+   "city":"Tartu",
+   "lat":58.378,
+   "lon":26.7285,
+   "cost_index":75,
+   "description":"Inima intelectuală, universitate veche și vibe boem.",
+   "tags":"university, students, museums, culture"
+},
+{
+   "country":"EE",
+   "city":"Parnu",
+   "lat":58.3917,
+   "lon":24.4953,
+   "cost_index":85,
+   "description":"Capitala de vară, plaje cu nisip alb și spa-uri.",
+   "tags":"beach, spa, summer, nightlife"
+},
+{
+   "country":"EE",
+   "city":"Narva",
+   "lat":59.3797,
+   "lon":28.1791,
+   "cost_index":65,
+   "description":"Castel istoric la granița rusă, mix cultural.",
+   "tags":"history, castles, river, photography"
+},
+{
+   "country":"EE",
+   "city":"Saaremaa (Kuressaare)",
+   "lat":58.248,
+   "lon":22.487,
+   "cost_index":80,
+   "description":"Insulă cu mori de vânt, castel medieval și spa.",
+   "tags":"island-life, nature, castles, spa"
+},
+{
+   "country":"EE",
+   "city":"Haapsalu",
+   "lat":58.9431,
+   "lon":23.5414,
+   "cost_index":75,
+   "description":"Stațiune aristocratică, băi de nămol și legende.",
+   "tags":"history, romance, spa, photography"
+},
+{
+   "country":"EE",
+   "city":"Viljandi",
+   "lat":58.3639,
+   "lon":25.59,
+   "cost_index":65,
+   "description":"Capitala muzicii folk, ruine de castel și lac.",
+   "tags":"music-festivals, history, lake, nature"
+},
+{
+   "country":"EE",
+   "city":"Rakvere",
+   "lat":59.3472,
+   "lon":26.3611,
+   "cost_index":70,
+   "description":"Castel interactiv și statuia gigantă de taur.",
+   "tags":"history, castles, fun-travel, nature"
+},
+{
+   "country":"EE",
+   "city":"Otepaa",
+   "lat":58.0583,
+   "lon":26.4958,
+   "cost_index":85,
+   "description":"Capitala de iarnă a Estoniei, dealuri și sporturi.",
+   "tags":"skiing, winter-sports, nature, hiking"
+},
+{
+   "country":"EE",
+   "city":"Paldiski",
+   "lat":59.3589,
+   "lon":24.0533,
+   "cost_index":60,
+   "description":"Fostă bază militară sovietică, stânci dramatice la mare.",
+   "tags":"history, nature, photography, coast"
+},
+{
+   "country":"LV",
+   "city":"Riga",
+   "lat":56.9496,
+   "lon":24.1052,
+   "cost_index":85,
+   "description":"Perla Balticii, cea mai mare colecție de Art Nouveau.",
+   "tags":"art-nouveau, history, nightlife, markets, unesco-site"
+},
+{
+   "country":"LV",
+   "city":"Jurmala",
+   "lat":56.9677,
+   "lon":23.7704,
+   "cost_index":120,
+   "description":"Litoral cu case de lemn și plaje de 30 km.",
+   "tags":"beach, architecture, spa, summer"
+},
+{
+   "country":"LV",
+   "city":"Sigulda",
+   "lat":57.1537,
+   "lon":24.8595,
+   "cost_index":75,
+   "description":"Elveția Letoniei, castele și peșteri în valea Gauja.",
+   "tags":"nature, castles, hiking, bobsleigh"
+},
+{
+   "country":"LV",
+   "city":"Liepaja",
+   "lat":56.5047,
+   "lon":21.0108,
+   "cost_index":70,
+   "description":"Orașul unde s-a născut vântul, plajă și muzică rock.",
+   "tags":"music, beach, history, architecture"
+},
+{
+   "country":"LV",
+   "city":"Kuldiga",
+   "lat":56.9678,
+   "lon":21.9705,
+   "cost_index":65,
+   "description":"Cea mai lată cascadă din Europa și farmec medieval.",
+   "tags":"waterfalls, photography, history, romance"
+},
+{
+   "country":"LV",
+   "city":"Cesis",
+   "lat":57.3119,
+   "lon":25.2717,
+   "cost_index":70,
+   "description":"Castel medieval impunător și străzi de piatră.",
+   "tags":"history, castles, art, nature"
+},
+{
+   "country":"LV",
+   "city":"Ventspils",
+   "lat":57.3894,
+   "lon":21.5606,
+   "cost_index":80,
+   "description":"Oraș portuar curat, decorat cu vaci colorate, plajă.",
+   "tags":"family-travel, flowers, sea, port"
+},
+{
+   "country":"LV",
+   "city":"Daugavpils",
+   "lat":55.8747,
+   "lon":26.5361,
+   "cost_index":60,
+   "description":"Al doilea oraș, fortăreață rusă și artă Mark Rothko.",
+   "tags":"history, art, fort, culture"
+},
+{
+   "country":"LV",
+   "city":"Bauska",
+   "lat":56.4079,
+   "lon":24.1844,
+   "cost_index":65,
+   "description":"Palatul Rundale (Versailles-ul Balticii) este chiar lângă.",
+   "tags":"palaces, history, gardens, castles"
+},
+{
+   "country":"LV",
+   "city":"Valmiera",
+   "lat":57.5385,
+   "lon":25.4214,
+   "cost_index":60,
+   "description":"Oraș verde, poarta spre nordul sălbatic.",
+   "tags":"nature, beer, hiking, river"
+}{
+   "country":"LT",
+   "city":"Vilnius",
+   "lat":54.6872,
+   "lon":25.2797,
+   "cost_index":80,
+   "description":"Capitală barocă cu un oraș vechi imens și republica boemă Uzupis.",
+   "tags":"baroque, history, nightlife, churches, unesco-site"
+},
+{
+   "country":"LT",
+   "city":"Kaunas",
+   "lat":54.8985,
+   "lon":23.9036,
+   "cost_index":70,
+   "description":"Capitală a designului interbelic și a artei stradale.",
+   "tags":"modernism, art, students, history, museums"
+},
+{
+   "country":"LT",
+   "city":"Klaipeda",
+   "lat":55.7068,
+   "lon":21.1443,
+   "cost_index":75,
+   "description":"Singurul port al Lituaniei, cu arhitectură de influență germană.",
+   "tags":"maritime, sea, architecture, festivals"
+},
+{
+   "country":"LT",
+   "city":"Trakai",
+   "lat":54.6379,
+   "lon":24.9332,
+   "cost_index":90,
+   "description":"Castel de cărămidă roșie pe o insulă, înconjurat de lacuri.",
+   "tags":"castles, history, nature, lake, photography"
+},
+{
+   "country":"LT",
+   "city":"Druskininkai",
+   "lat":54.0134,
+   "lon":23.9744,
+   "cost_index":85,
+   "description":"Stațiune balneară modernă cu parcuri acvatice și pârtie de schi indoor.",
+   "tags":"spa, health, snow-sports, nature"
+},
+{
+   "country":"LT",
+   "city":"Palanga",
+   "lat":55.9175,
+   "lon":21.0686,
+   "cost_index":95,
+   "description":"Cea mai populară stațiune de la Marea Baltică, plaje și chihlimbar.",
+   "tags":"beach, nightlife, amber, parks"
+},
+{
+   "country":"LT",
+   "city":"Siauliai",
+   "lat":55.9333,
+   "lon":23.3167,
+   "cost_index":65,
+   "description":"Faimos pentru Dealul Crucii, un loc unic de pelerinaj.",
+   "tags":"spirituality, history, photography, quiet-travel"
+},
+{
+   "country":"LT",
+   "city":"Nida",
+   "lat":55.3025,
+   "lon":21.0061,
+   "cost_index":130,
+   "description":"Dune de nisip gigantice pe limba de pământ Curonian.",
+   "tags":"nature, beach, unesco-site, cycling"
+},
+{
+   "country":"LT",
+   "city":"Birstonas",
+   "lat":54.6111,
+   "lon":24.0322,
+   "cost_index":80,
+   "description":"Stațiune terapeutică liniștită pe malul râului Nemunas.",
+   "tags":"spa, health, nature, relaxation"
+},
+{
+   "country":"LT",
+   "city":"Anyksciai",
+   "lat":55.525,
+   "lon":25.1039,
+   "cost_index":70,
+   "description":"Turism de aventură și potecă prin coronamentul copacilor.",
+   "tags":"nature, hiking, family-travel, forest"
+},
+{
+   "country":"IS",
+   "city":"Reykjavik",
+   "lat":64.1466,
+   "lon":-21.9426,
+   "cost_index":180,
+   "description":"Cea mai nordică capitală, case colorate și design nordic.",
+   "tags":"nightlife, design, whale-watching, northern-lights, hot-springs"
+},
+{
+   "country":"IS",
+   "city":"Akureyri",
+   "lat":65.6835,
+   "lon":-18.0874,
+   "cost_index":160,
+   "description":"Capitala nordului, așezată pe malul unui fiord spectaculos.",
+   "tags":"nature, fjord, skiing, waterfalls"
+},
+{
+   "country":"IS",
+   "city":"Vik",
+   "lat":63.4186,
+   "lon":-19.006,
+   "cost_index":170,
+   "description":"Plaje cu nisip negru, coloane de bazalt și peisaje dramatice.",
+   "tags":"photography, nature, beach, puffins"
+},
+{
+   "country":"IS",
+   "city":"Grindavik",
+   "lat":63.8435,
+   "lon":-22.4381,
+   "cost_index":190,
+   "description":"Lângă faimoasa Blue Lagoon și vulcani activi.",
+   "tags":"thermal-baths, volcano, seafood, geology"
+},
+{
+   "country":"IS",
+   "city":"Hofn",
+   "lat":64.2539,
+   "lon":-15.2082,
+   "cost_index":160,
+   "description":"Poarta către ghețarul Vatnajokull și laguna glaciară.",
+   "tags":"glaciers, nature, hiking, lobster"
+},
+{
+   "country":"IS",
+   "city":"Husavik",
+   "lat":66.045,
+   "lon":-17.338,
+   "cost_index":155,
+   "description":"Capitala europeană a observării balenelor.",
+   "tags":"whale-watching, sea, nature, hot-springs"
+},
+{
+   "country":"IS",
+   "city":"Selfoss",
+   "lat":63.9331,
+   "lon":-21.002,
+   "cost_index":140,
+   "description":"Centru agricol ideal pentru explorarea Cercului de Aur.",
+   "tags":"nature, base-camp, history, river"
+},
+{
+   "country":"IS",
+   "city":"Isafjordur",
+   "lat":66.0748,
+   "lon":-23.1239,
+   "cost_index":150,
+   "description":"Inima fiordurilor vestice, izolare și natură sălbatică.",
+   "tags":"fjord, hiking, kayaking, solitude"
+},
+{
+   "country":"IS",
+   "city":"Seydisfjordur",
+   "lat":65.2598,
+   "lon":-14.0101,
+   "cost_index":145,
+   "description":"Sat artistic cu case de lemn și drum curcubeu.",
+   "tags":"art, photography, fjord, mountains"
+},
+{
+   "country":"IS",
+   "city":"Egilsstadir",
+   "lat":65.2669,
+   "lon":-14.3948,
+   "cost_index":135,
+   "description":"Hub-ul estic, lacuri cu monștri legendari și păduri rare.",
+   "tags":"lake, hiking, nature, road-trip"
+},
+{
+   "country":"CY",
+   "city":"Nicosia",
+   "lat":35.1856,
+   "lon":33.3823,
+   "cost_index":95,
+   "description":"Ultima capitală divizată din lume, mix cultural grec și turc.",
+   "tags":"history, architecture, multicultural, shopping"
+},
+{
+   "country":"CY",
+   "city":"Limassol",
+   "lat":34.675,
+   "lon":33.0442,
+   "cost_index":120,
+   "description":"Centru de afaceri, viață de noapte și port de iahturi.",
+   "tags":"nightlife, beach, luxury, wine-festivals"
+},
+{
+   "country":"CY",
+   "city":"Paphos",
+   "lat":34.7724,
+   "lon":32.423,
+   "cost_index":100,
+   "description":"Mozaicuri romane, mitologie (locul nașterii Afroditei).",
+   "tags":"ancient-ruins, mythology, beach, history"
+},
+{
+   "country":"CY",
+   "city":"Larnaca",
+   "lat":34.9244,
+   "lon":33.6232,
+   "cost_index":90,
+   "description":"Promenadă cu palmieri, lac sărat cu flamingo și biserici vechi.",
+   "tags":"beach, diving, history, nature"
+},
+{
+   "country":"CY",
+   "city":"Ayia Napa",
+   "lat":34.9821,
+   "lon":34.0018,
+   "cost_index":130,
+   "description":"Paradisul plajelor albe și al cluburilor de vară.",
+   "tags":"beach-clubs, nightlife, water-sports, sunshine"
+},
+{
+   "country":"CY",
+   "city":"Kyrenia",
+   "lat":35.3372,
+   "lon":33.318,
+   "cost_index":85,
+   "description":"Port venețian pitoresc și castel istoric la Marea Mediterană.",
+   "tags":"harbor, history, castles, seafood"
+},
+{
+   "country":"CY",
+   "city":"Protaras",
+   "lat":35.0125,
+   "lon":34.0583,
+   "cost_index":110,
+   "description":"Stațiune de familie cu ape turcoaz și peșteri marine.",
+   "tags":"beach, snorkeling, family-travel, nature"
+},
+{
+   "country":"CY",
+   "city":"Famagusta",
+   "lat":35.1144,
+   "lon":33.9383,
+   "cost_index":80,
+   "description":"Orașul fantomă și ziduri medievale spectaculoase.",
+   "tags":"history, beach, photography, ancient-ruins"
+},
+{
+   "country":"CY",
+   "city":"Omodos",
+   "lat":34.847,
+   "lon":32.808,
+   "cost_index":75,
+   "description":"Sat tradițional în munții Troodos, faimos pentru vin.",
+   "tags":"wine, history, mountains, traditional-crafts"
+},
+{
+   "country":"CY",
+   "city":"Troodos",
+   "lat":34.923,
+   "lon":32.883,
+   "cost_index":80,
+   "description":"Munte, mănăstiri bizantine și aer curat.",
+   "tags":"hiking, mountains, religious-sites, nature"
+},
+{
+   "country":"MT",
+   "city":"Valletta",
+   "lat":35.8989,
+   "lon":14.5146,
+   "cost_index":130,
+   "description":"Fortăreață barocă vie, patrimoniu Unesco.",
+   "tags":"history, architecture, unesco-site, photography"
+},
+{
+   "country":"MT",
+   "city":"Sliema",
+   "lat":35.9122,
+   "lon":14.5042,
+   "cost_index":120,
+   "description":"Centru de shopping, baruri și vedere spre port.",
+   "tags":"shopping, nightlife, waterfront, cruise"
+},
+{
+   "country":"MT",
+   "city":"Mdina",
+   "lat":35.8858,
+   "lon":14.4031,
+   "cost_index":115,
+   "description":"Orașul Tăcerii, labirint medieval de piatră galbenă.",
+   "tags":"medieval-history, romance, photography, history"
+},
+{
+   "country":"MT",
+   "city":"St. Julian's",
+   "lat":35.919,
+   "lon":14.488,
+   "cost_index":140,
+   "description":"Inima distracției și a vieții de noapte malteze.",
+   "tags":"nightlife, casino, dining, beach"
+},
+{
+   "country":"MT",
+   "city":"Mellieha",
+   "lat":35.955,
+   "lon":14.36,
+   "cost_index":100,
+   "description":"Cele mai mari plaje cu nisip din Malta și Popeye Village.",
+   "tags":"beach, family-travel, sunshine, history"
+},
+{
+   "country":"MT",
+   "city":"Victoria (Gozo)",
+   "lat":36.044,
+   "lon":14.24,
+   "cost_index":85,
+   "description":"Capitala insulei Gozo, cetate impunătoare.",
+   "tags":"history, nature, island-life, photography"
+},
+{
+   "country":"MT",
+   "city":"Marsaxlokk",
+   "lat":35.84,
+   "lon":14.54,
+   "cost_index":90,
+   "description":"Sat de pescari cu bărci luzzu colorate și piață de pește.",
+   "tags":"fish-markets, seafood, traditional-boats, photography"
+},
+{
+   "country":"MT",
+   "city":"Rabat",
+   "lat":35.88,
+   "lon":14.39,
+   "cost_index":85,
+   "description":"Catacombe romane și istorie religioasă bogată.",
+   "tags":"history, religious-sites, archaeology, quiet-travel"
+},
+{
+   "country":"MT",
+   "city":"Birgu (Vittoriosa)",
+   "lat":35.88,
+   "lon":14.52,
+   "cost_index":105,
+   "description":"Unul din cele 'Trei Orașe', istorie cavalerească maritimă.",
+   "tags":"maritime-history, architecture, knight-heritage"
+},
+{
+   "country":"MT",
+   "city":"Mosta",
+   "lat":35.91,
+   "lon":14.42,
+   "cost_index":80,
+   "description":"Catedrală cu a treia cea mai mare cupolă nesusținută.",
+   "tags":"religious-sites, architecture, history"
+},
+{
+   "country":"MD",
+   "city":"Chișinău",
+   "lat":47.0105,
+   "lon":28.8638,
+   "cost_index":50,
+   "description":"Capitală verde, crame celebre și ospitalitate moldovenească.",
+   "tags":"wine, parks, history, cheap-travel, gastronomy"
+},
+{
+   "country":"MD",
+   "city":"Orheiul Vechi",
+   "lat":47.303,
+   "lon":28.97,
+   "cost_index":45,
+   "description":"Mănăstiri în stâncă și peisaje naturale unice.",
+   "tags":"history, nature, spirituality, photography"
+},
+{
+   "country":"MD",
+   "city":"Tiraspol",
+   "lat":46.8403,
+   "lon":29.6433,
+   "cost_index":45,
+   "description":"Un muzeu viu al perioadei sovietice.",
+   "tags":"soviet-history, communism, river-dniester, curiosity"
+},
+{
+   "country":"MD",
+   "city":"Bălți",
+   "lat":47.7617,
+   "lon":27.9289,
+   "cost_index":45,
+   "description":"Capitala de nord, centru industrial și cultural.",
+   "tags":"industry, history, students, urban"
+},
+{
+   "country":"MD",
+   "city":"Cricova",
+   "lat":47.135,
+   "lon":28.862,
+   "cost_index":70,
+   "description":"Orașul subteran al vinului, kilometri de galerii.",
+   "tags":"wine-tasting, underground-city, luxury, gastronomy"
+},
+{
+   "country":"MD",
+   "city":"Soroca",
+   "lat":48.1561,
+   "lon":28.2847,
+   "cost_index":40,
+   "description":"Cetate medievală și capitala romilor, arhitectură eclectică.",
+   "tags":"castles, history, architecture, river"
+},
+{
+   "country":"MD",
+   "city":"Cahul",
+   "lat":45.9075,
+   "lon":28.1944,
+   "cost_index":45,
+   "description":"Stațiune balneară și festivaluri de folclor.",
+   "tags":"spa, health, festivals, nature"
+},
+{
+   "country":"MD",
+   "city":"Comrat",
+   "lat":46.3003,
+   "lon":28.6572,
+   "cost_index":40,
+   "description":"Capitala Găgăuziei, cultură și tradiții specifice.",
+   "tags":"culture, wine, history, gastronomy"
+},
+{
+   "country":"MD",
+   "city":"Purcari",
+   "lat":46.53,
+   "lon":29.86,
+   "cost_index":80,
+   "description":"Castel viticol celebru, vinuri de talie mondială.",
+   "tags":"wine-tasting, luxury, history, nature"
+},
+{
+   "country":"MD",
+   "city":"Hîncești",
+   "lat":46.8286,
+   "lon":28.5936,
+   "cost_index":45,
+   "description":"Conacul Manuc Bey, istorie și arhitectură nobiliară.",
+   "tags":"palaces, history, gardens, nature"
+}
+]

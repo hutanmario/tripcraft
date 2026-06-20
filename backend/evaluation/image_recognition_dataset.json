@@ -1,0 +1,336 @@
+{
+  "version": 2,
+  "name": "TripCraft image recognition evaluation dataset",
+  "description": "Set local de imagini pentru baseline-ul de recunoastere vizuala. Expected tags sunt repere manuale validate fata de slugurile existente in DB si aliniate cu continutul vizibil din imagine.",
+  "images": [
+    {
+      "id": "sandy_beaches",
+      "file": "sandy-beaches.jpg",
+      "category": "beach_water",
+      "expected_tags": ["sandy-beaches", "hidden-coves", "snorkeling-diving"],
+      "notes": "Plaja nisipoasa si semnal de vacanta la mare."
+    },
+    {
+      "id": "beach_clubs",
+      "file": "beach-clubs.jpg",
+      "category": "beach_water",
+      "expected_tags": ["beach-clubs", "sandy-beaches", "rooftop-bars"],
+      "notes": "Plaja cu zona sociala sau bar."
+    },
+    {
+      "id": "coastal_walks",
+      "file": "coastal-walks.jpg",
+      "category": "beach_water",
+      "expected_tags": ["coastal-walks", "photography-landscapes", "sandy-beaches"],
+      "notes": "Coasta, faleze sau traseu scenic pe langa apa."
+    },
+    {
+      "id": "kayaking_canoeing",
+      "file": "kayaking-canoeing.jpg",
+      "category": "beach_water",
+      "expected_tags": ["kayaking-canoeing", "lake-swimming", "canal-river-cruises"],
+      "notes": "Activitate pe apa calma."
+    },
+    {
+      "id": "sailing",
+      "file": "sailing.jpg",
+      "category": "beach_water",
+      "expected_tags": ["sailing", "cruises", "canal-river-cruises"],
+      "notes": "Barci, mare sau excursie nautica."
+    },
+    {
+      "id": "scuba_diving",
+      "file": "scuba-diving.jpg",
+      "category": "beach_water",
+      "expected_tags": ["scuba-diving", "snorkeling-diving", "water-sports"],
+      "notes": "Scufundari sau activitati subacvatice."
+    },
+    {
+      "id": "surfing_kitesurfing",
+      "file": "surfing-kitesurfing.jpg",
+      "category": "beach_water",
+      "expected_tags": ["surfing-kitesurfing", "water-sports", "sandy-beaches"],
+      "notes": "Sporturi pe valuri sau vant."
+    },
+    {
+      "id": "day_hiking",
+      "file": "day-hiking.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": ["day-hiking", "hiking", "photography-landscapes"],
+      "notes": "Traseu de o zi in natura."
+    },
+    {
+      "id": "multi_day_trekking",
+      "file": "multi-day-trekking.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": ["multi-day-trekking", "hiking", "camping"],
+      "notes": "Trekking lung, outdoor intens."
+    },
+    {
+      "id": "alpine_climbing",
+      "file": "alpine-climbing.jpg",
+      "category": "adventure_active",
+      "expected_tags": ["alpine-climbing", "rock-climbing", "glaciers"],
+      "notes": "Alpinism si munte tehnic."
+    },
+    {
+      "id": "rock_climbing",
+      "file": "rock-climbing.jpg",
+      "category": "adventure_active",
+      "expected_tags": ["rock-climbing", "via-ferrata", "alpine-climbing"],
+      "notes": "Escalada pe stanca."
+    },
+    {
+      "id": "skiing",
+      "file": "skiing.jpg",
+      "category": "winter",
+      "expected_tags": ["skiing", "winter-nature", "snowshoeing"],
+      "notes": "Partie, zapada si sport de iarna."
+    },
+    {
+      "id": "glaciers",
+      "file": "glaciers.jpg",
+      "category": "winter",
+      "expected_tags": ["glaciers", "winter-nature", "photography-landscapes"],
+      "notes": "Ghetar sau peisaj rece."
+    },
+    {
+      "id": "forest_bathing",
+      "file": "forest-bathing.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": ["forest-bathing", "hiking", "wildlife-watching"],
+      "notes": "Padure, liniste, natura lenta."
+    },
+    {
+      "id": "national_parks",
+      "file": "national-parks.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": ["national-parks", "wildlife-watching", "photography-landscapes"],
+      "notes": "Parc national sau peisaj natural protejat."
+    },
+    {
+      "id": "wildlife_watching",
+      "file": "wildlife-watching.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": ["wildlife-watching", "wildlife-nature", "national-parks"],
+      "notes": "Animale sau observare wildlife."
+    },
+    {
+      "id": "birdwatching",
+      "file": "birdwatching.jpg",
+      "category": "nature_outdoors",
+      "expected_tags": ["birdwatching", "wildlife-watching", "national-parks"],
+      "notes": "Observare pasari."
+    },
+    {
+      "id": "castles_palaces",
+      "file": "castles-palaces.jpg",
+      "category": "culture_history",
+      "expected_tags": ["castles-palaces", "historical-sites", "guided-walking-tours"],
+      "notes": "Castel, palat sau fortificatie istorica."
+    },
+    {
+      "id": "ancient_ruins",
+      "file": "ancient-ruins.jpg",
+      "category": "culture_history",
+      "expected_tags": ["ancient-ruins", "historical-sites", "guided-walking-tours"],
+      "notes": "Ruine arheologice."
+    },
+    {
+      "id": "gothic_architecture",
+      "file": "gothic-architecture.jpg",
+      "category": "culture_history",
+      "expected_tags": ["gothic-architecture", "religious-sites", "orthodox-churches"],
+      "notes": "Arhitectura gotica sau edificiu religios."
+    },
+    {
+      "id": "orthodox_churches",
+      "file": "orthodox-churches.jpg",
+      "category": "culture_history",
+      "expected_tags": ["orthodox-churches", "religious-sites", "vernacular-architecture"],
+      "notes": "Biserici ortodoxe sau lacas religios."
+    },
+    {
+      "id": "history_museums",
+      "file": "history-museums.jpg",
+      "category": "culture_history",
+      "expected_tags": ["history-museums", "historical-sites", "roman-history"],
+      "notes": "Muzeu de istorie sau exponate istorice."
+    },
+    {
+      "id": "roman_history",
+      "file": "roman-history.jpg",
+      "category": "culture_history",
+      "expected_tags": ["roman-history", "ancient-ruins", "historical-sites"],
+      "notes": "Ruine sau simboluri legate de istoria romana."
+    },
+    {
+      "id": "art_museums",
+      "file": "art-museums.jpg",
+      "category": "culture_history",
+      "expected_tags": ["historical-sites", "vernacular-architecture", "guided-walking-tours"],
+      "notes": "Piata urbana cu arhitectura istorica; nu se vede interior de muzeu sau galerie."
+    },
+    {
+      "id": "contemporary_art",
+      "file": "contemporary-art.jpg",
+      "category": "urban_modern",
+      "expected_tags": ["contemporary-art", "contemporary-architecture", "modernist-architecture"],
+      "notes": "Instalatie de arta contemporana in context urban modern."
+    },
+    {
+      "id": "street_art",
+      "file": "street-art.jpg",
+      "category": "urban_modern",
+      "expected_tags": ["street-art", "graffiti-tours", "contemporary-art"],
+      "notes": "Murale, graffiti sau arta urbana."
+    },
+    {
+      "id": "contemporary_architecture",
+      "file": "contemporary-architecture.jpg",
+      "category": "urban_modern",
+      "expected_tags": ["contemporary-architecture", "modernist-architecture", "tech-hubs"],
+      "notes": "Cladiri moderne sau arhitectura contemporana."
+    },
+    {
+      "id": "brutalist_architecture",
+      "file": "brutalist-architecture.jpg",
+      "category": "urban_modern",
+      "expected_tags": ["brutalist-architecture", "contemporary-architecture", "photography-urban"],
+      "notes": "Arhitectura urbana brutala sau beton aparent."
+    },
+    {
+      "id": "street_food",
+      "file": "street-food.jpg",
+      "category": "food_drink",
+      "expected_tags": ["farmers-markets", "food-markets", "street-casual-food"],
+      "notes": "Piata alimentara cu fructe si standuri, mai degraba produse locale decat food truck."
+    },
+    {
+      "id": "food_trucks",
+      "file": "food-trucks.jpg",
+      "category": "food_drink",
+      "expected_tags": ["food-trucks", "street-food", "street-casual-food"],
+      "notes": "Food trucks sau servire informala."
+    },
+    {
+      "id": "farmers_markets",
+      "file": "farmers-markets.jpg",
+      "category": "food_drink",
+      "expected_tags": ["farmers-markets", "food-markets", "local-artisan-shops"],
+      "notes": "Piata locala sau produse proaspete."
+    },
+    {
+      "id": "fish_markets",
+      "file": "fish-markets.jpg",
+      "category": "food_drink",
+      "expected_tags": ["fish-markets", "food-markets", "street-food"],
+      "notes": "Piata de peste."
+    },
+    {
+      "id": "michelin_restaurants",
+      "file": "michelin-restaurants.jpg",
+      "category": "food_drink",
+      "expected_tags": ["michelin-restaurants", "tasting-menus", "fine-dining-exp"],
+      "notes": "Restaurant rafinat sau fine dining."
+    },
+    {
+      "id": "wine_vineyards",
+      "file": "wine-vineyards.jpg",
+      "category": "food_drink",
+      "expected_tags": ["wine-vineyards", "wine-bars", "drinks-tastings"],
+      "notes": "Vii, degustari sau peisaj viticol."
+    },
+    {
+      "id": "specialty_coffee",
+      "file": "specialty-coffee.jpg",
+      "category": "food_drink",
+      "expected_tags": ["specialty-coffee", "bakeries-pastries", "street-casual-food"],
+      "notes": "Cafea de specialitate."
+    },
+    {
+      "id": "rooftop_bars",
+      "file": "rooftop-bars.jpg",
+      "category": "nightlife_social",
+      "expected_tags": ["rooftop-bars", "rooftop-views", "craft-cocktail-bars"],
+      "notes": "Bar pe acoperis sau vedere urbana."
+    },
+    {
+      "id": "underground_clubs",
+      "file": "underground-clubs.jpg",
+      "category": "nightlife_social",
+      "expected_tags": ["underground-clubs", "techno-clubs", "clubbing"],
+      "notes": "Club sau scena underground."
+    },
+    {
+      "id": "techno_clubs",
+      "file": "techno-clubs.jpg",
+      "category": "nightlife_social",
+      "expected_tags": ["techno-clubs", "underground-clubs", "clubbing"],
+      "notes": "Club de muzica electronica."
+    },
+    {
+      "id": "jazz_live_music",
+      "file": "jazz-live-music.jpg",
+      "category": "nightlife_social",
+      "expected_tags": ["jazz-live-music", "live-entertainment", "music-festivals"],
+      "notes": "Concert live sau jazz club."
+    },
+    {
+      "id": "theater_musicals",
+      "file": "theater-musicals.jpg",
+      "category": "nightlife_social",
+      "expected_tags": ["theater-musicals", "live-entertainment", "opera-classical"],
+      "notes": "Teatru, musical sau spectacol scenic."
+    },
+    {
+      "id": "thermal_baths",
+      "file": "thermal-baths.jpg",
+      "category": "wellness_slow",
+      "expected_tags": ["thermal-baths", "spa-thermal", "hot-springs-outdoor"],
+      "notes": "Bai termale sau apa minerala."
+    },
+    {
+      "id": "hammam",
+      "file": "hammam.jpg",
+      "category": "wellness_slow",
+      "expected_tags": ["hammam", "spa-thermal", "thermal-baths"],
+      "notes": "Hammam sau baie traditionala."
+    },
+    {
+      "id": "yoga_retreats",
+      "file": "yoga-retreats.jpg",
+      "category": "wellness_slow",
+      "expected_tags": ["yoga-retreats", "meditation-centers", "mindfulness-retreats"],
+      "notes": "Yoga, retreat sau relaxare."
+    },
+    {
+      "id": "luxury_spa",
+      "file": "luxury-spa.jpg",
+      "category": "wellness_slow",
+      "expected_tags": ["luxury-spa", "spa-thermal", "thermal-baths"],
+      "notes": "Spa premium sau relaxare indoor."
+    },
+    {
+      "id": "science_museums",
+      "file": "science-museums.jpg",
+      "category": "family_comfort",
+      "expected_tags": ["science-museums", "science-interactive-museums", "science-centers"],
+      "notes": "Muzeu de stiinta."
+    },
+    {
+      "id": "zoos_aquariums",
+      "file": "zoos-aquariums.jpg",
+      "category": "family_comfort",
+      "expected_tags": ["zoos-aquariums", "wildlife-watching", "kids-workshops"],
+      "notes": "Gradina zoologica sau acvariu."
+    },
+    {
+      "id": "theme_parks",
+      "file": "theme-parks.jpg",
+      "category": "family_comfort",
+      "expected_tags": ["theme-parks", "water-parks", "kids-workshops"],
+      "notes": "Parc tematic sau atractii de familie."
+    }
+  ]
+}

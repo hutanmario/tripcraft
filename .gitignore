@@ -1,0 +1,115 @@
+﻿\# ===========================================
+# Secrets — niciodată pe Git
+# ===========================================
+.env
+.env.*
+*.env
+*.env.*
+backend/.env
+frontend/.env
+frontend/.env.local
+*.env.local
+!.env.example
+!backend/.env.example
+!mobile/.env.example
+
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+backend/bin/
+backend/share/
+backend/*.dist-info/
+backend/*.libs/
+backend/*.whl
+backend/PIL/
+backend/contourpy/
+backend/cycler/
+backend/dateutil/
+backend/fontTools/
+backend/kiwisolver/
+backend/matplotlib/
+backend/mpl_toolkits/
+backend/numpy/
+backend/packaging/
+backend/pyparsing/
+backend/scipy/
+backend/pylab.py
+backend/six.py
+
+# ===========================================
+# Node / Frontend
+# ===========================================
+node_modules/
+build/
+dist/
+.vite/
+.expo/
+web-build/
+mobile/tmp/
+mobile/rendered-screens/
+mobile/photo-review-viewport.png
+
+# ===========================================
+# ML models (binare, regenerable)
+# ===========================================
+*.pkl
+*.joblib
+*.h5
+
+# ===========================================
+# Database backups
+# ===========================================
+*.dump
+*.sql.gz
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================================
+# OS
+# ===========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================================
+# Logs
+# ===========================================
+*.log
+
+# ===========================================
+# Test outputs (ad-hoc, regenerable)
+# ===========================================
+test_results_*.txt
+test_results_*.json
+backend/evaluation/results/*.csv
+backend/evaluation/results/*.json
+backend/evaluation/results/*.png
+
+# ===========================================
+# Temporary / development artifacts
+# ===========================================
+structura.txt
+structura2.txt
+url_test.txt
+*.tmp
+MAINE.md
+MAINE_PROMPT.md
+backend/CONTEXT_LICENTA.md
+
+# ===========================================
+# Design references (local only, not committed)
+# ===========================================
+design-references/

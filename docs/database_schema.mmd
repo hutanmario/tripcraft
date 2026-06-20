@@ -1,0 +1,201 @@
+erDiagram
+    USERS {
+        int id PK
+        string email
+        string username
+        string full_name
+        bool is_active
+        datetime created_at
+    }
+
+    QUIZ_V4_SESSIONS {
+        uuid id PK
+        int user_id FK
+        string current_stage
+        jsonb tag_beliefs
+        jsonb final_profile
+        int card_count
+        string budget
+        string season
+        string travel_style
+        string pace_preference
+    }
+
+    COUNTRIES {
+        int id PK
+        string name
+        string iso2
+        string capital
+        float avg_cost_per_day
+        string best_seasons
+    }
+
+    CITIES {
+        int id PK
+        int country_id FK
+        string name
+        float latitude
+        float longitude
+        bool is_capital
+    }
+
+    ATTRACTIONS {
+        int id PK
+        int city_id FK
+        string name
+        string category
+        float avg_duration_hours
+        float entry_fee_eur
+        float rating
+    }
+
+    TAGS {
+        int id PK
+        int parent_id FK
+        string name
+        string slug
+        string category
+        bool is_leaf
+    }
+
+    COUNTRY_TAGS {
+        int country_id FK
+        int tag_id FK
+        float score
+    }
+
+    CITY_TAGS {
+        int city_id FK
+        int tag_id FK
+        float score
+    }
+
+    ATTRACTION_TAGS {
+        int attraction_id FK
+        int tag_id FK
+        float score
+    }
+
+    QUESTIONS {
+        int id PK
+        int tag_id FK
+        string question_text
+        string type
+        string source
+    }
+
+    QUESTION_OPTIONS {
+        int id PK
+        int question_id FK
+        string option_text
+        string value
+    }
+
+    OPTION_TAGS {
+        int option_id FK
+        int tag_id FK
+        float weight
+    }
+
+    ITINERARY_PLANS {
+        int id PK
+        string session_id
+        int country_id FK
+        int user_id FK
+        int group_trip_id FK
+        int nr_zile
+        bool is_saved
+        string source
+    }
+
+    ITINERARY_DAYS {
+        int id PK
+        int plan_id FK
+        int city_id FK
+        int day_number
+        json attraction_ids
+    }
+
+    ITINERARY_RATINGS {
+        int id PK
+        int plan_id FK
+        int user_id FK
+        int rating
+        json aspects
+    }
+
+    FRIENDSHIPS {
+        int id PK
+        int requester_id FK
+        int receiver_id FK
+        string status
+    }
+
+    GROUP_TRIPS {
+        int id PK
+        int creator_id FK
+        int country_id FK
+        string name
+        int nr_zile
+        string status
+    }
+
+    GROUP_TRIP_MEMBERS {
+        int id PK
+        int trip_id FK
+        int user_id FK
+        string session_id
+    }
+
+    RECOMMENDATION_IMPRESSIONS {
+        int id PK
+        int user_id FK
+        string session_id
+        string surface
+        string model_version
+        jsonb ranking
+    }
+
+    QUIZ_IMAGES {
+        int id PK
+        string source_category
+        string source_url
+        string photographer
+        jsonb clip_tags
+        bool is_active
+    }
+
+    USERS ||--o{ QUIZ_V4_SESSIONS : starts
+    USERS ||--o{ ITINERARY_PLANS : owns
+    USERS ||--o{ ITINERARY_RATINGS : rates
+    USERS ||--o{ RECOMMENDATION_IMPRESSIONS : sees
+    USERS ||--o{ FRIENDSHIPS : requester
+    USERS ||--o{ FRIENDSHIPS : receiver
+    USERS ||--o{ GROUP_TRIPS : creates
+    USERS ||--o{ GROUP_TRIP_MEMBERS : joins
+
+    COUNTRIES ||--o{ CITIES : contains
+    CITIES ||--o{ ATTRACTIONS : contains
+
+    TAGS ||--o{ TAGS : parent
+    COUNTRIES ||--o{ COUNTRY_TAGS : has
+    TAGS ||--o{ COUNTRY_TAGS : labels
+    CITIES ||--o{ CITY_TAGS : has
+    TAGS ||--o{ CITY_TAGS : labels
+    ATTRACTIONS ||--o{ ATTRACTION_TAGS : has
+    TAGS ||--o{ ATTRACTION_TAGS : labels
+
+    TAGS ||--o{ QUESTIONS : clarifies
+    QUESTIONS ||--o{ QUESTION_OPTIONS : has
+    QUESTION_OPTIONS ||--o{ OPTION_TAGS : affects
+    TAGS ||--o{ OPTION_TAGS : weighted
+
+    COUNTRIES ||--o{ ITINERARY_PLANS : destination
+    ITINERARY_PLANS ||--o{ ITINERARY_DAYS : has
+    CITIES ||--o{ ITINERARY_DAYS : visited
+    ITINERARY_PLANS ||--o{ ITINERARY_RATINGS : receives
+
+    COUNTRIES ||--o{ GROUP_TRIPS : destination
+    GROUP_TRIPS ||--o{ GROUP_TRIP_MEMBERS : has
+    GROUP_TRIPS ||--o{ ITINERARY_PLANS : produces
+    QUIZ_V4_SESSIONS ||--o{ ITINERARY_PLANS : informs

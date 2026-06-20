@@ -1,0 +1,282 @@
+[
+   {
+      "code":"RO",
+      "name":"România",
+      "lat":45.9432,
+      "lon":24.9668,
+      "description":"Tărâmul castelelor medievale, al munților sălbatici și al tradițiilor autentice din inima Transilvaniei.",
+      "tags":"hiking, medieval-history, castles, cheap-travel, nightlife, traditional-culture, nature"
+   },
+   {
+      "code":"FR",
+      "name":"Franța",
+      "lat":46.2276,
+      "lon":2.2137,
+      "description":"Epicentrul mondial al artei, gastronomiei și eleganței, de la luminile Parisului la lanurile de lavandă din Provence.",
+      "tags":"museums, gastronomy, fashion, luxury, wine-tasting, art, romance, history"
+   },
+   {
+      "code":"IT",
+      "name":"Italia",
+      "lat":41.8719,
+      "lon":12.5674,
+      "description":"O călătorie prin istoria imperiului roman, acompaniată de cele mai faimoase preparate culinare și peisaje mediteraneene.",
+      "tags":"history, art, gastronomy, pizza, fashion, romance, ancient-ruins, coastline"
+   },
+   {
+      "code":"ES",
+      "name":"Spania",
+      "lat":40.4637,
+      "lon":-3.7492,
+      "description":"Energie pură, plaje însorite, festivaluri pline de pasiune și o cultură a tapas-ului care nu doarme niciodată.",
+      "tags":"beach, nightlife, tapas, sunshine, architecture, football, flamenco, islands"
+   },
+   {
+      "code":"DE",
+      "name":"Germania",
+      "lat":51.1657,
+      "lon":10.4515,
+      "description":"Mixul perfect între precizie tehnologică, păduri legendare, castele de basm și o cultură a berii recunoscută mondial.",
+      "tags":"beer-culture, history, techno, cars, christmas-markets, industry, forests, castles"
+   },
+   {
+      "code":"PT",
+      "name":"Portugalia",
+      "tags":"surfing, seafood, wine-tasting, history, coastline, fado, affordable",
+      "lat":39.3999,
+      "lon":-8.2245,
+      "description":"Melancolia muzicii Fado, valurile perfecte pentru surf și sate pescărești colorate la marginea Atlanticului."
+   },
+   {
+      "code":"GR",
+      "name":"Grecia",
+      "lat":39.0742,
+      "lon":21.8243,
+      "description":"Leagănul civilizației vestice, cu mii de insule cu ape turcoaz și ruine antice care spun povești despre zei.",
+      "tags":"ancient-ruins, beach, islands, mythology, sunshine, gastronomy, sailing"
+   },
+   {
+      "code":"NL",
+      "name":"Olanda",
+      "lat":52.1326,
+      "lon":5.2913,
+      "description":"Țara canalelor infinite, a lalelelor, a designului modern și a unei libertăți sociale unice în lume.",
+      "tags":"cycling, canals, art, nightlife, design, flowers, tech"
+   },
+   {
+      "code":"BE",
+      "name":"Belgia",
+      "lat":50.5039,
+      "lon":4.4699,
+      "description":"Răsfăț culinar cu ciocolată și vafle, orașe medievale conservate perfect și inima politică a Europei.",
+      "tags":"chocolate, beer, comics, medieval-history, politics, waffles, architecture"
+   },
+   {
+      "code":"AT",
+      "name":"Austria",
+      "lat":47.5162,
+      "lon":14.5501,
+      "description":"Eleganță imperială pe note de muzică clasică, înconjurată de vârfurile maiestoase ale Alpilor.",
+      "tags":"classical-music, palaces, skiing, mountains, hiking, coffee-culture, cleanliness"
+   },
+   {
+      "code":"GB",
+      "name":"Marea Britanie",
+      "lat":55.3781,
+      "lon":-3.4360,
+      "description":"Un mix de tradiții regale, metropole cosmopolite, sate pitorești și o scenă muzicală care a schimbat lumea.",
+      "tags":"museums, history, nightlife, music, football, castles, university-culture"
+   },
+   {
+      "code":"IE",
+      "name":"Irlanda",
+      "lat":53.4129,
+      "lon":-8.2439,
+      "description":"Insula de smarald, celebră pentru ospitalitatea din pub-uri, peisajele verzi dramatice și legendele celtice.",
+      "tags":"pub-culture, beer, nature, hiking, history, music, coast"
+   },
+   {
+      "code":"SE",
+      "name":"Suedia",
+      "lat":60.1282,
+      "lon":18.6435,
+      "description":"Minimalism scandinav, arhipelaguri vaste, design inovator și o conexiune profundă cu natura nordică.",
+      "tags":"design, cleanliness, archipelago, nature, tech, minimalism"
+   },
+   {
+      "code":"NO",
+      "name":"Norvegia",
+      "lat":60.4720,
+      "lon":8.4689,
+      "description":"Tărâmul fiordurilor spectaculoase, al aurorei boreale și al aventurilor în sălbăticia arctică.",
+      "tags":"fjord, nature, hiking, northern-lights, mountains, expensive, winter-sports"
+   },
+   {
+      "code":"DK",
+      "name":"Danemarca",
+      "lat":56.2639,
+      "lon":9.5018,
+      "description":"Patria conceptului 'hygge', a designului funcțional și a unora dintre cele mai fericite orașe din lume.",
+      "tags":"hygge, cycling, design, gastronomy, family-travel, architecture"
+   },
+   {
+      "code":"PL",
+      "name":"Polonia",
+      "lat":51.9194,
+      "lon":19.1451,
+      "description":"O istorie de reziliență, orașe vechi reconstruite cu migală și o gastronomie reconfortantă la prețuri accesibile.",
+      "tags":"history, cheap-travel, architecture, nightlife, gastronomy, war-history"
+   },
+   {
+      "code":"CZ",
+      "name":"Republica Cehă",
+      "lat":49.8175,
+      "lon":15.4730,
+      "description":"Inima Boemiei, cu cele mai bune beri din lume și orașe care par desprinse din ilustrațiile cu prinți și prințese.",
+      "tags":"beer-culture, history, architecture, romance, nightlife, castles"
+   },
+   {
+      "code":"HU",
+      "name":"Ungaria",
+      "lat":47.1625,
+      "lon":19.5033,
+      "description":"Țara apelor termale, a arhitecturii baroce impunătoare și a unei vieți de noapte unice în 'ruin pubs'.",
+      "tags":"thermal-baths, architecture, nightlife, river-cruises, history, gastronomy"
+   },
+   {
+      "code":"SK",
+      "name":"Slovacia",
+      "lat":48.6690,
+      "lon":19.6990,
+      "description":"Paradisul drumețiilor montane și al castelelor uitate de timp, ascunse în crestele munților Tatra.",
+      "tags":"mountains, skiing, castles, nature, quiet-travel, cheap-travel"
+   },
+   {
+      "code":"BG",
+      "name":"Bulgaria",
+      "lat":42.7339,
+      "lon":25.4858,
+      "description":"Plaje aurii la Marea Neagră, mănăstiri ortodoxe ascunse în munți și o istorie tracică fascinantă.",
+      "tags":"beach, mountains, cheap-travel, history, ski, religious-sites"
+   },
+   {
+      "code":"HR",
+      "name":"Croația",
+      "lat":45.1000,
+      "lon":15.2000,
+      "description":"Peste o mie de insule în marea Adriatică, orașe romane de piatră și parcuri naționale cu cascade de smarald.",
+      "tags":"beach, sailing, history, filming-locations, sunshine, islands"
+   },
+   {
+      "code":"SI",
+      "name":"Slovenia",
+      "lat":46.1512,
+      "lon":14.9955,
+      "description":"O bijuterie verde unde Alpii întâlnesc Mediterana, celebră pentru lacurile glaciare și turismul sustenabil.",
+      "tags":"nature, mountains, eco-friendly, lake, quiet-travel, green-city"
+   },
+   {
+      "code":"RS",
+      "name":"Serbia",
+      "lat":44.0165,
+      "lon":21.0059,
+      "description":"Spirit balcanic autentic, petreceri pe Dunăre și o ospitalitate caldă în orașe pline de istorie.",
+      "tags":"nightlife, river-clubs, gastronomy, cheap-travel, history, mountains"
+   },
+   {
+      "code":"BA",
+      "name":"Bosnia și Herțegovina",
+      "lat":43.9159,
+      "lon":17.6791,
+      "description":"Un punct de întâlnire între Orient și Occident, cu peisaje montane brute și orașe otomane pitorești.",
+      "tags":"history, religious-diversity, nature, mountains, street-food, cheap-travel"
+   },
+   {
+      "code":"AL",
+      "name":"Albania",
+      "lat":41.1533,
+      "lon":20.1683,
+      "description":"Ultima frontieră neexplorată a Europei, cu plaje virgine și munți sălbatici la prețuri imbatabile.",
+      "tags":"beach, mountains, cheap-travel, history, adventure, sunshine"
+   },
+   {
+      "code":"CH",
+      "name":"Elveția",
+      "lat":46.8182,
+      "lon":8.2275,
+      "description":"Standardul de aur al luxului și preciziei, cu peisaje alpine care îți taie respirația și lacuri de cristal.",
+      "tags":"mountains, luxury, skiing, nature, finance, cleanliness, hiking"
+   },
+   {
+      "code":"LU",
+      "name":"Luxemburg",
+      "lat":49.8153,
+      "lon":6.1296,
+      "description":"O fortăreață modernă și cosmopolită, unde istoria medievală se împletește cu viitorul financiar al Europei.",
+      "tags":"finance, castles, multicultural, nature, quiet-travel"
+   },
+   {
+      "code":"FI",
+      "name":"Finlanda",
+      "lat":61.9241,
+      "lon":25.7482,
+      "description":"Țara celor o mie de lacuri și a liniștii depline, unde designul funcțional întâlnește magia Laponiei.",
+      "tags":"sauna, nature, northern-lights, snow-sports, design, silence"
+   },
+   {
+      "code":"EE",
+      "name":"Estonia",
+      "lat":58.5953,
+      "lon":25.0136,
+      "description":"Cel mai digitalizat stat din lume, cu un oraș medieval perfect conservat și insule pline de mister.",
+      "tags":"tech, medieval-history, nature, islands, digitalization"
+   },
+   {
+      "code":"LV",
+      "name":"Letonia",
+      "lat":56.8796,
+      "lon":24.6032,
+      "description":"Arhitectură Art Nouveau spectaculoasă, păduri vaste de pini și o coastă sălbatică la Marea Baltică.",
+      "tags":"art-nouveau, history, beach, nature, forest"
+   },
+   {
+      "code":"LT",
+      "name":"Lituania",
+      "lat":55.1694,
+      "lon":23.8813,
+      "description":"Istorie barocă bogată, dealuri cu semnificații spirituale și o dragoste imensă pentru natură și baschet.",
+      "tags":"history, baroque, churches, nature, tech"
+   },
+   {
+      "code":"IS",
+      "name":"Islanda",
+      "lat":64.9631,
+      "lon":-19.0208,
+      "description":"Tărâmul focului și al gheții, unde vulcanii activi și ghețarii creează un peisaj extraterestru unic pe Pământ.",
+      "tags":"nature, volcano, glaciers, northern-lights, hot-springs, photography"
+   },
+   {
+      "code":"CY",
+      "name":"Cipru",
+      "lat":35.1264,
+      "lon":33.4299,
+      "description":"Insula Afroditei, unde soarele strălucește tot anul peste ruine antice și plaje cu nisip auriu.",
+      "tags":"beach, sunshine, ancient-ruins, mythology, nightlife, diving"
+   },
+   {
+      "code":"MT",
+      "name":"Malta",
+      "lat":35.9375,
+      "lon":14.3754,
+      "description":"O fortăreață de piatră galbenă în mijlocul Mediteranei, încărcată de istoria Cavalerilor Ioaniți.",
+      "tags":"history, beach, sunshine, architecture, diving, photography"
+   },
+   {
+      "code":"MD",
+      "name":"Moldova",
+      "lat":47.4116,
+      "lon":28.3699,
+      "description":"Cele mai mari crame subterane din lume și o ospitalitate legendară, într-un peisaj de dealuri și vii nesfârșite.",
+      "tags":"wine, cheap-travel, gastronomy, nature, quiet-travel"
+   }
+]

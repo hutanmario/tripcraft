@@ -1,0 +1,194 @@
+{
+  "beach": [
+    {
+      "filename": "beach_1.jpg",
+      "path": "/static/quiz-images/beach/beach_1.jpg",
+      "query": "tropical beach with turquoise water",
+      "unsplash_url": "https://images.unsplash.com/photo-1706222713493-e6de13d97bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwd2l0aCUyMHR1cnF1b2lzZSUyMHdhdGVyfGVufDB8MHx8fDE3NzcwMzI1MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "beach_2.jpg",
+      "path": "/static/quiz-images/beach/beach_2.jpg",
+      "query": "sandy beach ocean waves sunset",
+      "unsplash_url": "https://images.unsplash.com/photo-1674242958558-6dda9d913054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxzYW5keSUyMGJlYWNoJTIwb2NlYW4lMjB3YXZlcyUyMHN1bnNldHxlbnwwfDB8fHwxNzc3MDMyNTI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "beach_3.jpg",
+      "path": "/static/quiz-images/beach/beach_3.jpg",
+      "query": "beach palm trees clear water",
+      "unsplash_url": "https://images.unsplash.com/photo-1588782461976-eb6b1c500446?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxiZWFjaCUyMHBhbG0lMjB0cmVlcyUyMGNsZWFyJTIwd2F0ZXJ8ZW58MHwwfHx8MTc3NzAzMjUzMXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "beach_4.jpg",
+      "path": "/static/quiz-images/beach/beach_4.jpg",
+      "query": "mediterranean beach rocky coast",
+      "unsplash_url": "https://images.unsplash.com/photo-1758195508592-a011eb112555?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxtZWRpdGVycmFuZWFuJTIwYmVhY2glMjByb2NreSUyMGNvYXN0fGVufDB8MHx8fDE3NzcwMzI1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "beach_5.jpg",
+      "path": "/static/quiz-images/beach/beach_5.jpg",
+      "query": "beach umbrellas summer vacation",
+      "unsplash_url": "https://images.unsplash.com/photo-1771367530679-6b7f400834df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxiZWFjaCUyMHVtYnJlbGxhcyUyMHN1bW1lciUyMHZhY2F0aW9ufGVufDB8MHx8fDE3NzcwMzI1MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "mountain": [
+    {
+      "filename": "mountain_1.jpg",
+      "path": "/static/quiz-images/mountain/mountain_1.jpg",
+      "query": "alpine mountain peaks snow",
+      "unsplash_url": "https://images.unsplash.com/photo-1546464340-6a6097365a13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxhbHBpbmUlMjBtb3VudGFpbiUyMHBlYWtzJTIwc25vd3xlbnwwfDB8fHwxNzc3MDMyNTM5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "mountain_2.jpg",
+      "path": "/static/quiz-images/mountain/mountain_2.jpg",
+      "query": "mountain hiking trail scenic view",
+      "unsplash_url": "https://images.unsplash.com/photo-1648804536048-0a7d8b103bbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGhpa2luZyUyMHRyYWlsJTIwc2NlbmljJTIwdmlld3xlbnwwfDB8fHwxNzc3MDMyNTUyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "mountain_3.jpg",
+      "path": "/static/quiz-images/mountain/mountain_3.jpg",
+      "query": "mountain valley green meadow",
+      "unsplash_url": "https://images.unsplash.com/photo-1628903949569-bf90347ea649?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMHZhbGxleSUyMGdyZWVuJTIwbWVhZG93fGVufDB8MHx8fDE3NzcwMzI1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "mountain_4.jpg",
+      "path": "/static/quiz-images/mountain/mountain_4.jpg",
+      "query": "rocky mountain summit clouds",
+      "unsplash_url": "https://images.unsplash.com/photo-1761423213917-360a66ed53a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxyb2NreSUyMG1vdW50YWluJTIwc3VtbWl0JTIwY2xvdWRzfGVufDB8MHx8fDE3NzcwMzI1NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "mountain_5.jpg",
+      "path": "/static/quiz-images/mountain/mountain_5.jpg",
+      "query": "mountain lake reflection",
+      "unsplash_url": "https://images.unsplash.com/photo-1631551437792-ae5a0fb41c49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGxha2UlMjByZWZsZWN0aW9ufGVufDB8MHx8fDE3NzcwMzI1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "city": [
+    {
+      "filename": "city_1.jpg",
+      "path": "/static/quiz-images/city/city_1.jpg",
+      "query": "vibrant city skyline urban",
+      "unsplash_url": "https://images.unsplash.com/photo-1727942019403-cf4aecfc3276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHx2aWJyYW50JTIwY2l0eSUyMHNreWxpbmUlMjB1cmJhbnxlbnwwfDB8fHwxNzc3MDMyNTY1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "city_2.jpg",
+      "path": "/static/quiz-images/city/city_2.jpg",
+      "query": "european old town cobblestone street",
+      "unsplash_url": "https://images.unsplash.com/photo-1760371907926-03e4762d80b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxldXJvcGVhbiUyMG9sZCUyMHRvd24lMjBjb2JibGVzdG9uZSUyMHN0cmVldHxlbnwwfDB8fHwxNzc3MDMyNTY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "city_3.jpg",
+      "path": "/static/quiz-images/city/city_3.jpg",
+      "query": "city market square people",
+      "unsplash_url": "https://images.unsplash.com/photo-1610035214392-c5c1bfb204c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxjaXR5JTIwbWFya2V0JTIwc3F1YXJlJTIwcGVvcGxlfGVufDB8MHx8fDE3NzcwMzI1NzB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "city_4.jpg",
+      "path": "/static/quiz-images/city/city_4.jpg",
+      "query": "modern city architecture buildings",
+      "unsplash_url": "https://images.unsplash.com/photo-1646681268026-fbb6055f58f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjaXR5JTIwYXJjaGl0ZWN0dXJlJTIwYnVpbGRpbmdzfGVufDB8MHx8fDE3NzcwMzI1NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "city_5.jpg",
+      "path": "/static/quiz-images/city/city_5.jpg",
+      "query": "city night lights bridge",
+      "unsplash_url": "https://images.unsplash.com/photo-1689972022323-6d30b68a02bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxjaXR5JTIwbmlnaHQlMjBsaWdodHMlMjBicmlkZ2V8ZW58MHwwfHx8MTc3NzAzMjU3Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "nature": [
+    {
+      "filename": "nature_1.jpg",
+      "path": "/static/quiz-images/nature/nature_1.jpg",
+      "query": "dense forest trees sunlight",
+      "unsplash_url": "https://images.unsplash.com/photo-1761495375895-4d99be6a0f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxkZW5zZSUyMGZvcmVzdCUyMHRyZWVzJTIwc3VubGlnaHR8ZW58MHwwfHx8MTc3NzAzMjU3OHww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "nature_2.jpg",
+      "path": "/static/quiz-images/nature/nature_2.jpg",
+      "query": "waterfall jungle tropical nature",
+      "unsplash_url": "https://images.unsplash.com/photo-1552301726-af49f3010981?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHx3YXRlcmZhbGwlMjBqdW5nbGUlMjB0cm9waWNhbCUyMG5hdHVyZXxlbnwwfDB8fHwxNzc3MDMyNTgyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "nature_3.jpg",
+      "path": "/static/quiz-images/nature/nature_3.jpg",
+      "query": "northern lights aurora borealis",
+      "unsplash_url": "https://images.unsplash.com/photo-1666003400042-a9e68d6bff0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxub3J0aGVybiUyMGxpZ2h0cyUyMGF1cm9yYSUyMGJvcmVhbGlzfGVufDB8MHx8fDE3NzcwMzI1ODR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "nature_4.jpg",
+      "path": "/static/quiz-images/nature/nature_4.jpg",
+      "query": "green countryside rolling hills",
+      "unsplash_url": "https://images.unsplash.com/photo-1607888110312-a9d0547900dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNvdW50cnlzaWRlJTIwcm9sbGluZyUyMGhpbGxzfGVufDB8MHx8fDE3NzcwMzI1ODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "nature_5.jpg",
+      "path": "/static/quiz-images/nature/nature_5.jpg",
+      "query": "desert sand dunes landscape",
+      "unsplash_url": "https://images.unsplash.com/photo-1669024513552-56127b2d0d85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxkZXNlcnQlMjBzYW5kJTIwZHVuZXMlMjBsYW5kc2NhcGV8ZW58MHwwfHx8MTc3NzAzMjU5MHww&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "culture": [
+    {
+      "filename": "culture_1.jpg",
+      "path": "/static/quiz-images/culture/culture_1.jpg",
+      "query": "ancient temple ruins archaeology",
+      "unsplash_url": "https://images.unsplash.com/photo-1598177183224-b3cec6da6b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxhbmNpZW50JTIwdGVtcGxlJTIwcnVpbnMlMjBhcmNoYWVvbG9neXxlbnwwfDB8fHwxNzc3MDMyNTkyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "culture_2.jpg",
+      "path": "/static/quiz-images/culture/culture_2.jpg",
+      "query": "medieval castle fortress historic",
+      "unsplash_url": "https://images.unsplash.com/photo-1763388554657-ecf87d0dc141?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxtZWRpZXZhbCUyMGNhc3RsZSUyMGZvcnRyZXNzJTIwaGlzdG9yaWN8ZW58MHwwfHx8MTc3NzAzMjU5NXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "culture_3.jpg",
+      "path": "/static/quiz-images/culture/culture_3.jpg",
+      "query": "colorful local market bazaar",
+      "unsplash_url": "https://images.unsplash.com/photo-1763275469550-23cfa6847aea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMGxvY2FsJTIwbWFya2V0JTIwYmF6YWFyfGVufDB8MHx8fDE3NzcwMzI1OTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "culture_4.jpg",
+      "path": "/static/quiz-images/culture/culture_4.jpg",
+      "query": "traditional festival celebration",
+      "unsplash_url": "https://images.unsplash.com/photo-1774798909993-eecdf8de4472?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGZlc3RpdmFsJTIwY2VsZWJyYXRpb258ZW58MHwwfHx8MTc3NzAzMjU5OXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "culture_5.jpg",
+      "path": "/static/quiz-images/culture/culture_5.jpg",
+      "query": "art museum gallery interior",
+      "unsplash_url": "https://images.unsplash.com/photo-1697257378991-b57497dddc69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxhcnQlMjBtdXNldW0lMjBnYWxsZXJ5JTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc3NzAzMjYwMnww&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "adventure": [
+    {
+      "filename": "adventure_1.jpg",
+      "path": "/static/quiz-images/adventure/adventure_1.jpg",
+      "query": "rock climbing mountain adventure",
+      "unsplash_url": "https://images.unsplash.com/photo-1691617169732-26d4068f6055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxyb2NrJTIwY2xpbWJpbmclMjBtb3VudGFpbiUyMGFkdmVudHVyZXxlbnwwfDB8fHwxNzc3MDMyNjA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "adventure_2.jpg",
+      "path": "/static/quiz-images/adventure/adventure_2.jpg",
+      "query": "whitewater rafting river",
+      "unsplash_url": "https://images.unsplash.com/photo-1623306463113-f847a58c35b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHx3aGl0ZXdhdGVyJTIwcmFmdGluZyUyMHJpdmVyfGVufDB8MHx8fDE3NzcwMzI2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "adventure_3.jpg",
+      "path": "/static/quiz-images/adventure/adventure_3.jpg",
+      "query": "paragliding flying aerial view",
+      "unsplash_url": "https://images.unsplash.com/photo-1764022398343-f1bd1d845e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxwYXJhZ2xpZGluZyUyMGZseWluZyUyMGFlcmlhbCUyMHZpZXd8ZW58MHwwfHx8MTc3NzAzMjYwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "adventure_4.jpg",
+      "path": "/static/quiz-images/adventure/adventure_4.jpg",
+      "query": "scuba diving coral reef underwater",
+      "unsplash_url": "https://images.unsplash.com/photo-1628371217613-714161455f6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxzY3ViYSUyMGRpdmluZyUyMGNvcmFsJTIwcmVlZiUyMHVuZGVyd2F0ZXJ8ZW58MHwwfHx8MTc3NzAzMjYxMnww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "filename": "adventure_5.jpg",
+      "path": "/static/quiz-images/adventure/adventure_5.jpg",
+      "query": "cycling mountain bike trail",
+      "unsplash_url": "https://images.unsplash.com/photo-1603435794993-f813e28633fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM1NjR8MHwxfHNlYXJjaHwxfHxjeWNsaW5nJTIwbW91bnRhaW4lMjBiaWtlJTIwdHJhaWx8ZW58MHwwfHx8MTc3NzAzMjYxNXww&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ]
+}
